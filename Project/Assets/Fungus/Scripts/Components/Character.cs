@@ -38,7 +38,7 @@ namespace Fungus
 
         protected PortraitState portaitState = new PortraitState();
 
-        protected static List<Character> activeCharacters = new List<Character>();
+        public static List<Character> activeCharacters = new List<Character>();
 
         protected virtual void OnEnable()
         {
