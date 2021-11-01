@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CycleCharacterFrames : MonoBehaviour
+namespace Fungus
 {
-    //public GameObject character;
-
-     class Character character;
-
-    public List<Sprite> frames;
-
-    public void Update()
+    public class CycleCharacterFrames : MonoBehaviour
     {
-        int i = 0;
-
-
+        public List<Sprite> frames;
+    
+        public void Update()
+        {
+            int i = 0;
+    
+            
+        }
     }
 }
