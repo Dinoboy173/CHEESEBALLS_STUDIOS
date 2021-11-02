@@ -8,21 +8,21 @@ public class SceneChange : MonoBehaviour
 
     public void Cave()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("CaveScene");
     }
 
     public void Mansion()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("MansionScene");
     }
 
     public void Beach()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene("BeachScene");
     }
 
     public void Map()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MapScene");
     }
 }

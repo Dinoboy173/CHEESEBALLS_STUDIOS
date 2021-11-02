@@ -9,7 +9,7 @@ public class MainMenuButtons : MonoBehaviour
     {
         Debug.Log("New Game");
 
-        string sceneName = "BaileyTestScene";
+        string sceneName = "IntroScene";
 
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
     }
