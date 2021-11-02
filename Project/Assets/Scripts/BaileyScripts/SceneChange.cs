@@ -13,7 +13,7 @@ public class SceneChange : MonoBehaviour
 
     public void Mansion()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 
     public void Beach()
@@ -23,6 +23,6 @@ public class SceneChange : MonoBehaviour
 
     public void Map()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
