@@ -6,10 +6,14 @@ git add .
 
 git status
 
-set /P commitMessage = "Enter commit message here: "
+set /p commitMessage="Enter commit message here: "
 
-git commit -m commitMessage%!
+echo "%commitMessage%"
+
+git commit -m " %commitMessage% "
 
 git pull
 
 git push
+
+exit /b
