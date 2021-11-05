@@ -1,6 +1,6 @@
 How to push to Github using Command Line Interface
 
-1. Pull any contributions ahead of your computer
+1. In the root folder for the local repository, in the directory bar, type "cmd"
 
 2. git add .
 	This stages all changed files for commit
@@ -8,5 +8,8 @@ How to push to Github using Command Line Interface
 3. git commit -m "<your commit message here>"
 	Commits the changes added ready to be pushed. Make sure you have a useful commit message that easily tells people what has been added.
 	
-4. git push
+4. git pull
+        Pulls any un pulled changes.
+
+5. git push
 	Pushes all changes to the repository. Don't close Command Prompt until it has finished pushing to git.
