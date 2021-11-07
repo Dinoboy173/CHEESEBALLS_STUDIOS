@@ -493,7 +493,8 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 2b8283c7017b39143a08addcd8723b24, type: 3}
+  - {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  - {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -533,6 +534,7 @@ GameObject:
   - component: {fileID: 201537182}
   - component: {fileID: 201537181}
   - component: {fileID: 201537180}
+  - component: {fileID: 201537194}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -623,7 +625,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 201537193}
   selectedCommands:
-  - {fileID: 201537191}
+  - {fileID: 201537194}
   variables: []
   description: 
   stepPause: 0
@@ -864,7 +866,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 180697604}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 2b8283c7017b39143a08addcd8723b24, type: 3}
+  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
   offset: 0
   fromPosition: {fileID: 1067433022}
   toPosition: {fileID: 1958245762}
@@ -903,7 +905,38 @@ MonoBehaviour:
   commandList:
   - {fileID: 201537192}
   - {fileID: 201537191}
+  - {fileID: 201537194}
   suppressAllAutoSelections: 0
+--- !u!114 &201537194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201537179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 180697604}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 2043132556}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1001 &404916195
 PrefabInstance:
   m_ObjectHideFlags: 0
