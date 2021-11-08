@@ -7,7 +7,7 @@ public class CheeseSelection : MonoBehaviour
     public Camera camera;
     RaycastHit hit;
     Transform objectHit = null;
-    GameObject selectedText = null;
+    GameObject textPopup = null;
 
     // Update is called once per frame
     void Update()
@@ -20,16 +20,27 @@ public class CheeseSelection : MonoBehaviour
 
             if (hit.transform.tag == "Clickable")
             {
-                objectHit.GetChild(0).gameObject.SetActive(true);
+                if (!objectHit.GetChild(0).gameObject.activeInHierarchy)
+                {
+                    objectHit.GetChild(0).gameObject.SetActive(true);
+                    textPopup = objectHit.GetChild(0).gameObject;
+                }
 
-                // make text rotate to player with function
+                RotateText();
             }
-            else
+            else if (hit.transform.tag == "Untagged")
             {
-                selectedText.SetActive(false);
+                if (textPopup != null)
+                {
+                    textPopup.SetActive(false);
+                    textPopup = null;
+                }
             }
         }
+    }
 
-        selectedText = objectHit.GetChild(0).gameObject;
+    void RotateText()
+    {
+        textPopup.transform.LookAt(camera.transform, Vector3.up);
     }
 }
