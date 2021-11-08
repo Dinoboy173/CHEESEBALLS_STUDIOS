@@ -35,9 +35,4 @@ public class MainMenuButtons : MonoBehaviour
 
         Application.Quit();
     }
-
-    public void HelpButton()
-    {
-        Debug.Log("Help");
-    }
 }
