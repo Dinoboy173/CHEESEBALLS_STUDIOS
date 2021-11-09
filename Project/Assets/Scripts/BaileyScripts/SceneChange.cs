@@ -26,4 +26,9 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("MapScene");
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
+
 }
