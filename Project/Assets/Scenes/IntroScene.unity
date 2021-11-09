@@ -4166,9 +4166,9 @@ MonoBehaviour:
   cheddarClicked: 0
   swissClicked: 0
   blueClicked: 0
-  cheddar: {fileID: 0}
-  swiss: {fileID: 0}
-  blue: {fileID: 0}
+  cheddar: {fileID: 2042317316}
+  swiss: {fileID: 702856433}
+  blue: {fileID: 1723178198}
   god: {fileID: 835417462}
 --- !u!1 &545385715
 GameObject:
@@ -5832,10 +5832,10 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2042317311}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 0
+      - m_Target: {fileID: 2042317316}
+        m_TargetAssemblyTypeName: SelectableObject, Assembly-CSharp
+        m_MethodName: TestClick
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
