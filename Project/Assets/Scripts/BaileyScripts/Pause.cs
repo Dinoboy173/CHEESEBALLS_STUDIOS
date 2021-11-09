@@ -22,7 +22,7 @@ public class Pause : MonoBehaviour
 
     void CallBlock()
     {
-
+        
         flowchart.ExecuteBlock(currentBlock);
         pauseScreen.SetActive(false);
     }
