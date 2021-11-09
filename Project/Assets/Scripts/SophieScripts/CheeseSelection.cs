@@ -4,43 +4,43 @@ using UnityEngine;
 
 public class CheeseSelection : MonoBehaviour
 {
-    public Camera camera;
     RaycastHit hit;
-    Transform objectHit = null;
-    GameObject textPopup = null;
+
+    [HideInInspector] public SelectableObject hoveredObject;
 
     // Update is called once per frame
     void Update()
     {
-        Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (Physics.Raycast(ray, out hit))
         {
-            objectHit = hit.transform;
-
-            if (hit.transform.tag == "Clickable")
+            if (hit.transform.tag == "Clickable" &&
+                hit.transform.TryGetComponent(out SelectableObject selectable))
             {
-                if (!objectHit.GetChild(0).gameObject.activeInHierarchy)
-                {
-                    objectHit.GetChild(0).gameObject.SetActive(true);
-                    textPopup = objectHit.GetChild(0).gameObject;
-                }
+                if (hoveredObject != selectable)
+                    StopHovering();
 
-                RotateText();
+                hoveredObject = selectable;
+
+                hoveredObject.DoHover(true);
+
+                if (Input.GetMouseButtonDown(0))
+                    hoveredObject.DoClick();
             }
-            else if (hit.transform.tag == "Untagged")
-            {
-                if (textPopup != null)
-                {
-                    textPopup.SetActive(false);
-                    textPopup = null;
-                }
-            }
+            else
+                StopHovering();
         }
+        else
+            StopHovering();
     }
 
-    void RotateText()
+    public void StopHovering()
     {
-        textPopup.transform.LookAt(camera.transform, Vector3.up);
+        if (hoveredObject != null)
+        {
+            hoveredObject.DoHover(false);
+            hoveredObject = null;
+        }
     }
 }
