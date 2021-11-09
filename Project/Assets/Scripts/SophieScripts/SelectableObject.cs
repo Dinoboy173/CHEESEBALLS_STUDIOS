@@ -1,0 +1,51 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using UnityEngine.Events;
+
+public class SelectableObject : MonoBehaviour
+{
+    public Canvas canvas;
+    public TMP_Text text;
+
+    public bool clicked;
+    public bool hovered;
+
+    public UnityEvent<bool> onClick;
+    public UnityEvent onHover;
+    public UnityEvent onStopHover;
+
+    public void TestClick(bool clicked)
+    {
+        Debug.Log(clicked);
+    }
+
+    public virtual void DoClick()
+    {
+        clicked = !clicked;
+
+        onClick?.Invoke(clicked);
+    }
+
+    public virtual void DoHover(bool isHovered)
+    {
+        if (isHovered)
+            onHover?.Invoke();
+        else
+            onStopHover?.Invoke();
+
+        hovered = isHovered;
+    }
+
+    public virtual void Update()
+    {
+        if (hovered)
+            RotateText();
+    }
+
+    public virtual void RotateText()
+    {
+        canvas.transform.LookAt(Camera.main.transform, Vector3.up);
+    }
+}
