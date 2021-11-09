@@ -6,9 +6,6 @@ using UnityEngine.Events;
 
 public class SelectableObject : MonoBehaviour
 {
-    public Canvas canvas;
-    public TMP_Text text;
-
     public bool clicked;
     public bool hovered;
 
@@ -40,12 +37,6 @@ public class SelectableObject : MonoBehaviour
 
     public virtual void Update()
     {
-        if (hovered)
-            RotateText();
-    }
-
-    public virtual void RotateText()
-    {
-        canvas.transform.LookAt(Camera.main.transform, Vector3.up);
+         
     }
 }
