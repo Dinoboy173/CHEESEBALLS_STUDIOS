@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CheeseSelection : MonoBehaviour
+public class ObjectSelection : MonoBehaviour
 {
+    public List<RotateObject> rotatingObjects;
+
     RaycastHit hit;
 
     [HideInInspector] public SelectableObject hoveredObject;
 
-    // Update is called once per frame
     void Update()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -24,6 +25,17 @@ public class CheeseSelection : MonoBehaviour
                 hoveredObject = selectable;
 
                 hoveredObject.DoHover(true);
+
+                if (rotatingObjects.Count != 0)
+                {
+                    foreach (var rot in rotatingObjects)
+                    {
+                        if (rot.transform.parent == hoveredObject.transform)
+                        {
+                            rot.RotateTowardsCamera();
+                        }
+                    }
+                }
 
                 if (Input.GetMouseButtonDown(0))
                     hoveredObject.DoClick();
