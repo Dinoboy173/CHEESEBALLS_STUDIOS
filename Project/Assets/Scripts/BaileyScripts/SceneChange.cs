@@ -25,4 +25,5 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("MapScene");
     }
+
 }
