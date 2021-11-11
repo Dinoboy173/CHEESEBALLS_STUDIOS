@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 469411796}
   - component: {fileID: 469411795}
   - component: {fileID: 469411794}
+  - component: {fileID: 469411797}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -206,6 +207,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469411797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469411793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!1 &894250512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8765351648684087237, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+  m_PrefabInstance: {fileID: 1890977033}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &894250514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8765351648684087239, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+  m_PrefabInstance: {fileID: 1890977033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894250512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f56747e1dac0e4faa3ee20ed5091b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &897269661
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +348,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1420099484 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3033785886718332629, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+  m_PrefabInstance: {fileID: 1890977033}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c45e32344eba24fb4fcbdb9d9fcb25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1763429841
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +432,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1385566051765097362, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1420099484}
     - target: {fileID: 1422928665428665427, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -600,6 +664,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3033785886718332629, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: slides
+      value: 
+      objectReference: {fileID: 894250512}
     - target: {fileID: 4358715959553971441, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -691,6 +759,18 @@ PrefabInstance:
     - target: {fileID: 8669815358894140041, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765351648684087236, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765351648684087240, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 894250514}
+    - target: {fileID: 8765351648684087240, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SkipSlide
       objectReference: {fileID: 0}
     - target: {fileID: 9071243742699650396, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_AnchorMax.y

@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuButtons : MonoBehaviour
 {
+    public GameObject slides;
+
     public void NewGameButton()
     {
         Debug.Log("New Game");
 
-        string sceneName = "IntroScene";
-
-        SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        slides.SetActive(true);
     }
 
     public void LoadGameButton()
