@@ -900,7 +900,11 @@ PrefabInstance:
     - target: {fileID: 8765351648684087239, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: slides.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: cc3feb95a9fc5e2468736749041204dc, type: 3}
+      objectReference: {fileID: 21300000, guid: 3faa9d9b82ae9a84997e67d5c969d195, type: 3}
+    - target: {fileID: 8765351648684087239, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: slides.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: a9f580adf473494419a38b4836b73744, type: 3}
     - target: {fileID: 8765351648684087240, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
