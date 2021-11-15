@@ -30,16 +30,21 @@ public class Save : MonoBehaviour
     public Button save;
     public Button load;
 
+    public Button saveButton;
+    public Button loadButton;
+
     void Start()
     {
-        //saveMenuButton.onClick.Invoke();
+
+        saveButton.onClick.AddListener(CheckSave);
+        loadButton.onClick.AddListener(CheckLoad);
     }
 
 
     void Update()
     {
         SaveCheck();
-        //LoadCheck();
+        LoadCheck();
         QuitCheck();
         if (myPauseMenu.activeSelf == true && isMenuOn == false)
         {
@@ -47,10 +52,19 @@ public class Save : MonoBehaviour
             saveMenuButton.onClick.Invoke();
         }
 
+        //if(isMenuOn == true)
+        //  resume.onClick.AddListener(SaveMenuOff);
 
-        if (isMenuOn == true)
-            resume.onClick.AddListener(SaveMenuOff);
+    }
 
+    void CheckSave()
+    {
+        save.onClick.Invoke();
+    }
+
+    void CheckLoad()
+    {
+        load.onClick.Invoke();
     }
 
     void SaveMenuOff()
