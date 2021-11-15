@@ -13,11 +13,6 @@ public class SelectableObject : MonoBehaviour
     public UnityEvent onHover;
     public UnityEvent onStopHover;
 
-    public void TestClick(bool clicked)
-    {
-        Debug.Log(clicked);
-    }
-
     public virtual void DoClick()
     {
         clicked = !clicked;
