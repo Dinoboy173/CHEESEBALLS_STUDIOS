@@ -6,23 +6,33 @@ using UnityEngine.UI;
 
 public class Save : MonoBehaviour
 {
-    public GameObject mysaveMenu;
+    public GameObject mySaveMenu;
+    public Button saveMenuButton;
     string saveKey = "SaveKey";
 
-    public Button save1;
-    public Button save2;
-    public Button save3;
+    bool isMenuOn = false;
 
-    public Button load1;
-    public Button load2;
-    public Button load3;
+    public Button resume;
+    public GameObject myPauseMenu;
 
-    public Button quit;
+    public Button setSave1;
+    public Button setSave2;
+    public Button setSave3;
 
+    public Button setLoad1;
+    public Button setLoad2;
+    public Button setLoad3;
+
+    public Button quitSave;
+    public Button quitLoad;
+    public Button quitGame;
+
+    public Button save;
+    public Button load;
 
     void Start()
     {
-
+        //saveMenuButton.onClick.Invoke();
     }
 
 
@@ -31,59 +41,76 @@ public class Save : MonoBehaviour
         SaveCheck();
         //LoadCheck();
         QuitCheck();
+        if (myPauseMenu.activeSelf == true && isMenuOn == false)
+        {
+            isMenuOn = true;
+            saveMenuButton.onClick.Invoke();
+        }
+
+
+        if (isMenuOn == true)
+            resume.onClick.AddListener(SaveMenuOff);
+
+    }
+
+    void SaveMenuOff()
+    {
+        isMenuOn = false;
+        saveMenuButton.onClick.Invoke();
     }
 
     void QuitCheck()
     {
-        quit.onClick.AddListener(AutoChange);
+        quitSave.onClick.AddListener(AutoChange);
+        //quitLoad.onClick.AddListener(AutoChange);
     }
 
     void AutoChange()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "ASaveKey";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "ASaveKey";
     }
 
 
 
     void SaveCheck()
     {
-        save1.onClick.AddListener(SaveBox1);
-        save2.onClick.AddListener(SaveBox2);
-        save3.onClick.AddListener(SaveBox3);
+        setSave1.onClick.AddListener(SaveBox1);
+        setSave2.onClick.AddListener(SaveBox2);
+        setSave3.onClick.AddListener(SaveBox3);
     }
 
     void LoadCheck()
     {
-        load1.onClick.AddListener(LoadBox1);
-        load2.onClick.AddListener(LoadBox2);
-        load3.onClick.AddListener(LoadBox3);
+        setLoad1.onClick.AddListener(LoadBox1);
+        setLoad2.onClick.AddListener(LoadBox2);
+        setLoad3.onClick.AddListener(LoadBox3);
     }
 
 
     void SaveBox1()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey1";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey1";
     }
     void SaveBox2()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey2";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey2";
     }
     void SaveBox3()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey3";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey3";
     }
 
     void LoadBox1()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey1";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey1";
     }
     void LoadBox2()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey2";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey2";
     }
     void LoadBox3()
     {
-        mysaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey3";
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "MSaveKey3";
     }
 
 }
