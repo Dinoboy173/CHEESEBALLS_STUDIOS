@@ -10621,6 +10621,8 @@ GameObject:
   - component: {fileID: 2146761903}
   - component: {fileID: 2146761902}
   - component: {fileID: 2146761905}
+  - component: {fileID: 2146762088}
+  - component: {fileID: 2146762087}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -10705,10 +10707,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 102.851204, y: 153.31421}
+  scrollPos: {x: 16.041006, y: 198.3692}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 415
   zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
@@ -10717,8 +10719,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2146761852}
-  selectedCommands: []
+  - {fileID: 2146761849}
+  selectedCommands:
+  - {fileID: 2146761880}
   variables:
   - {fileID: 2146761860}
   - {fileID: 2146761865}
@@ -12848,7 +12851,8 @@ MonoBehaviour:
   blockName: Main story complete
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 2146762088}
   suppressAllAutoSelections: 0
 --- !u!114 &2146761902
 MonoBehaviour:
@@ -12963,7 +12967,8 @@ MonoBehaviour:
   blockName: Fetch quest start
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 2146762087}
   suppressAllAutoSelections: 0
 --- !u!114 &2146761907
 MonoBehaviour:
@@ -18711,6 +18716,34 @@ MonoBehaviour:
   - {fileID: 2146762083}
   - {fileID: 2146762080}
   suppressAllAutoSelections: 0
+--- !u!114 &2146762087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146761835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 265
+  indentLevel: 0
+--- !u!114 &2146762088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146761835}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 264
+  indentLevel: 0
 --- !u!4 &979891234150651473
 Transform:
   m_ObjectHideFlags: 0
