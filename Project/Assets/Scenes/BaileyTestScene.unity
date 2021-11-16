@@ -2912,8 +2912,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 315573560}
-  selectedCommands: []
+  - {fileID: 315573559}
+  selectedCommands:
+  - {fileID: 315573554}
   variables:
   - {fileID: 315573552}
   description: 
@@ -13589,7 +13590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1373495045
 MonoBehaviour:
   m_ObjectHideFlags: 0

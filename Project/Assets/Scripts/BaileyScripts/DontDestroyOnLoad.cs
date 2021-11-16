@@ -8,15 +8,15 @@ public class DontDestroyOnLoad : MonoBehaviour
     private static DontDestroyOnLoad objectInstance;
     void Awake()
     {      
-        if(objectInstance == null)
-        {
-            objectInstance = this;
-            DontDestroyOnLoad(this);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        //if(objectInstance == null)
+        //{
+        //    objectInstance = this;
+          DontDestroyOnLoad(this);
+        //}
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
 }
