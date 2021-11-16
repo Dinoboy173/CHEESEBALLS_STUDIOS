@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using Fungus;
 
 public class SettingsManager : MonoBehaviour
 {
     public AudioMixer audioMixer;
 
     public Dropdown resolutionDropdown;
+
+    public Writer writer;
 
     Resolution[] resolutions;
 
@@ -37,11 +40,12 @@ public class SettingsManager : MonoBehaviour
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
     }
-
-    public void SetFullscreen(bool isFullscreen)
+    public void SetResolution(int resolutionIndex)
     {
-        Screen.fullScreen = isFullscreen;
+        Resolution resolution = resolutions[resolutionIndex];
+        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
+
 
     public void SetVolume(float volume)
     {
@@ -53,9 +57,15 @@ public class SettingsManager : MonoBehaviour
         QualitySettings.SetQualityLevel(qualityIndex);
     }
 
-    public void SetResolution(int resolutionIndex)
+    public void SetFullscreen(bool isFullscreen)
     {
-        Resolution resolution = resolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        Screen.fullScreen = isFullscreen;
+    }
+
+    public void SetWritingSpeed()
+    {
+        GameObject sayDailog = GameObject.Find("SayDialog");
+        Writer writer = sayDailog.GetComponent<Writer>();
+        writer.writingSpeed = 10000000.0f;
     }
 }
