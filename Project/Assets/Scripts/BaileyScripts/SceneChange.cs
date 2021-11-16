@@ -31,4 +31,11 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("MainMenuScene");
     }
 
+    void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.F1))
+        {
+            SceneManager.LoadScene("BaileyTestScene");
+        }
+    }   
 }
