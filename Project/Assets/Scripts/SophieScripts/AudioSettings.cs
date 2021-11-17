@@ -20,18 +20,26 @@ public class AudioSettings : MonoBehaviour
         if (getSettings)
             GetValues();
 
-        manager.StarttUp();
+        manager.StartUp();
         manager.UpdateLocalValues();
         manager.Play(clip.ToString());
     }
 
     public void GetValues()
     {
-        PlayerPrefs.GetFloat(AudioKeys.MASTERVOLUME.ToString(), master);
-        PlayerPrefs.GetFloat(AudioKeys.VOLUME.ToString(), volume);
-        PlayerPrefs.GetFloat(AudioKeys.PITCH.ToString(), pitch);
-        PlayerPrefs.GetString(AudioKeys.CLIP.ToString(), clip.ToString());
-        PlayerPrefs.GetFloat(AudioKeys.TIME.ToString(), time);
+        string sClip = "";
+        string defaultClip = SoundNames.MainTheme.ToString();
+
+        master = PlayerPrefs.GetFloat(AudioKeys.MASTERVOLUME.ToString(), master);
+        volume = PlayerPrefs.GetFloat(AudioKeys.VOLUME.ToString(), volume);
+        pitch = PlayerPrefs.GetFloat(AudioKeys.PITCH.ToString(), pitch);
+        sClip = PlayerPrefs.GetString(AudioKeys.CLIP.ToString(), defaultClip);
+        time = PlayerPrefs.GetFloat(AudioKeys.TIME.ToString(), time);
+
+        if      (sClip == SoundNames.MainTheme.ToString())      clip = SoundNames.MainTheme;
+        else if (sClip == SoundNames.BeachTheme.ToString())     clip = SoundNames.BeachTheme;
+        else if (sClip == SoundNames.CaveTheme.ToString())      clip = SoundNames.CaveTheme;
+        else if (sClip == SoundNames.MansionTheme.ToString())   clip = SoundNames.MansionTheme;
     }
 
     public void SetValues()
@@ -39,13 +47,9 @@ public class AudioSettings : MonoBehaviour
         time = manager.s.source.time;
 
         PlayerPrefs.SetFloat(AudioKeys.MASTERVOLUME.ToString(), master);
-        PlayerPrefs.Save();
         PlayerPrefs.SetFloat(AudioKeys.VOLUME.ToString(), volume);
-        PlayerPrefs.Save();
         PlayerPrefs.SetFloat(AudioKeys.PITCH.ToString(), pitch);
-        PlayerPrefs.Save();
         PlayerPrefs.SetString(AudioKeys.CLIP.ToString(), clip.ToString());
-        PlayerPrefs.Save();
         PlayerPrefs.SetFloat(AudioKeys.TIME.ToString(), time);
         PlayerPrefs.Save();
     }
