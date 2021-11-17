@@ -182,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cheese Goddess
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -467,6 +467,15 @@ GameObject:
   - component: {fileID: 293247475}
   - component: {fileID: 293247474}
   - component: {fileID: 293247471}
+  - component: {fileID: 293247485}
+  - component: {fileID: 293247484}
+  - component: {fileID: 293247483}
+  - component: {fileID: 293247482}
+  - component: {fileID: 293247481}
+  - component: {fileID: 293247480}
+  - component: {fileID: 293247479}
+  - component: {fileID: 293247478}
+  - component: {fileID: 293247477}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3770,6 +3779,141 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &293247477
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: knowBlue
+  value: 0
+--- !u!114 &293247478
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: knowCheddar
+  value: 0
+--- !u!114 &293247479
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: knowSwiss
+  value: 0
+--- !u!114 &293247480
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: metBlue
+  value: 0
+--- !u!114 &293247481
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: metCheddar
+  value: 0
+--- !u!114 &293247482
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: metSwiss
+  value: 0
+--- !u!114 &293247483
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: interestBlue
+  value: 50
+--- !u!114 &293247484
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: interestCheddar
+  value: 50
+--- !u!114 &293247485
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: interestSwiss
+  value: 50
 --- !u!114 &293247500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3856,13 +4000,21 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 293247472}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 293247473}
   - {fileID: 293247466}
   - {fileID: 293247465}
+  - {fileID: 293247485}
+  - {fileID: 293247484}
+  - {fileID: 293247483}
+  - {fileID: 293247482}
+  - {fileID: 293247481}
+  - {fileID: 293247480}
+  - {fileID: 293247479}
+  - {fileID: 293247478}
+  - {fileID: 293247477}
   description: 
   stepPause: 0
   colorCommands: 1
