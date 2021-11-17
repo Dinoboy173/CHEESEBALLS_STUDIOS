@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class TriggerQuestPickUpItem : MonoBehaviour
+public class FetchQuestPickUpItem : MonoBehaviour
 {
     public bool triggerQuestIsActive = false;
     bool isTriggerQuestComplete = false;
 
     public string questName = "";
-
-
-    //public GameObject pickUpItem = null;
 
     void Update()
     {
