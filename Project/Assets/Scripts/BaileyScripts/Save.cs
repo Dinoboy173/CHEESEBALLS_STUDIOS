@@ -77,6 +77,7 @@ public class Save : MonoBehaviour
     void CheckLoad()
     {
         load.onClick.Invoke();
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "ASaveKey";
     }
 
     void SaveMenuOff()
