@@ -18,7 +18,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioSettings settings;
 
-    public void StarttUp()
+    public void StartUp()
     {
         UpdateLocalValues();
 
