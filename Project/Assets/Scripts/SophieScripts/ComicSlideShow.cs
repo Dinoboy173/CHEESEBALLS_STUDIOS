@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class ComicSlideShow : MonoBehaviour
 {
     public AudioSettings audioSettings;
+    public string gotoScene = "";
 
     public Image image;
     public TextMeshProUGUI text;
@@ -50,8 +51,8 @@ public class ComicSlideShow : MonoBehaviour
         {
             audioSettings.SetValues();
 
-            string sceneName = "IntroScene";
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+            if (gotoScene != "")
+                SceneManager.LoadScene(gotoScene, LoadSceneMode.Single);
         }
     }
 
