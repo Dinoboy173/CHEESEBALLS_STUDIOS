@@ -1,17 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 505c5b3d723297a4e93686fbe525d737
-=======
-<<<<<<< Updated upstream
-<<<<<<< HEAD:Project/Assets/Sprites/Characters/SS_CheddarAngry.png.meta
-guid: 505c5b3d723297a4e93686fbe525d737
-=======
-guid: 00c0cef95ba866d42b860cf6b2667bd5
->>>>>>> e2ba05096e7a9ea11e11c35b2678231082b0d15b:Project/Assets/Sprites/Characters/SS_ChedderHappy.png.meta
-=======
-guid: 61dfa9d605bf5d744be6678b6157be36
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,6 +89,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
