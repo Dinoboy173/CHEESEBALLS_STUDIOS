@@ -4916,7 +4916,7 @@ MonoBehaviour:
   gotoScene: MapScene
   image: {fileID: 1301168180}
   text: {fileID: 1301168178}
-  timeBetweenSlides: 5
+  timeBetweenSlides: 10
   slides:
   - {fileID: 21300000, guid: 20e9b57e2dc98be45bbb445a58de1456, type: 3}
   - {fileID: 21300000, guid: 8be5f4761b041144b922e7be84b37647, type: 3}
