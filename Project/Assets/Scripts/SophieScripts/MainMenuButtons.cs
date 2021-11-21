@@ -6,13 +6,9 @@ using UnityEngine.UI;
 
 public class MainMenuButtons : MonoBehaviour
 {
-    public GameObject slides;
-
     public void NewGameButton()
     {
         Debug.Log("New Game");
-
-        slides.SetActive(true);
     }
 
     public void LoadGameButton()

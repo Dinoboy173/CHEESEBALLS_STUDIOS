@@ -6,29 +6,51 @@ public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
 
-    Sound s = null;
+    [HideInInspector]
+    public Sound s = null;
 
-    void Awake()
+    float master = 0f;
+    float volume = 0f;
+    float pitch = 0f;
+
+    string clip = "";
+    float time = 0f;
+
+    public AudioSettings settings;
+
+    public void StartUp()
     {
-        foreach (Sound s in sounds) // sets source sounds variables
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
+        UpdateLocalValues();
 
-            s.source.volume = s.volume * s.masterVolume;
-            s.source.pitch = s.pitch * s.masterVolume;
+        foreach (Sound sound in sounds) // sets source sounds variables
+        {
+            sound.source = gameObject.AddComponent<AudioSource>();
+            sound.source.clip = sound.clip;
+
+            sound.source.volume = volume * master;
+            sound.source.pitch = pitch;
         }
     }
 
     public void Play(string name)
     {
-        s = Array.Find(sounds, sound => sound.name == name); // gets specific sound from array
+        s = Array.Find(sounds, sound => sound.name.ToString() == name); // gets specific sound from array
 
+        s.source.time = time;
         s.source.Play(); // plays sound
     }
 
     public void Stop()
     {
         s.source.Stop(); // stops sound
+    }
+
+    public void UpdateLocalValues()
+    {
+        master = settings.master;
+        volume = settings.volume;
+        pitch = settings.pitch;
+        clip = settings.clip.ToString();
+        time = settings.time;
     }
 }

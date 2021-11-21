@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Save : MonoBehaviour
 {
-    public GameObject mySaveMenu;
-    public Button saveMenuButton;
+    GameObject mySaveMenu;
+    Button saveMenuButton;
     string saveKey = "SaveKey";
 
     bool isMenuOn = false;
@@ -27,15 +27,25 @@ public class Save : MonoBehaviour
     public Button quitLoad;
     public Button quitGame;
 
-    public Button save;
-    public Button load;
+    Button save;
+    Button load;
 
     public Button saveButton;
     public Button loadButton;
 
+    GameObject buttons;
+    GameObject panel;
+
     void Start()
     {
-
+        mySaveMenu = GameObject.Find("SaveMenu");
+        buttons = mySaveMenu.transform.Find("Buttons").gameObject;
+        panel = mySaveMenu.transform.Find("Panel").gameObject;
+        save = panel.transform.Find("SaveButton").GetComponent<Button>();
+        load = panel.transform.Find("LoadButton").GetComponent<Button>();
+        saveMenuButton = buttons.transform.Find("MenuButton").GetComponent<Button>();
+        // mySaveMenu.transform.Find("SaveButton").GetComponent<Button>();
+        // load = mySaveMenu.transform.Find("LoadButton").GetComponent<Button>();
         saveButton.onClick.AddListener(CheckSave);
         loadButton.onClick.AddListener(CheckLoad);
     }
@@ -52,6 +62,8 @@ public class Save : MonoBehaviour
             saveMenuButton.onClick.Invoke();
         }
 
+
+
         //if(isMenuOn == true)
         //  resume.onClick.AddListener(SaveMenuOff);
 
@@ -65,6 +77,7 @@ public class Save : MonoBehaviour
     void CheckLoad()
     {
         load.onClick.Invoke();
+        mySaveMenu.GetComponent<SaveMenu>().saveDataKey = "ASaveKey";
     }
 
     void SaveMenuOff()
@@ -76,7 +89,7 @@ public class Save : MonoBehaviour
     void QuitCheck()
     {
         quitSave.onClick.AddListener(AutoChange);
-        //quitLoad.onClick.AddListener(AutoChange);
+        quitLoad.onClick.AddListener(AutoChange);
     }
 
     void AutoChange()

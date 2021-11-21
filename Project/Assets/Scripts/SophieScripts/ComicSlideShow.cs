@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class ComicSlideShow : MonoBehaviour
 {
+    public AudioSettings audioSettings;
+    public string gotoScene = "";
+
     public Image image;
     public TextMeshProUGUI text;
     public float timeBetweenSlides = 1.0f;
@@ -46,8 +49,10 @@ public class ComicSlideShow : MonoBehaviour
         }
         if (i == slides.Count - 1)
         {
-            string sceneName = "IntroScene";
-            SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+            audioSettings.SetValues();
+
+            if (gotoScene != "")
+                SceneManager.LoadScene(gotoScene, LoadSceneMode.Single);
         }
     }
 
