@@ -119,12 +119,16 @@ namespace Fungus
         protected string hiddenColorOpen = "";
         protected string hiddenColorClose = "";
 
+        public float setWritingSpeed = 60.0f;
+
         protected int visibleCharacterCount = 0;
         protected int readAheadStartIndex = 0;
         public WriterAudio AttachedWriterAudio { get; set; }
 
         protected virtual void Awake()
         {
+            writingSpeed = setWritingSpeed;
+
             GameObject go = targetTextObject;
             if (go == null)
             {
