@@ -781,6 +781,9 @@ GameObject:
   - component: {fileID: 293247478}
   - component: {fileID: 293247477}
   - component: {fileID: 293247486}
+  - component: {fileID: 293247487}
+  - component: {fileID: 293247489}
+  - component: {fileID: 293247488}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1086,7 +1089,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 606.73016
     y: 179.1136
-    width: 75.45453
+    width: 76.582275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3867,7 +3870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 704.0583
     y: 84.01577
-    width: 75.45453
+    width: 75.31645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3917,7 +3920,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 607.5663
     y: 84.16619
-    width: 82.72725
+    width: 82.911385
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3967,7 +3970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 485.38293
     y: 86.138756
-    width: 99.090866
+    width: 100.632904
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4232,6 +4235,77 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flowchart: {fileID: 293247522}
+  camera: {fileID: 394265179}
+--- !u!114 &293247487
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 590.1806
+    y: -31.84489
+    width: 123.4177
+    height: 40
+  tint: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  useCustomTint: 0
+  itemId: 95
+  blockName: CantChoose
+  description: 
+  eventHandler: {fileID: 293247489}
+  commandList:
+  - {fileID: 293247488}
+  suppressAllAutoSelections: 0
+--- !u!114 &293247488
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 96
+  indentLevel: 0
+  storyText: Don't know enough about this cheese.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &293247489
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 293247487}
+  suppressBlockAutoSelect: 0
+  keyPressType: 0
+  keyCode: 0
 --- !u!114 &293247500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4283,7 +4357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.36985
     y: 100.32873
-    width: 75.45453
+    width: 76.582275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4307,18 +4381,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -283.98624, y: -10.802964}
+  scrollPos: {x: 57.92031, y: 388.80615}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.5500004
+  blockViewHeight: 280
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 293247487}
   selectedCommands: []
   variables:
   - {fileID: 293247473}
@@ -4628,6 +4703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEndGame: 0
   dialogBox: {fileID: 1781914236}
+  flowchart: {fileID: 293247522}
+  buyableInterestLimit: 75
   cheddarClicked: 0
   swissClicked: 0
   blueClicked: 0
@@ -4637,7 +4714,7 @@ MonoBehaviour:
   cheddar: {fileID: 1095223950}
   swiss: {fileID: 166406479}
   blue: {fileID: 1960553562}
-  god: {fileID: 835417462}
+  decidingSlides: {fileID: 1301168179}
 --- !u!1001 &486868379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5192,7 +5269,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1301168179}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
+        m_MethodName: 
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6763,6 +6840,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7015212623645761977, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 394265179}
+    - target: {fileID: 7015212623645761977, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 293247522}
+    - target: {fileID: 7015212623645761977, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: selecting
+      value: 
+      objectReference: {fileID: 394265179}
+    - target: {fileID: 7015212623645761977, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -6790,6 +6879,18 @@ PrefabInstance:
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7537133311062666796, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 394265179}
+    - target: {fileID: 7537133311062666796, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 293247522}
+    - target: {fileID: 7537133311062666796, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: selecting
+      value: 
+      objectReference: {fileID: 394265179}
     - target: {fileID: 7537133311062666796, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -6866,6 +6967,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: PR_Intro_SETDRESSING
       objectReference: {fileID: 0}
+    - target: {fileID: 7537133311273666808, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 394265179}
+    - target: {fileID: 7537133311273666808, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 293247522}
+    - target: {fileID: 7537133311273666808, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
+      propertyPath: selecting
+      value: 
+      objectReference: {fileID: 394265179}
     - target: {fileID: 7537133311273666808, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
       propertyPath: onClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
