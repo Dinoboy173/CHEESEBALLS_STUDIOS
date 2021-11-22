@@ -7286,8 +7286,8 @@ MonoBehaviour:
 
     Map'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -13248,6 +13248,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830885733}
   m_CullTransparentMesh: 1
+--- !u!1 &1841447223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1841447225}
+  - component: {fileID: 1841447224}
+  m_Layer: 0
+  m_Name: Protag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1841447224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841447223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Protag
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits: []
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1841447225
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841447223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1872677590
 GameObject:
   m_ObjectHideFlags: 0
@@ -15165,6 +15215,14 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 349076292118096144, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 349076292118096144, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Six months or longer. '
+      objectReference: {fileID: 0}
     - target: {fileID: 414974276774303377, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
       value: 1
@@ -15217,6 +15275,19 @@ PrefabInstance:
       propertyPath: itemId
       value: 642
       objectReference: {fileID: 0}
+    - target: {fileID: 639506819686586979, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 639506819686586979, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ve met everyone now, I\u2019m not sure what\u2019s going to
+        happen."
+      objectReference: {fileID: 0}
+    - target: {fileID: 669267441865820759, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
     - target: {fileID: 674723342100687174, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 739
@@ -15236,6 +15307,22 @@ PrefabInstance:
     - target: {fileID: 771199811301918816, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1021
+      objectReference: {fileID: 0}
+    - target: {fileID: 771199811301918816, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 771199811301918816, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: Uhm, Swiss? I haven't even met Cheddar yet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 773460429407749365, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 773460429407749365, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I was considering buying cheddar cheese. '
       objectReference: {fileID: 0}
     - target: {fileID: 792575471515560177, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
@@ -15281,6 +15368,14 @@ PrefabInstance:
       propertyPath: itemId
       value: 982
       objectReference: {fileID: 0}
+    - target: {fileID: 1041021443504536568, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1041021443504536568, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ve already talked with Cheddar though."
+      objectReference: {fileID: 0}
     - target: {fileID: 1058308007251155513, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1018
@@ -15297,6 +15392,16 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 1076871855519885933, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1076871855519885933, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Well, I have been awfully quiet about it, so I\u2019ll explain. I\u2019m
+        not a part of this world, I was warped into this world by a cheese goddess,
+        as silly as it sounds."
+      objectReference: {fileID: 0}
     - target: {fileID: 1103706748891550280, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15305,6 +15410,15 @@ PrefabInstance:
       propertyPath: itemId
       value: 1036
       objectReference: {fileID: 0}
+    - target: {fileID: 1107826526132181172, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1107826526132181172, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I see, that\u2019s how everyone in this world seems to know an unusually
+        large amount of stuff about cheese."
+      objectReference: {fileID: 0}
     - target: {fileID: 1132403449334853759, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 989
@@ -15312,6 +15426,14 @@ PrefabInstance:
     - target: {fileID: 1179969097701908262, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1044
+      objectReference: {fileID: 0}
+    - target: {fileID: 1196814213472882967, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1196814213472882967, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "No, I don\u2019t. "
       objectReference: {fileID: 0}
     - target: {fileID: 1206005336534422580, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -15341,6 +15463,22 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 1551177733558613044, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1551177733558613044, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Cheddar cheese? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624009068118510864, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1624009068118510864, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Cracks are formed in the cheese. '
+      objectReference: {fileID: 0}
     - target: {fileID: 1649512201263425010, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 743
@@ -15381,6 +15519,10 @@ PrefabInstance:
       propertyPath: itemId
       value: 639
       objectReference: {fileID: 0}
+    - target: {fileID: 1712881761457697407, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: nodeRect.x
+      value: 1336.6785
+      objectReference: {fileID: 0}
     - target: {fileID: 1715578018245837767, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15388,6 +15530,14 @@ PrefabInstance:
     - target: {fileID: 1730631824432927746, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 993
+      objectReference: {fileID: 0}
+    - target: {fileID: 1737767317773079734, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1737767317773079734, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I was considering buying blue cheese. '
       objectReference: {fileID: 0}
     - target: {fileID: 1794813552892235862, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
@@ -15417,6 +15567,14 @@ PrefabInstance:
       propertyPath: itemId
       value: 661
       objectReference: {fileID: 0}
+    - target: {fileID: 1916788028231492295, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 1916788028231492295, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I would choose Gruyere cheese. '
+      objectReference: {fileID: 0}
     - target: {fileID: 2000956239724061293, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15429,14 +15587,40 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2021428431538237242, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2021428431538237242, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "My name is Protag, and I\u2019m here to learn about cheese from you.
+        It\u2019s a bit complicated why I\u2019m here, can I just explain it later? "
+      objectReference: {fileID: 0}
     - target: {fileID: 2044000237759713625, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: anyVar.variable
       value: 
       objectReference: {fileID: 936500550}
+    - target: {fileID: 2050877777950089518, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2050877777950089518, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019m sorry, I just have my reasons, nothing against him. I won\u2019t
+        bring it up again. "
+      objectReference: {fileID: 0}
     - target: {fileID: 2055953433335869839, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: conditions.Array.data[0].anyVar.variable
       value: 
       objectReference: {fileID: 936500550}
+    - target: {fileID: 2081248231781768638, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2081248231781768638, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: I would rather stay and talk with you.
+      objectReference: {fileID: 0}
     - target: {fileID: 2094725233759853473, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 742
@@ -15445,6 +15629,14 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 2113744208477354227, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2113744208477354227, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ll make sure I see him soon. "
+      objectReference: {fileID: 0}
     - target: {fileID: 2186865994349009963, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1058
@@ -15509,6 +15701,18 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 2489678367279507671, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2489678367279507671, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'The cheese no longer melts? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2495707203165280527, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
     - target: {fileID: 2500242932258699725, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 666
@@ -15521,6 +15725,15 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 2526337576102276043, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2526337576102276043, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I didn\u2019t break in, you left the door right open. Anyone could
+        have walked in."
+      objectReference: {fileID: 0}
     - target: {fileID: 2562516852797582898, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1055
@@ -15532,6 +15745,15 @@ PrefabInstance:
     - target: {fileID: 2586081824173382673, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 746
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586081824173382673, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2586081824173382673, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Yes, I hear you\u2019re Swiss, and that you could teach me a thing
+        or two about cheese, I can explain."
       objectReference: {fileID: 0}
     - target: {fileID: 2627665528350139307, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
@@ -15561,6 +15783,14 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2978269062868098530, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 2978269062868098530, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Wow, I\u2019m impressed you know all of that off the top of your head. "
+      objectReference: {fileID: 0}
     - target: {fileID: 2985054212909631324, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 965
@@ -15577,6 +15807,15 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 3045132126465092444, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3045132126465092444, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Well, you\u2019re right about that. My friends didn\u2019t even give
+        me any recommendations about what cheese to buy. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3067319514792341380, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15593,6 +15832,16 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 3121934617739726448, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3121934617739726448, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I was in a supermarket, and was having trouble choosing a cheese to
+        buy, so this goddess brought me into this world and told me to learn about
+        cheese so I could make a decision. '
+      objectReference: {fileID: 0}
     - target: {fileID: 3149098649149563929, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 994
@@ -15604,6 +15853,14 @@ PrefabInstance:
     - target: {fileID: 3209590678244903357, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1057
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259176862932911488, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3259176862932911488, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Twelve months or longer? '
       objectReference: {fileID: 0}
     - target: {fileID: 3334399788023491392, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
@@ -15628,6 +15885,15 @@ PrefabInstance:
     - target: {fileID: 3466330499914783571, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1018
+      objectReference: {fileID: 0}
+    - target: {fileID: 3481644882085266523, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3481644882085266523, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019m sorry, it was awfully rude of me. It\u2019s just that I\u2019m
+        in a rough predicament and I need to learn about cheese as quickly as possible. "
       objectReference: {fileID: 0}
     - target: {fileID: 3529086603243280809, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
@@ -15669,6 +15935,14 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3717771049394526517, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3717771049394526517, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: The cheese goddess might.
+      objectReference: {fileID: 0}
     - target: {fileID: 3721969316764820749, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15689,9 +15963,26 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3890801348537106434, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3890801348537106434, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I didn\u2019t know that\u2019s what caused the holes. "
+      objectReference: {fileID: 0}
     - target: {fileID: 3965888624056504209, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1037
+      objectReference: {fileID: 0}
+    - target: {fileID: 3965888624056504209, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 3965888624056504209, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: Oh, so the other two people that I have to meet must also know stuff
+        about cheese too.
       objectReference: {fileID: 0}
     - target: {fileID: 4011069696629541162, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
@@ -15724,6 +16015,14 @@ PrefabInstance:
     - target: {fileID: 4148919816575281357, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200924844786247578, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 4200924844786247578, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Yes. '
       objectReference: {fileID: 0}
     - target: {fileID: 4220236966947595288, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -15893,6 +16192,23 @@ PrefabInstance:
       propertyPath: commandList.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5005033694503237595, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5005033694503237595, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I didn\u2019t really like talking to Cheddar, he just\u2026 "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016760749616243715, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5016760749616243715, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ve met Blue, and you have a point. They do act like someone
+        who lives in a cave. I\u2019ve never seen anything like it. "
+      objectReference: {fileID: 0}
     - target: {fileID: 5064543495289256822, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 995
@@ -15933,6 +16249,14 @@ PrefabInstance:
       propertyPath: itemId
       value: 996
       objectReference: {fileID: 0}
+    - target: {fileID: 5353094793915261899, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5353094793915261899, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Oh, thank goodness, I thought you would assume I was crazy. '
+      objectReference: {fileID: 0}
     - target: {fileID: 5394076258894008557, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15949,6 +16273,15 @@ PrefabInstance:
       propertyPath: itemId
       value: 1030
       objectReference: {fileID: 0}
+    - target: {fileID: 5482304163185107712, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5482304163185107712, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: As much education? May I ask exactly what this world is? I had the feeling
+        that this was just a magic world.
+      objectReference: {fileID: 0}
     - target: {fileID: 5489601897818112535, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -15964,6 +16297,23 @@ PrefabInstance:
     - target: {fileID: 5570721944505203280, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5572103562373283290, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5572103562373283290, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "That\u2019s a waste of money. You don\u2019t need a statue to tell
+        people that you know a lot about cheese. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717985206713417184, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 5717985206713417184, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Nobody I know has a cheese statue. '
       objectReference: {fileID: 0}
     - target: {fileID: 5731253050905170475, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
@@ -16017,6 +16367,15 @@ PrefabInstance:
       propertyPath: itemId
       value: 1028
       objectReference: {fileID: 0}
+    - target: {fileID: 6152175815879619835, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 6152175815879619835, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Yes. Once I\u2019ve learned everything I can about cheese, I\u2019ll
+        be taken back to my world."
+      objectReference: {fileID: 0}
     - target: {fileID: 6156097233730464618, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: anyVar.variable
       value: 
@@ -16024,6 +16383,18 @@ PrefabInstance:
     - target: {fileID: 6188085986373987324, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1053
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215536851167974255, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 6216554263477572177, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 6216554263477572177, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Three months or longer? '
       objectReference: {fileID: 0}
     - target: {fileID: 6242722909265755846, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
@@ -16101,6 +16472,14 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 6707834642588934943, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 6707834642588934943, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I already met Cheddar, and he was nice to talk to.  '
+      objectReference: {fileID: 0}
     - target: {fileID: 6717337652235793078, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -16108,6 +16487,14 @@ PrefabInstance:
     - target: {fileID: 6721548382988841688, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 621
+      objectReference: {fileID: 0}
+    - target: {fileID: 6768253821767707360, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 6768253821767707360, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I would choose cheddar cheese. '
       objectReference: {fileID: 0}
     - target: {fileID: 6778358278407512162, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -16153,6 +16540,14 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 7009379679843772963, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 7009379679843772963, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'I would choose Blue cheese. '
+      objectReference: {fileID: 0}
     - target: {fileID: 7012733646638701505, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
       value: 
@@ -16164,6 +16559,15 @@ PrefabInstance:
     - target: {fileID: 7079069907860279471, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 646
+      objectReference: {fileID: 0}
+    - target: {fileID: 7120508724598119565, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 7120508724598119565, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "Hold on! Someone told me you could teach me a thing or two about cheese.
+        That\u2019s all I\u2019m here for."
       objectReference: {fileID: 0}
     - target: {fileID: 7132050526929466427, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -18276,6 +18680,15 @@ PrefabInstance:
       propertyPath: indentLevel
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7247854945698568114, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 7247854945698568114, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019m impressed by your dedication to literally get a statue made
+        of you holding cheese.  "
+      objectReference: {fileID: 0}
     - target: {fileID: 7292181394015423661, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 629
@@ -18287,6 +18700,15 @@ PrefabInstance:
     - target: {fileID: 7367827493769032335, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 655
+      objectReference: {fileID: 0}
+    - target: {fileID: 7475132469061626905, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 7475132469061626905, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ve met everyone now, I\u2019m not sure what\u2019s going to
+        happen."
       objectReference: {fileID: 0}
     - target: {fileID: 7494521637411756718, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
@@ -18300,6 +18722,10 @@ PrefabInstance:
       propertyPath: itemId
       value: 643
       objectReference: {fileID: 0}
+    - target: {fileID: 7554319380372928872, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
     - target: {fileID: 7554844426844571933, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
       value: 1
@@ -18352,6 +18778,14 @@ PrefabInstance:
       propertyPath: itemId
       value: 659
       objectReference: {fileID: 0}
+    - target: {fileID: 7829797927847624442, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 7829797927847624442, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Emmental cheese? '
+      objectReference: {fileID: 0}
     - target: {fileID: 7869526448027633945, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: conditions.Array.data[0].anyVar.variable
       value: 
@@ -18371,6 +18805,15 @@ PrefabInstance:
     - target: {fileID: 7996463551223224051, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: indentLevel
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8073206802293843558, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8073206802293843558, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I wish I could write all this down, I don\u2019t think I\u2019m going
+        to remember all of that. "
       objectReference: {fileID: 0}
     - target: {fileID: 8081225585578282471, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -18392,6 +18835,15 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 180697604}
+    - target: {fileID: 8218669419005133792, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8218669419005133792, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: "I\u2019ve met Blue, and they aren\u2019t nearly as bad as you say.
+        They may live in a cave, but they are nice and respectful. "
+      objectReference: {fileID: 0}
     - target: {fileID: 8225963791242120571, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 1031
@@ -18439,6 +18891,18 @@ PrefabInstance:
     - target: {fileID: 8415785546531804607, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 619
+      objectReference: {fileID: 0}
+    - target: {fileID: 8452585654189807681, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8452585654189807681, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'No. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8496484712776979810, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: nodeRect.y
+      value: 35.25406
       objectReference: {fileID: 0}
     - target: {fileID: 8531287705827214122, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -18496,9 +18960,33 @@ PrefabInstance:
       propertyPath: itemId
       value: 966
       objectReference: {fileID: 0}
+    - target: {fileID: 8645282521803497967, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8645282521803497967, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Uhm, Swiss? We were talking about the cheese, not Cheddar himself. '
+      objectReference: {fileID: 0}
     - target: {fileID: 8678668219551918163, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 990
+      objectReference: {fileID: 0}
+    - target: {fileID: 8713210135675604038, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8713210135675604038, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Holes are formed in the cheese? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8751630269499114745, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8751630269499114745, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Is that a literal statue of you holding Gruyere cheese? '
       objectReference: {fileID: 0}
     - target: {fileID: 8787532418882426967, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: character
@@ -18511,6 +18999,14 @@ PrefabInstance:
     - target: {fileID: 8831726068809482205, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
       value: 653
+      objectReference: {fileID: 0}
+    - target: {fileID: 8832153615511851490, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: character
+      value: 
+      objectReference: {fileID: 1841447224}
+    - target: {fileID: 8832153615511851490, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
+      propertyPath: storyText
+      value: 'Gruyere cheese? '
       objectReference: {fileID: 0}
     - target: {fileID: 8833201661133336312, guid: 79ca7fcc31770964e8886761338652ec, type: 3}
       propertyPath: itemId
