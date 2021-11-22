@@ -58,4 +58,9 @@ public class SettingsManager : MonoBehaviour
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
+
+    public void SetTextSpeed(int textSpeed)
+    {
+        Debug.Log(textSpeed);
+    }
 }
