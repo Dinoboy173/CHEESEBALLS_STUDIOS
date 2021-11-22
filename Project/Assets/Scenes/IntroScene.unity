@@ -784,6 +784,7 @@ GameObject:
   - component: {fileID: 293247487}
   - component: {fileID: 293247489}
   - component: {fileID: 293247488}
+  - component: {fileID: 293247490}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1089,7 +1090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 606.73016
     y: 179.1136
-    width: 76.582275
+    width: 74.70588
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3870,7 +3871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 704.0583
     y: 84.01577
-    width: 75.31645
+    width: 75.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3920,7 +3921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 607.5663
     y: 84.16619
-    width: 82.911385
+    width: 84.117645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3970,7 +3971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 485.38293
     y: 86.138756
-    width: 100.632904
+    width: 98.23529
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4252,7 +4253,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 590.1806
     y: -31.84489
-    width: 123.4177
+    width: 120.58823
     height: 40
   tint: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   useCustomTint: 0
@@ -4306,6 +4307,32 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   keyPressType: 0
   keyCode: 0
+--- !u!114 &293247490
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 495.24405
+    y: -202.73027
+    width: 113.5294
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 97
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!114 &293247500
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4357,7 +4384,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.36985
     y: 100.32873
-    width: 76.582275
+    width: 75.88235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4381,11 +4408,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 57.92031, y: 388.80615}
+  scrollPos: {x: 155.89502, y: 365.20236}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.7900002
+  zoom: 0.85000014
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4393,7 +4420,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 293247487}
+  - {fileID: 293247490}
   selectedCommands: []
   variables:
   - {fileID: 293247473}
@@ -4730,6 +4757,10 @@ PrefabInstance:
       propertyPath: image
       value: 
       objectReference: {fileID: 486868381}
+    - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
+      propertyPath: gotoScene
+      value: IntroScene
+      objectReference: {fileID: 0}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: audioSettings
       value: 
