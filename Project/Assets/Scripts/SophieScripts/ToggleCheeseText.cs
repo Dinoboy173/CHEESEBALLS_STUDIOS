@@ -1,26 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
-namespace Fungus
+public class ToggleCheeseText : MonoBehaviour
 {
-    public class ToggleCheeseText : MonoBehaviour
+    public Flowchart flowchart;
+    public SelectingCheese camera;
+
+    public void ToggleCheddar()
     {
-        public Flowchart flowchart;
-
-        public void ToggleCheddar()
-        {
+        if (!camera.isEndGame)
             flowchart.ExecuteBlock("Cheddar");
-        }
+        else
+            flowchart.ExecuteBlock("CantChoose");
+    }
 
-        public void ToggleSwiss()
-        {
+    public void ToggleSwiss()
+    {
+        if (!camera.isEndGame)
             flowchart.ExecuteBlock("Swiss");
-        }
+        else
+            flowchart.ExecuteBlock("CantChoose");
+    }
 
-        public void ToggleBlue()
-        {
+    public void ToggleBlue()
+    {
+        if (!camera.isEndGame)
             flowchart.ExecuteBlock("Blue");
-        }
+        else
+            flowchart.ExecuteBlock("CantChoose");
     }
 }

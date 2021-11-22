@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class SelectingCheese : MonoBehaviour
 {
     public bool isEndGame = false;
     public GameObject dialogBox;
+    public Flowchart flowchart;
 
     [Space(10)]
 
@@ -24,7 +26,9 @@ public class SelectingCheese : MonoBehaviour
     public SelectableObject cheddar;
     public SelectableObject swiss;
     public SelectableObject blue;
-    public GameObject god;
+    public Canvas decidingSlides;
+
+    int buyableInterestLimit = 75;
 
     void Update()
     {
@@ -42,19 +46,23 @@ public class SelectingCheese : MonoBehaviour
 
         if (isEndGame)
         {
-            if (cheddarClicked)
+            int interestSwiss = flowchart.GetIntegerVariable("interestSwiss");
+            int interestCheddar = flowchart.GetIntegerVariable("interestCheddar");
+            int interestBlue = flowchart.GetIntegerVariable("interestBlue");
+
+            if (cheddarClicked && interestCheddar >= buyableInterestLimit)
             {
                 cheddarEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
             }
 
-            if (swissClicked)
+            if (swissClicked && interestSwiss >= buyableInterestLimit)
             {
                 swissEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
             }
 
-            if (blueClicked)
+            if (blueClicked && interestBlue >= buyableInterestLimit)
             {
                 blueEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
@@ -63,7 +71,10 @@ public class SelectingCheese : MonoBehaviour
         else
         {
             if (cheddarClicked && swissClicked && blueClicked)
-                god.SetActive(true);
+            {
+                decidingSlides.gameObject.SetActive(true);
+                dialogBox.SetActive(false);
+            }
         }
     }
 }

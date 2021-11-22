@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
+using Fungus;
 
 public class SelectableObject : MonoBehaviour
 {
     public bool clicked;
     public bool hovered;
+
+    [Space(10)]
 
     public UnityEvent<bool> onClick;
     public UnityEvent onHover;
@@ -32,6 +35,6 @@ public class SelectableObject : MonoBehaviour
 
     public virtual void Update()
     {
-         
+
     }
 }
