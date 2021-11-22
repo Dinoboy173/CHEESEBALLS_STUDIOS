@@ -8,6 +8,7 @@ public class SelectingCheese : MonoBehaviour
     public bool isEndGame = false;
     public GameObject dialogBox;
     public Flowchart flowchart;
+    public int buyableInterestLimit = 75;
 
     [Space(10)]
 
@@ -26,10 +27,8 @@ public class SelectingCheese : MonoBehaviour
     public SelectableObject cheddar;
     public SelectableObject swiss;
     public SelectableObject blue;
-    public Canvas decidingSlides;
-
-    int buyableInterestLimit = 75;
-
+    public GameObject decidingSlides;
+    
     void Update()
     {
         if (!cheddarClicked)
@@ -72,7 +71,7 @@ public class SelectingCheese : MonoBehaviour
         {
             if (cheddarClicked && swissClicked && blueClicked)
             {
-                decidingSlides.gameObject.SetActive(true);
+                decidingSlides.SetActive(true);
                 dialogBox.SetActive(false);
             }
         }

@@ -4704,6 +4704,7 @@ MonoBehaviour:
   isEndGame: 0
   dialogBox: {fileID: 1781914236}
   flowchart: {fileID: 293247522}
+  buyableInterestLimit: 75
   cheddarClicked: 0
   swissClicked: 0
   blueClicked: 0
@@ -4713,7 +4714,7 @@ MonoBehaviour:
   cheddar: {fileID: 1095223950}
   swiss: {fileID: 166406479}
   blue: {fileID: 1960553562}
-  decidingSlides: {fileID: 0}
+  decidingSlides: {fileID: 1301168179}
 --- !u!1001 &486868379
 PrefabInstance:
   m_ObjectHideFlags: 0
