@@ -18,3 +18,15 @@ public enum SoundNames
     CaveTheme,
     MansionTheme
 };
+
+public enum Scenes
+{
+    NULL,
+    MainMenuScene,
+    IntroScene,
+    OutroScene,
+    MapScene,
+    BeachScene,
+    CaveScene,
+    MansionScene
+};

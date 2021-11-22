@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Fungus;
 using UnityEngine.SceneManagement;
 
-public class TempEndGame : MonoBehaviour
+public class TempOutroScene : MonoBehaviour
 {
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F4))
         {
-            SceneManager.LoadScene("OutroScene");
+            SceneManager.LoadScene("OutroScene", LoadSceneMode.Single);
         }
     }
 }
