@@ -145,10 +145,10 @@ GameObject:
   - component: {fileID: 2927075568757660245}
   - component: {fileID: 2927075568757660248}
   - component: {fileID: 2927075568757660247}
-  - component: {fileID: 2927075568757660246}
   - component: {fileID: 2927075568757660249}
+  - component: {fileID: 2659870442337577644}
   m_Layer: 5
-  m_Name: Slide
+  m_Name: PR_ComicSlide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,25 +212,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &2927075568757660246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2927075568757660244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82f56747e1dac0e4faa3ee20ed5091b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 2927075568757660247}
-  text: {fileID: 2927075568461794993}
-  timeBetweenSlides: 5
-  slides:
-  - {fileID: 21300000, guid: 56100f706b96ad24cb1376c9b938e0ca, type: 3}
-  - {fileID: 21300000, guid: e6b748dd110064344b04fdbcb08f1df8, type: 3}
-  - {fileID: 21300000, guid: 3b4a3627ca54a894b81ba32618f5318b, type: 3}
 --- !u!114 &2927075568757660249
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,7 +256,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2927075568757660246}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ComicSlideShow, Assembly-CSharp
         m_MethodName: SkipSlide
         m_Mode: 1
@@ -287,3 +268,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2659870442337577644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2927075568757660244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a0915f623b02e94c8322bdaf605d7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSettings: {fileID: 0}
+  gotoScene: 
+  image: {fileID: 0}
+  text: {fileID: 0}
+  timeBetweenSlides: 1
+  slides: []
