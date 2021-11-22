@@ -326,9 +326,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 89.26582
-    y: 70
-    width: 92.352936
+    x: 93.74344
+    y: 74.477615
+    width: 91.79102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -357,11 +357,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 354.23398, y: 13.186639}
+  scrollPos: {x: 111.027054, y: 164.30196}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.85000014
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -370,8 +370,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 193847213}
-  selectedCommands:
-  - {fileID: 193847248}
+  selectedCommands: []
   variables:
   - {fileID: 193847246}
   - {fileID: 193847245}
@@ -494,7 +493,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 227.61476
     y: 155.9166
-    width: 98.23529
+    width: 99.25371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -523,7 +522,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -37.372578
     y: 157.03052
-    width: 97.058815
+    width: 97.76117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1027,7 +1026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 79.93775
     y: 458.28693
-    width: 118.23528
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1112,7 +1111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 219.2106
     y: 358.07324
-    width: 94.70587
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1140,7 +1139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -38.670956
     y: 357.2959
-    width: 94.70587
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1550,7 +1549,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 91.310974
     y: 244.01562
-    width: 93.5294
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
