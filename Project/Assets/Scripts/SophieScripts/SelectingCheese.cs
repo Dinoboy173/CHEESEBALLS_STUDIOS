@@ -71,8 +71,14 @@ public class SelectingCheese : MonoBehaviour
         {
             if (cheddarClicked && swissClicked && blueClicked)
             {
-                decidingSlides.SetActive(true);
-                dialogBox.SetActive(false);
+                if (!dialogBox.active)
+                {
+                    decidingSlides.SetActive(true);
+                    dialogBox.SetActive(false);
+                    cheddar.gameObject.SetActive(false);
+                    swiss.gameObject.SetActive(false);
+                    blue.gameObject.SetActive(false);
+                }
             }
         }
     }
