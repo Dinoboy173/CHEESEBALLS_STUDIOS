@@ -16,7 +16,8 @@ public enum SoundNames
     MainTheme,
     BeachTheme,
     CaveTheme,
-    MansionTheme
+    MansionTheme,
+    ButtonClick
 };
 
 public enum Scenes
