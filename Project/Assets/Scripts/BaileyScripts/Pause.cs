@@ -17,8 +17,6 @@ public class Pause : MonoBehaviour
 
     void Start()
     {
-       // flowchart = Flowchart.Find("Flowchart");
-       // flowchart = FindObjectOfType(Flowchart);
        
     }
 
