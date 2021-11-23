@@ -95,18 +95,18 @@ namespace Fungus
                 currentStandaloneInputModule = EventSystem.current.GetComponent<StandaloneInputModule>();
             }
 
-            if (GameObject.Find("PauseMenu") != null)
-            {
-                myPause = GameObject.Find("PauseMenu");
-                isSkip = myPause.GetComponent<SettingsManager>().autoSkip;
-
-            }
+           // if (GameObject.Find("PauseMenu") != null)
+           // {
+           //     myPause = GameObject.Find("PauseMenu");
+           //     isSkip = myPause.GetComponent<SettingsManager>().autoSkip;
+           //
+           // }
 
 
             if (writer != null)
             {
-                if (isSkip == false)
-                {
+               //if (isSkip == false)
+               //{
 
 
                     if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
@@ -114,16 +114,16 @@ namespace Fungus
                     {
                         SetNextLineFlag();
                     }
-                }
-                else
-                {
-                    timer += Time.deltaTime;
-                    if (timer > 3)
-                    {
-                        SetNextLineFlag();
-                        timer = 0.0f;
-                    }
-                }
+                //}
+                //else
+                //{
+                //    timer += Time.deltaTime;
+                //    if (timer > 3)
+                //    {
+                //        SetNextLineFlag();
+                //        timer = 0.0f;
+                //    }
+                //}
             }
             //to display the time before continueing 
             Debug.Log(timer);

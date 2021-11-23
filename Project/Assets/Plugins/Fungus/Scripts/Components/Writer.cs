@@ -129,13 +129,13 @@ namespace Fungus
 
         protected virtual void Awake()
         {
-            if (GameObject.Find("PauseMenu") != null)
-            {
-                myPause = GameObject.Find("PauseMenu");
-               writingSpeed = myPause.GetComponent<SettingsManager>().speed;
-
-            }
-            else
+           // if (GameObject.Find("PauseMenu") != null)
+           // {
+           //     myPause = GameObject.Find("PauseMenu");
+           //    writingSpeed = myPause.GetComponent<SettingsManager>().speed;
+           //
+           // }
+           // else
             writingSpeed = setWritingSpeed;
 
             GameObject go = targetTextObject;
@@ -279,12 +279,12 @@ namespace Fungus
             colorText = "";
             sizeValue = 16f;
             currentPunctuationPause = punctuationPause;
-            if (GameObject.Find("PauseMenu") != null)
-            {
-                myPause = GameObject.Find("PauseMenu");
-                writingSpeed = myPause.GetComponent<SettingsManager>().speed;
-
-            }
+           // if (GameObject.Find("PauseMenu") != null)
+           // {
+           //     myPause = GameObject.Find("PauseMenu");
+           //     writingSpeed = myPause.GetComponent<SettingsManager>().speed;
+           //
+           // }
 
             currentWritingSpeed = writingSpeed;
 
