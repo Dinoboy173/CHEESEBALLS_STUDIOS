@@ -393,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: 175002313}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: gotoScene
-      value: MainMenuScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: audioSettings
@@ -4623,7 +4623,7 @@ PrefabInstance:
       objectReference: {fileID: 486868381}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: gotoScene
-      value: MainMenuScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: audioSettings
@@ -5126,7 +5126,7 @@ PrefabInstance:
       objectReference: {fileID: 1301168180}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: gotoScene
-      value: MapScene
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: audioSettings
@@ -5339,7 +5339,7 @@ PrefabInstance:
       objectReference: {fileID: 1714138942}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: gotoScene
-      value: MainMenuScene
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2659870442337577644, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
       propertyPath: audioSettings

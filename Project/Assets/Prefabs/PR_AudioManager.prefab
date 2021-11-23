@@ -44,27 +44,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Beach Theme
+  - name: 1
     clip: {fileID: 8300000, guid: cba83ba096a58ae4a8357ef60f612a5a, type: 3}
     masterVolume: 1
     volume: 1
     pitch: 1
     source: {fileID: 0}
-  - name: Cave Theme
+  - name: 2
     clip: {fileID: 8300000, guid: f3e7013bd496f9d4bbf7020b6f10d63b, type: 3}
     masterVolume: 1
     volume: 1
     pitch: 1
     source: {fileID: 0}
-  - name: Mansion Theme
+  - name: 3
     clip: {fileID: 8300000, guid: d849fa363db273149b6170a97907d431, type: 3}
     masterVolume: 1
     volume: 1
     pitch: 1
     source: {fileID: 0}
-  - name: Main Theme
+  - name: 0
     clip: {fileID: 8300000, guid: 7f67076efea646a4db15e289eff0cc79, type: 3}
     masterVolume: 1
     volume: 1
     pitch: 1
     source: {fileID: 0}
+  - name: 4
+    clip: {fileID: 8300000, guid: e67b8c0cc885e614ca10cbfb66ae3948, type: 3}
+    masterVolume: 1
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
