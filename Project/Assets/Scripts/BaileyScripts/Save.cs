@@ -44,8 +44,6 @@ public class Save : MonoBehaviour
         save = panel.transform.Find("SaveButton").GetComponent<Button>();
         load = panel.transform.Find("LoadButton").GetComponent<Button>();
         saveMenuButton = buttons.transform.Find("MenuButton").GetComponent<Button>();
-        // mySaveMenu.transform.Find("SaveButton").GetComponent<Button>();
-        // load = mySaveMenu.transform.Find("LoadButton").GetComponent<Button>();
         saveButton.onClick.AddListener(CheckSave);
         loadButton.onClick.AddListener(CheckLoad);
     }

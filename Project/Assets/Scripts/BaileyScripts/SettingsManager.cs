@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+using UnityEngine.EventSystems;
 
 public class SettingsManager : MonoBehaviour
 {
@@ -12,8 +13,21 @@ public class SettingsManager : MonoBehaviour
 
     Resolution[] resolutions;
 
+    int[] textSpeeds = new int[5] {15,30,60,90,120};
+    public int speed = 60;
+    public bool autoSkip = false;
+    string skip = "false";
+    public float setVolume;
+
     void Start()
     {
+
+        speed = PlayerPrefs.GetInt("TextSpeedSet");
+        skip = PlayerPrefs.GetString("AutoSkip");
+        setVolume = PlayerPrefs.GetFloat("Volume");
+
+
+
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
@@ -43,9 +57,23 @@ public class SettingsManager : MonoBehaviour
         Screen.fullScreen = isFullscreen;
     }
 
+    public void AutoSkip(bool isSkip)
+    {
+        autoSkip = isSkip;
+        if(autoSkip == false)
+        {
+            skip = "false";
+        }
+        else
+        {
+            skip = "true";
+        }
+    }
+
     public void SetVolume(float volume)
     {
-        audioMixer.SetFloat("Volume", volume);
+        setVolume = volume;
+        audioMixer.SetFloat("Volume", setVolume);
     }
 
     public void SetQuality(int qualityIndex)
@@ -61,6 +89,13 @@ public class SettingsManager : MonoBehaviour
 
     public void SetTextSpeed(int textSpeed)
     {
-        Debug.Log(textSpeed);
+       speed = textSpeeds[textSpeed];
+    }
+
+    public void SaveSettings()
+    {
+        PlayerPrefs.SetInt("TextSpeedSet", speed);
+        PlayerPrefs.SetString("AutoSkip", skip);
+        PlayerPrefs.SetFloat("Volume", setVolume);
     }
 }
