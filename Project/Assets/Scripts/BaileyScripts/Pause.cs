@@ -33,10 +33,10 @@ public class Pause : MonoBehaviour
                 flowchart.StopAllBlocks();
                 pauseScreen.SetActive(true);
             }
-           // if (blocks.Count == 0)
-           // {
-           //     pauseScreen.SetActive(true);
-           // }
+            else if (blocks.Count == 0)
+            {
+                pauseScreen.SetActive(true);
+            }
         }
 
 
