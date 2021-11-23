@@ -14,6 +14,8 @@ public class Pause : MonoBehaviour
     public List<Button> menuDialogButtons;
     List<bool> Buttons = new List<bool>();
 
+    public List<Collider> clickableObjects;
+
     string currentBlock = "Filler";
 
     bool isButtonOneOn = false;
@@ -67,6 +69,14 @@ public class Pause : MonoBehaviour
             else if (blocks.Count == 0 && allButtonsOff)
             {
                 pauseScreen.SetActive(true);
+
+                if (clickableObjects.Count != 0)
+                {
+                    foreach (Collider obj in clickableObjects)
+                    {
+                        obj.enabled = false;
+                    }
+                }
             }
         }
 
