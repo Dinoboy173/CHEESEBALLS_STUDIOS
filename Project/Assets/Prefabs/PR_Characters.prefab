@@ -187,7 +187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Swiss
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 611e9389e11e28d438d9509fe31b3eae, type: 3}
   portraits:
   - {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
   - {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
