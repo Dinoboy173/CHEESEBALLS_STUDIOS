@@ -4845,6 +4845,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fab8bbcd368147489073944f4a649d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &593694866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4036011001503671627, guid: d3b6b45c2b524ca47a9bd3d1f03c7f33, type: 3}
+  m_PrefabInstance: {fileID: 1159154958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &642258741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19238,6 +19243,7 @@ MonoBehaviour:
   pauseScreen: {fileID: 579087920}
   resumeButton: {fileID: 693165382}
   blocks: []
+  menuDialog: {fileID: 593694866}
 --- !u!4 &2133463428
 Transform:
   m_ObjectHideFlags: 0

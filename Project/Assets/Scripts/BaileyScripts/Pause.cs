@@ -7,25 +7,56 @@ using Fungus;
 
 public class Pause : MonoBehaviour
 {
-
     public Flowchart flowchart;
     public GameObject pauseScreen;
     public Button resumeButton;
     public List<Block> blocks;
+    public List<Button> menuDialogButtons;
+    List<bool> Buttons = new List<bool>();
 
     string currentBlock = "Filler";
 
-    void Start()
+    bool isButtonOneOn = false;
+    bool isButtonTwoOn = false;
+    bool isButtonThreeOn = false;
+    bool isButtonFourOn = false;
+    bool isButtonFiveOn = false;
+
+    bool allButtonsOff = false;
+
+    void Awake()
     {
-       // flowchart = Flowchart.Find("Flowchart");
-       // flowchart = FindObjectOfType(Flowchart);
-       
+        // flowchart = Flowchart.Find("Flowchart");
+        // flowchart = FindObjectOfType(Flowchart);
+
+        Buttons.Add(isButtonOneOn);
+        Buttons.Add(isButtonTwoOn);
+        Buttons.Add(isButtonThreeOn);
+        Buttons.Add(isButtonFourOn);
+        Buttons.Add(isButtonFiveOn);
     }
 
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
-        { 
+        {
+            for (int i = 0; i < menuDialogButtons.Count; i++)
+            {
+                if (menuDialogButtons[i].gameObject.active)
+                    Buttons[i] = true;
+            }
+
+            if (!isButtonOneOn &&
+                !isButtonTwoOn &&
+                !isButtonThreeOn &&
+                !isButtonFourOn &&
+                !isButtonFiveOn)
+            {
+                allButtonsOff = true;
+            }
+            else
+                allButtonsOff = false;
+
             blocks = flowchart.GetExecutingBlocks(); 
             if(blocks.Count == 1)
             {
@@ -33,7 +64,7 @@ public class Pause : MonoBehaviour
                 flowchart.StopAllBlocks();
                 pauseScreen.SetActive(true);
             }
-            else if (blocks.Count == 0)
+            else if (blocks.Count == 0 && allButtonsOff)
             {
                 pauseScreen.SetActive(true);
             }
@@ -41,12 +72,11 @@ public class Pause : MonoBehaviour
 
 
         if(Input.GetMouseButtonDown(0) && currentBlock != "Filler")
-        resumeButton.onClick.AddListener(CallBlock);
+            resumeButton.onClick.AddListener(CallBlock);
     }
 
     void CallBlock()
     {
-        
         flowchart.ExecuteBlock(currentBlock);
         pauseScreen.SetActive(false);
         currentBlock = "Filler";
