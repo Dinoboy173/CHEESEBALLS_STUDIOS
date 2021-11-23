@@ -22,6 +22,9 @@ public class CharacterRandomTalk : MonoBehaviour
 
     public AudioSettings settings;
 
+    public float timer = 1f;
+    public float timerReset = 1f;
+
     void Awake()
     {
         UpdateLocalValues();
@@ -38,14 +41,21 @@ public class CharacterRandomTalk : MonoBehaviour
 
     public void FixedUpdate()
     {
-        int vowelNum = UnityEngine.Random.Range(0, 5); 
+        timer = timer - Time.deltaTime;
 
-        Debug.Log("Vowel " + (int)SoundNames.VowelA);
-        Debug.Log("Random Num " + vowelNum);
-        
-        // s = Array.Find(sounds, sound => sound.name == vowelNum);
+        if (timer <= 0)
+        {
+            int vowelNum = UnityEngine.Random.Range(0, 5);
 
-        character.soundEffect = s.clip;
+            Debug.Log("Vowel " + (int)SoundNames.VowelA);
+            Debug.Log("Random Num " + vowelNum);
+
+            s = Array.Find(sounds, sound => (int)sound.name == vowelNum);
+
+            timer = timerReset;
+
+            character.soundEffect = s.clip;
+        }
     }
 
     public void UpdateLocalValues()
