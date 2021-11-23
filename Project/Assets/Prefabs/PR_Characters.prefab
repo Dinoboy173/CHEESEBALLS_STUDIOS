@@ -80,7 +80,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Cheddar
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: b4ed3eaed85877e45888985bc8d754e7, type: 3}
   portraits:
   - {fileID: 21300000, guid: 505c5b3d723297a4e93686fbe525d737, type: 3}
   - {fileID: 21300000, guid: 7f07896c14997f042a6f4ec2421e091b, type: 3}
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Blue
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: e27c6af524e8eb04eae1078e3721b760, type: 3}
   portraits:
   - {fileID: 21300000, guid: 4f3cae71fda6ba44591b6e465ef5fc5f, type: 3}
   - {fileID: 21300000, guid: 7b3cb911894122046945e3d138121e8d, type: 3}
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: The Cheese Goddess
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 3f7f1e285bc551c46aee74dac66851f6, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: You
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: 51d6450e3a6ff0a49b7e4de1e70133cb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
