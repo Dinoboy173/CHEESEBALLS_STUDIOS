@@ -80,7 +80,6 @@ public class Pause : MonoBehaviour
             }
         }
 
-
         if(Input.GetMouseButtonDown(0) && currentBlock != "Filler")
             resumeButton.onClick.AddListener(CallBlock);
     }
