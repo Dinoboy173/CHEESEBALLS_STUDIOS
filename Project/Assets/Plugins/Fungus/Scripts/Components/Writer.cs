@@ -119,7 +119,9 @@ namespace Fungus
         protected string hiddenColorOpen = "";
         protected string hiddenColorClose = "";
 
-        public float setWritingSpeed = 60.0f;
+        public float setWritingSpeed = 1.0f;
+        GameObject myPause;
+
 
         protected int visibleCharacterCount = 0;
         protected int readAheadStartIndex = 0;
@@ -127,6 +129,13 @@ namespace Fungus
 
         protected virtual void Awake()
         {
+            if (GameObject.Find("PauseMenu") != null)
+            {
+                myPause = GameObject.Find("PauseMenu");
+               writingSpeed = myPause.GetComponent<SettingsManager>().speed;
+
+            }
+            else
             writingSpeed = setWritingSpeed;
 
             GameObject go = targetTextObject;
@@ -270,6 +279,13 @@ namespace Fungus
             colorText = "";
             sizeValue = 16f;
             currentPunctuationPause = punctuationPause;
+            if (GameObject.Find("PauseMenu") != null)
+            {
+                myPause = GameObject.Find("PauseMenu");
+                writingSpeed = myPause.GetComponent<SettingsManager>().speed;
+
+            }
+
             currentWritingSpeed = writingSpeed;
 
             exitFlag = false;
@@ -898,6 +914,7 @@ namespace Fungus
                 var writerListener = writerListeners[i];
                 writerListener.OnAllWordsWritten();
             }
+
         }
 
         protected virtual void NotifyEnd(bool stopAudio)

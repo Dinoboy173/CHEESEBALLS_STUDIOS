@@ -3,6 +3,7 @@
 
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 namespace Fungus
 {
@@ -48,6 +49,11 @@ namespace Fungus
 
         protected Writer writer;
 
+        public float waitTime = 2.5f;
+        public float timer = 0.0f;
+        GameObject myPause;
+        bool isSkip = false;
+
         protected virtual void Awake()
         {
             writer = GetComponent<Writer>();
@@ -74,7 +80,12 @@ namespace Fungus
             
         protected virtual void Update()
         {
-            if (EventSystem.current == null)
+            if (Input.GetMouseButtonDown(0))
+            {
+                timer = 0.0f;
+            }
+
+                if (EventSystem.current == null)
             {
                 return;
             }
@@ -84,15 +95,38 @@ namespace Fungus
                 currentStandaloneInputModule = EventSystem.current.GetComponent<StandaloneInputModule>();
             }
 
-            if (writer != null)
+            if (GameObject.Find("PauseMenu") != null)
             {
-                if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
-                    (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
-                {
-                    SetNextLineFlag();
-                }
+                myPause = GameObject.Find("PauseMenu");
+                isSkip = myPause.GetComponent<SettingsManager>().autoSkip;
+
             }
 
+
+            if (writer != null)
+            {
+                if (isSkip == false)
+                {
+
+
+                    if (Input.GetButtonDown(currentStandaloneInputModule.submitButton) ||
+                        (cancelEnabled && Input.GetButton(currentStandaloneInputModule.cancelButton)))
+                    {
+                        SetNextLineFlag();
+                    }
+                }
+                else
+                {
+                    timer += Time.deltaTime;
+                    if (timer > 3)
+                    {
+                        SetNextLineFlag();
+                        timer = 0.0f;
+                    }
+                }
+            }
+            //to display the time before continueing 
+            Debug.Log(timer);
             switch (clickMode)
             {
             case ClickMode.Disabled:
