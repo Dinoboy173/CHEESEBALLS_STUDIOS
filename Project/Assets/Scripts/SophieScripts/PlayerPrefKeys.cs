@@ -17,7 +17,12 @@ public enum SoundNames
     BeachTheme,
     CaveTheme,
     MansionTheme,
-    ButtonClick
+    ButtonClick,
+    VowelA,
+    VowelE,
+    VowelI,
+    VowelO,
+    VowelU
 };
 
 public enum Scenes
