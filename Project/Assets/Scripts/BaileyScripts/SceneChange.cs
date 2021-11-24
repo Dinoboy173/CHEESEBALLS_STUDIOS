@@ -25,6 +25,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("MapScene");
     }
+    public void OutroScene()
+    {
+        SceneManager.LoadScene("OutroScene");
+    }
 
     public void Menu()
     {
