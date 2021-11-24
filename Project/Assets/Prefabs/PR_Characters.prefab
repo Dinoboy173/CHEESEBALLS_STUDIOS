@@ -83,9 +83,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: b4ed3eaed85877e45888985bc8d754e7, type: 3}
   portraits:
   - {fileID: 21300000, guid: 505c5b3d723297a4e93686fbe525d737, type: 3}
+  - {fileID: 21300000, guid: 6a05206d927abcb4e88db8485be16ec8, type: 3}
   - {fileID: 21300000, guid: 7f07896c14997f042a6f4ec2421e091b, type: 3}
   - {fileID: 21300000, guid: cccf5ab1a4d9ac9479e27e54332c9956, type: 3}
   - {fileID: 21300000, guid: 1ec262c8e449ede428bc43793e2de8e2, type: 3}
+  - {fileID: 21300000, guid: 87d38ffa93f183c43aa87bafa523cc6a, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -137,9 +139,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: e27c6af524e8eb04eae1078e3721b760, type: 3}
   portraits:
   - {fileID: 21300000, guid: 4f3cae71fda6ba44591b6e465ef5fc5f, type: 3}
+  - {fileID: 21300000, guid: 5a9a7310cbf85144cb5bf7b7179d63d7, type: 3}
   - {fileID: 21300000, guid: 7b3cb911894122046945e3d138121e8d, type: 3}
   - {fileID: 21300000, guid: 8c270f0201012454a95e4ee1c19615ef, type: 3}
   - {fileID: 21300000, guid: abd00800f8bd0764ea417fedb67d1bc8, type: 3}
+  - {fileID: 21300000, guid: 48327bb8e538e0e4e99d81fcc7ad2232, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -241,9 +245,11 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 09b39a028d9626e47ac0e6fbb95aa255, type: 3}
   portraits:
   - {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  - {fileID: 21300000, guid: 5757fac72697a7344a505d02e575a844, type: 3}
   - {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
   - {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
   - {fileID: 21300000, guid: 802bc5c59b7437b4ba5f8efeb4f8fa21, type: 3}
+  - {fileID: 21300000, guid: af81992d370a91d4285cf7af46c3c847, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
