@@ -30,11 +30,11 @@ public class AudioSettings : MonoBehaviour
         string sClip = "";
         string defaultClip = SoundNames.MainTheme.ToString();
 
-        master = PlayerPrefs.GetFloat(AudioKeys.MASTERVOLUME.ToString(), master);
-        volume = PlayerPrefs.GetFloat(AudioKeys.VOLUME.ToString(), volume);
-        pitch = PlayerPrefs.GetFloat(AudioKeys.PITCH.ToString(), pitch);
+        master = PlayerPrefs.GetFloat(AudioKeys.MASTERVOLUME.ToString(), 0.5f);
+        volume = PlayerPrefs.GetFloat(AudioKeys.VOLUME.ToString(), 1f);
+        pitch = PlayerPrefs.GetFloat(AudioKeys.PITCH.ToString(), 1f);
         sClip = PlayerPrefs.GetString(AudioKeys.CLIP.ToString(), defaultClip);
-        time = PlayerPrefs.GetFloat(AudioKeys.TIME.ToString(), time);
+        time = PlayerPrefs.GetFloat(AudioKeys.TIME.ToString(), 0f);
 
         if      (sClip == SoundNames.MainTheme.ToString())      clip = SoundNames.MainTheme;
         else if (sClip == SoundNames.BeachTheme.ToString())     clip = SoundNames.BeachTheme;

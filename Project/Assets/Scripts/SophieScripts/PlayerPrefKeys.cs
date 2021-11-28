@@ -16,5 +16,23 @@ public enum SoundNames
     MainTheme,
     BeachTheme,
     CaveTheme,
-    MansionTheme
+    MansionTheme,
+    ButtonClick,
+    VowelA,
+    VowelE,
+    VowelI,
+    VowelO,
+    VowelU
+};
+
+public enum Scenes
+{
+    NULL,
+    MainMenuScene,
+    IntroScene,
+    OutroScene,
+    MapScene,
+    BeachScene,
+    CaveScene,
+    MansionScene
 };
