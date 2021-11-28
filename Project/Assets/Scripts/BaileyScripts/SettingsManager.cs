@@ -98,4 +98,11 @@ public class SettingsManager : MonoBehaviour
         PlayerPrefs.SetString("AutoSkip", skip);
         PlayerPrefs.SetFloat("Volume", setVolume);
     }
+
+    public void StartSettings()
+    {
+        speed = PlayerPrefs.GetInt("TextSpeedSet");
+        skip = PlayerPrefs.GetString("AutoSkip");
+        setVolume = PlayerPrefs.GetFloat("Volume");
+    }
 }

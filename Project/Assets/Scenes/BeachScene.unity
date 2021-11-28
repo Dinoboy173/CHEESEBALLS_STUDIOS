@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7942,7 +7942,6 @@ GameObject:
   - component: {fileID: 1071105761}
   - component: {fileID: 1071105763}
   - component: {fileID: 1071105762}
-  - component: {fileID: 1071105765}
   - component: {fileID: 1071105345}
   - component: {fileID: 1071105344}
   - component: {fileID: 1071105764}
@@ -8568,7 +8567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 352.52795, y: 206.66638}
+  scrollPos: {x: -65.89299, y: 154.03468}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -8579,7 +8578,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1071105772}
   selectedCommands: []
   variables:
   - {fileID: 1071105345}
@@ -21223,7 +21223,7 @@ MonoBehaviour:
   itemId: 29
   blockName: Pause (Copy)
   description: 
-  eventHandler: {fileID: 1071105765}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1071105764}
   - {fileID: 1071105763}
@@ -21546,22 +21546,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1071105765
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071105342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 000864f8e9e1748a39807861d0e60e29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1071105761}
-  suppressBlockAutoSelect: 0
-  keyPressType: 0
-  keyCode: 27
 --- !u!114 &1071105766
 MonoBehaviour:
   m_ObjectHideFlags: 2
