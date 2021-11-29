@@ -16,7 +16,9 @@ public class Pause : MonoBehaviour
 
     public List<Collider> clickableObjects;
 
-    string currentBlock = "Filler";   
+    string currentBlock = "Filler";
+    Block CommandHolder;
+    int cmdIndex = 0;
 
     bool isButtonOneOn = false;
     bool isButtonTwoOn = false;
@@ -63,14 +65,6 @@ public class Pause : MonoBehaviour
             if(blocks.Count == 1)
             {
                 currentBlock = blocks[0].BlockName;
-
-                // foreach (var item in blocks[0].CommandList[(cmdIndex, i) => (i, cmdIndex) ])
-                // {
-                //     var cmdIndex = item.value;
-                //     var index
-                // }
-                //cmdIndex = blocks[0].CommandList.FindLast();
-
                 flowchart.StopAllBlocks();
                 pauseScreen.SetActive(true);
             }
@@ -94,8 +88,15 @@ public class Pause : MonoBehaviour
 
     void CallBlock()
     {
-        flowchart.ExecuteBlock(currentBlock);
+        Block currentBlockFungus = flowchart.FindBlock(currentBlock);
+        cmdIndex = currentBlockFungus.PreviousActiveCommandIndex;
+        while(currentBlockFungus.CommandList.Count < cmdIndex)
+        {
+            cmdIndex--;
+        }
+        flowchart.ExecuteBlock(currentBlockFungus, cmdIndex + 1);
         pauseScreen.SetActive(false);
         currentBlock = "Filler";
+        cmdIndex = 0;
     }
 }
