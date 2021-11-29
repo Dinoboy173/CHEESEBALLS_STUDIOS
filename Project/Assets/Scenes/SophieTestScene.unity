@@ -414,7 +414,7 @@ RectTransform:
   m_Children:
   - {fileID: 2037415232}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -642,6 +642,7 @@ GameObject:
   - component: {fileID: 272768104}
   - component: {fileID: 272768103}
   - component: {fileID: 272768102}
+  - component: {fileID: 272768107}
   m_Layer: 0
   m_Name: PickUp
   m_TagString: Clickable
@@ -666,9 +667,9 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1137810676}
-        m_TargetAssemblyTypeName: FetchQuests, Assembly-CSharp
-        m_MethodName: ItemClicked
+      - m_Target: {fileID: 272768107}
+        m_TargetAssemblyTypeName: FetchQuestPickUpItem, Assembly-CSharp
+        m_MethodName: Clicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -758,8 +759,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272768107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272768101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1998ce77ae2f8947928dd8c8ec159a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cheddar: 1
+  swiss: 0
+  blue: 0
+  isFetchQuestActive: 0
+  isFetchQuestComplete: 0
+  questManager: {fileID: 1137810676}
+  questName: Test Quest
 --- !u!1 &387434708
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +923,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &544824093
 GameObject:
@@ -1611,7 +1631,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 051a551df93b87b48b10fc7c82ade6b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questItems: []
+  getQuestTriggers: 0
+  cheddarActiveFetchQuest: 0
+  cheddarCompleteFetchQuest: 0
+  swissActiveFetchQuest: 0
+  swissCompleteFetchQuest: 0
+  blueActiveFetchQuest: 0
+  blueCompleteFetchQuest: 0
 --- !u!4 &1137810677
 Transform:
   m_ObjectHideFlags: 0
@@ -1624,7 +1650,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167691521
 GameObject:
@@ -1648,7 +1674,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1167691522
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1881,7 +1907,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1167691527}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &1359733267
 Transform:
   m_ObjectHideFlags: 1
@@ -1894,7 +1920,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440334238
 GameObject:
@@ -2212,7 +2238,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1930670332
 GameObject:

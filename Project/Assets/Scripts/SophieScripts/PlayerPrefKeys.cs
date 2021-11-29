@@ -36,3 +36,13 @@ public enum Scenes
     CaveScene,
     MansionScene
 };
+
+public enum CheeseQuestTriggers
+{
+    CheddarQuestActive,
+    CheddarQuestComplete,
+    SwissQuestActive,
+    SwissQuestComplete,
+    BlueQuestActive,
+    BlueQuestComplete
+};
