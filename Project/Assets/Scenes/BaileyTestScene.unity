@@ -1034,8 +1034,6 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 315573568}
   selectedCommands:
-  - {fileID: 315573565}
-  - {fileID: 315573604}
   - {fileID: 315573603}
   variables:
   - {fileID: 315573552}
@@ -2434,7 +2432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: 'Hi
+  storyText: 'Hi1
 
 '
   description: 
@@ -6810,7 +6808,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3865348123393892460
 Transform:
   m_ObjectHideFlags: 0
@@ -16654,7 +16652,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &3865348124866473057
 MonoBehaviour:
   m_ObjectHideFlags: 0

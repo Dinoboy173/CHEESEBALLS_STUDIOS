@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
     float time = 0f;
 
     public AudioSettings settings;
+    public AudioMixerGroup audioMixer;
 
     public void StartUp()
     {
@@ -29,6 +30,8 @@ public class AudioManager : MonoBehaviour
 
             sound.source.volume = volume * master;
             sound.source.pitch = pitch;
+            sound.source.outputAudioMixerGroup = audioMixer;
+            
         }
     }
 
