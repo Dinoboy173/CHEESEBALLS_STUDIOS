@@ -8545,10 +8545,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 768137093, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 592620380}
     - target: {fileID: 1664284234597394357, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: m_Name
       value: PR_Characters
       objectReference: {fileID: 0}
+    - target: {fileID: 3117943494772310907, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 592620380}
+    - target: {fileID: 3286609231297980643, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 592620380}
+    - target: {fileID: 3384382774661947277, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 592620380}
     - target: {fileID: 6053626346177431226, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -8593,6 +8609,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6306014683601583923, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: settings
+      value: 
+      objectReference: {fileID: 592620380}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb883743b2c512418c722908f72a119, type: 3}
 --- !u!114 &988123147 stripped
