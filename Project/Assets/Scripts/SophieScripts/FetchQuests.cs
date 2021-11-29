@@ -26,16 +26,16 @@ public class FetchQuests : MonoBehaviour
         if (getQuestTriggers)
         {
             // get cheddar
-            cheddarActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.CheddarQuestActive.ToString()) != 0;
-            cheddarCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.CheddarQuestComplete.ToString()) != 0;
+            cheddarActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.CheddarQuestActive.ToString(), 0) != 0;
+            cheddarCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.CheddarQuestComplete.ToString(), 0) != 0;
 
             // get swiss
-            swissActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.SwissQuestActive.ToString()) != 0;
-            swissCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.SwissQuestComplete.ToString()) != 0;
+            swissActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.SwissQuestActive.ToString(), 0) != 0;
+            swissCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.SwissQuestComplete.ToString(), 0) != 0;
 
             // get blue
-            blueActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.BlueQuestActive.ToString()) != 0;
-            blueCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.BlueQuestComplete.ToString()) != 0;
+            blueActiveFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.BlueQuestActive.ToString(), 0) != 0;
+            blueCompleteFetchQuest = PlayerPrefs.GetInt(CheeseQuestTriggers.BlueQuestComplete.ToString(), 0) != 0;
         }
     }
 
