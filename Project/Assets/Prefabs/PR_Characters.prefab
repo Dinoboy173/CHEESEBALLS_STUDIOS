@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 9108470261415062290}
+  character: {fileID: 6538423011153920772}
   sayDialog: {fileID: 0}
   sounds:
   - name: 5
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 9108470261415062290}
+  character: {fileID: 175550848452143954}
   sayDialog: {fileID: 0}
   sounds:
   - name: 5
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: {fileID: 9108470261415062290}
+  character: {fileID: 6299933126091377017}
   sayDialog: {fileID: 0}
   sounds:
   - name: 5
