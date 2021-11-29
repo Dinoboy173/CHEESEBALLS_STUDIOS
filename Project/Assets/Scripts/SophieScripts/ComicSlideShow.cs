@@ -22,6 +22,7 @@ public class ComicSlideShow : MonoBehaviour
     {
         image.sprite = slides[0];
         timer = timeBetweenSlides;
+        text.gameObject.SetActive(false);
     }
 
     public void Update()
@@ -58,13 +59,9 @@ public class ComicSlideShow : MonoBehaviour
 
     void AlignText()
     {
-        if (i < slides.Count - 1)
+        if (i == slides.Count - 1)
         {
-            text.alignment = TextAlignmentOptions.TopLeft;
-            text.text = ((int)timer).ToString();
-        }
-        else
-        {
+            text.gameObject.SetActive(true);
             text.alignment = TextAlignmentOptions.Bottom;
             text.text = "Click To Continue";
         }

@@ -4285,7 +4285,7 @@ PrefabInstance:
       objectReference: {fileID: 1441977859}
     - target: {fileID: 3077073216611948633, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: timeBetweenSlides
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3838013241116990351, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -4506,6 +4506,10 @@ PrefabInstance:
     - target: {fileID: 8669815358894140041, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731962782446369605, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8765351648684087236, guid: b0df2c5570c5b5c4988f55d8cd6ed708, type: 3}
       propertyPath: m_RootOrder
@@ -4772,8 +4776,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1683298878}
   m_HandleRect: {fileID: 1683298877}
   m_Direction: 2
-  m_Value: 1.0000002
-  m_Size: 0.5833333
+  m_Value: 1
+  m_Size: 0.58333325
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
