@@ -16,7 +16,7 @@ public class Pause : MonoBehaviour
 
     public List<Collider> clickableObjects;
 
-    string currentBlock = "Filler";
+    string currentBlock = "Filler";   
 
     bool isButtonOneOn = false;
     bool isButtonTwoOn = false;
@@ -42,27 +42,35 @@ public class Pause : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            for (int i = 0; i < menuDialogButtons.Count; i++)
-            {
-                if (menuDialogButtons[i].gameObject.active)
-                    Buttons[i] = true;
-            }
-
-            if (!isButtonOneOn &&
-                !isButtonTwoOn &&
-                !isButtonThreeOn &&
-                !isButtonFourOn &&
-                !isButtonFiveOn)
-            {
-                allButtonsOff = true;
-            }
-            else
-                allButtonsOff = false;
+            //for (int i = 0; i < menuDialogButtons.Count; i++)
+            //{
+            //    if (menuDialogButtons[i].gameObject.active)
+            //        Buttons[i] = true;
+            //}
+            //
+            //if (!isButtonOneOn &&
+            //    !isButtonTwoOn &&
+            //    !isButtonThreeOn &&
+            //    !isButtonFourOn &&
+            //    !isButtonFiveOn)
+            //{
+            //    allButtonsOff = true;
+            //}
+            //else
+            //    allButtonsOff = false;
 
             blocks = flowchart.GetExecutingBlocks(); 
             if(blocks.Count == 1)
             {
                 currentBlock = blocks[0].BlockName;
+
+                // foreach (var item in blocks[0].CommandList[(cmdIndex, i) => (i, cmdIndex) ])
+                // {
+                //     var cmdIndex = item.value;
+                //     var index
+                // }
+                //cmdIndex = blocks[0].CommandList.FindLast();
+
                 flowchart.StopAllBlocks();
                 pauseScreen.SetActive(true);
             }

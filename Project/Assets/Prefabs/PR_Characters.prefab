@@ -45,6 +45,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3373150324171498122}
   - component: {fileID: 6538423011153920772}
+  - component: {fileID: 3384382774661947277}
   m_Layer: 0
   m_Name: Cheddar
   m_TagString: Untagged
@@ -91,6 +92,61 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &3384382774661947277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2182928443369232501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 9108470261415062290}
+  sayDialog: {fileID: 0}
+  sounds:
+  - name: 5
+    clip: {fileID: 8300000, guid: c49972948bf3b7c4783ae5c92e447f14, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 6
+    clip: {fileID: 8300000, guid: 98a570545c489dc4189ec7fd447decee, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 7
+    clip: {fileID: 8300000, guid: fe0f4d1b5aa47f0429e62a2f00a9b210, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 8
+    clip: {fileID: 8300000, guid: 997e23c2b612b59499398fc6ba9203b0, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 9
+    clip: {fileID: 8300000, guid: 997e23c2b612b59499398fc6ba9203b0, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
+  timer: 0.195
+  timerReset: 0.195
 --- !u!1 &2834968903810187518
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,6 +157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5254846116503488151}
   - component: {fileID: 175550848452143954}
+  - component: {fileID: 3286609231297980643}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Untagged
@@ -147,6 +204,61 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &3286609231297980643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2834968903810187518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 9108470261415062290}
+  sayDialog: {fileID: 0}
+  sounds:
+  - name: 5
+    clip: {fileID: 8300000, guid: 13f78ff9b9e563b4b9133a9bbe246f95, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 6
+    clip: {fileID: 8300000, guid: 320264a3f2f24bf42bcb12743923e2ce, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 7
+    clip: {fileID: 8300000, guid: 1f13cb37e66cc134286b253d4d6cce99, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 8
+    clip: {fileID: 8300000, guid: c5596cdbe10632a479d43e9f23737aa1, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 9
+    clip: {fileID: 8300000, guid: b581141137904ec4e91fd952a0b440f6, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
+  timer: 0.195
+  timerReset: 0.195
 --- !u!1 &3739080607605233527
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,6 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2737338552096576856}
   - component: {fileID: 6299933126091377017}
+  - component: {fileID: 6306014683601583923}
   m_Layer: 0
   m_Name: Goddess
   m_TagString: Untagged
@@ -197,6 +310,61 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &6306014683601583923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739080607605233527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 9108470261415062290}
+  sayDialog: {fileID: 0}
+  sounds:
+  - name: 5
+    clip: {fileID: 8300000, guid: 611e9389e11e28d438d9509fe31b3eae, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 6
+    clip: {fileID: 8300000, guid: d6614f77e6c835a42bc55eac635d37e4, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 7
+    clip: {fileID: 8300000, guid: 953141a1af3e5174b974912fe729f5aa, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 8
+    clip: {fileID: 8300000, guid: 153a23fbd2febe942a3f4e20ae1c3fc6, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 9
+    clip: {fileID: 8300000, guid: 4fd53251c50b7034b910d6933892ec6e, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
+  timer: 0.195
+  timerReset: 0.195
 --- !u!1 &9108470261415062293
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9108470261415062291}
   - component: {fileID: 9108470261415062290}
+  - component: {fileID: 768137093}
   m_Layer: 0
   m_Name: Swiss
   m_TagString: Untagged
@@ -242,7 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Swiss
   nameColor: {r: 0, g: 0, b: 0, a: 1}
-  soundEffect: {fileID: 8300000, guid: 09b39a028d9626e47ac0e6fbb95aa255, type: 3}
+  soundEffect: {fileID: 8300000, guid: 611e9389e11e28d438d9509fe31b3eae, type: 3}
   portraits:
   - {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
   - {fileID: 21300000, guid: 5757fac72697a7344a505d02e575a844, type: 3}
@@ -253,6 +422,61 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &768137093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108470261415062293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 9108470261415062290}
+  sayDialog: {fileID: 0}
+  sounds:
+  - name: 5
+    clip: {fileID: 8300000, guid: 611e9389e11e28d438d9509fe31b3eae, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 6
+    clip: {fileID: 8300000, guid: d6614f77e6c835a42bc55eac635d37e4, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 7
+    clip: {fileID: 8300000, guid: 953141a1af3e5174b974912fe729f5aa, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 8
+    clip: {fileID: 8300000, guid: 153a23fbd2febe942a3f4e20ae1c3fc6, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 9
+    clip: {fileID: 8300000, guid: 4fd53251c50b7034b910d6933892ec6e, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
+  timer: 0.195
+  timerReset: 0.195
 --- !u!1 &9108470262002470945
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9108470262002470959}
   - component: {fileID: 9108470262002470958}
+  - component: {fileID: 3117943494772310907}
   m_Layer: 0
   m_Name: Protag
   m_TagString: Untagged
@@ -303,3 +528,58 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
+--- !u!114 &3117943494772310907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108470262002470945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0bbe985ae97f2428dbb88278bb44f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 9108470262002470958}
+  sayDialog: {fileID: 0}
+  sounds:
+  - name: 5
+    clip: {fileID: 8300000, guid: 632c8fec9692710429c3631764ba63e1, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 6
+    clip: {fileID: 8300000, guid: 89965ae7ecfb2104baee63b85ac6eafc, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 7
+    clip: {fileID: 8300000, guid: 9d1cb2f8770b04641a630d2f23f10460, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 8
+    clip: {fileID: 8300000, guid: 646a3d32bcae4b7438d4a7bda1a40d4e, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  - name: 9
+    clip: {fileID: 8300000, guid: f2927ce376901124a98bf96b47b779e3, type: 3}
+    masterVolume: 0.5
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+  s:
+    name: 0
+    clip: {fileID: 0}
+    masterVolume: 0
+    volume: 0
+    pitch: 0
+    source: {fileID: 0}
+  settings: {fileID: 0}
+  timer: 0.195
+  timerReset: 0.195
