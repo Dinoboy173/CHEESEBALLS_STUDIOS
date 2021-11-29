@@ -8,6 +8,8 @@ using Fungus;
 public class CharacterRandomTalk : MonoBehaviour
 {
     public Character character;
+
+    public Canvas sayDialog;
     
     public Sound[] sounds;
 
@@ -39,22 +41,24 @@ public class CharacterRandomTalk : MonoBehaviour
         }
     }
 
-    public void FixedUpdate()
+    public void Update()
     {
         timer = timer - Time.deltaTime;
 
-        if (timer <= 0)
+        if (timer <= 0 && sayDialog.gameObject.activeInHierarchy) 
         {
-            int vowelNum = UnityEngine.Random.Range(0, 5);
+            int vowelNum = UnityEngine.Random.Range(5, Enum.GetNames(typeof(SoundNames)).Length);
 
-            Debug.Log("Vowel " + (int)SoundNames.VowelA);
-            Debug.Log("Random Num " + vowelNum);
+            s = Array.Find(sounds, sound => sound.name.ToString() == Enum.GetName(typeof(SoundNames), vowelNum));
 
-            s = Array.Find(sounds, sound => (int)sound.name == vowelNum);
+            if (s.clip == sayDialog.GetComponent<AudioSource>().clip)
+                return;
 
             timer = timerReset;
 
-            character.soundEffect = s.clip;
+            sayDialog.GetComponent<AudioSource>().clip = s.clip;
+            sayDialog.GetComponent<AudioSource>().loop = false;
+            sayDialog.GetComponent<AudioSource>().Play();
         }
     }
 
