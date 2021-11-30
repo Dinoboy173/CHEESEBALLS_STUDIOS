@@ -5,16 +5,24 @@ using UnityEngine;
 public class TurnOffCollider : MonoBehaviour
 {
 
-    public GameObject Hut;
-    public GameObject Mansion;
-    public GameObject Cave;
-    public GameObject PauseHandler;
+    public GameObject hut; // or left cheese
+    public GameObject mansion; // or middle cheese
+    public GameObject cave; // or right cheese
+    public GameObject pauseHandler;
+    bool isPauseOn = false;
 
     void Update()
     {
-        if (PauseHandler.activeInHierarchy == true)
-            ColliderOff();
-        else
+        for(int i = 0; i < pauseHandler.transform.childCount; i++)
+        {
+            if (pauseHandler.transform.GetChild(i).gameObject.activeInHierarchy)
+            {
+                ColliderOff();
+                isPauseOn = true;
+            }
+        }
+
+        if(isPauseOn == false)
         {
             ColliderOn();
         }
@@ -24,9 +32,9 @@ public class TurnOffCollider : MonoBehaviour
     void ColliderOff()
     {
        
-        Collider hutCollider = Hut.GetComponent<SphereCollider>();
-        Collider mansionCollider = Mansion.GetComponent<SphereCollider>();
-        Collider caveCollider = Cave.GetComponent<SphereCollider>();
+        Collider hutCollider = hut.GetComponent<SphereCollider>();
+        Collider mansionCollider = mansion.GetComponent<SphereCollider>();
+        Collider caveCollider = cave.GetComponent<SphereCollider>();
         hutCollider.enabled = false;
         mansionCollider.enabled = false;
         caveCollider.enabled = false;
@@ -35,9 +43,9 @@ public class TurnOffCollider : MonoBehaviour
     void ColliderOn()
     {
 
-        Collider hutCollider = Hut.GetComponent<SphereCollider>();
-        Collider mansionCollider = Mansion.GetComponent<SphereCollider>();
-        Collider caveCollider = Cave.GetComponent<SphereCollider>();
+        Collider hutCollider = hut.GetComponent<SphereCollider>();
+        Collider mansionCollider = mansion.GetComponent<SphereCollider>();
+        Collider caveCollider = cave.GetComponent<SphereCollider>();
         hutCollider.enabled = true;
         mansionCollider.enabled = true;
         caveCollider.enabled = true;
