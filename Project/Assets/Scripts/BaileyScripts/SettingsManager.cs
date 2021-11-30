@@ -69,17 +69,24 @@ public class SettingsManager : MonoBehaviour
         for (int i = 0; i < resolutions.Length; i++)
         {
             string option = resolutions[i].width + " x " + resolutions[i].height;
-            foreach (var item in options)
+            options.Add(option);
+
+            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].width == Screen.currentResolution.height)
             {
-                if (item == option)
-                {
-                    doubleRes = true;
-                }
-                if (doubleRes == true)
-                    break;
+                resolutionInd = i;
             }
-            if (doubleRes == false)
-                options.Add(option);
+
+            //foreach (var item in options)
+            //{
+            //    if (item == option)
+            //    {
+            //        doubleRes = true;
+            //    }
+            //    if (doubleRes == true)
+            //        break;
+            //}
+            //if (doubleRes == false)
+            //    options.Add(option);
         }
 
         resolutionDropdown.AddOptions(options);
@@ -88,9 +95,9 @@ public class SettingsManager : MonoBehaviour
     }
     public void SetResolution(int resolutionIndex)
     {
+        resolutionInd = resolutionIndex;
         Resolution resolution = resolutions[resolutionIndex];
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen); //Get Size of Window
-        resolutionInd = resolutionIndex;
     }
 
     public void SetFullscreen(bool isFullscreen)
