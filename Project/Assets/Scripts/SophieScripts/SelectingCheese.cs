@@ -8,7 +8,6 @@ public class SelectingCheese : MonoBehaviour
     public bool isEndGame = false;
     public GameObject dialogBox;
     public Flowchart flowchart;
-    public int buyableInterestLimit = 75; // variable is obsolete change
 
     [Space(10)]
 
@@ -49,19 +48,19 @@ public class SelectingCheese : MonoBehaviour
             int interestCheddar = flowchart.GetIntegerVariable("interestCheddar");
             int interestBlue = flowchart.GetIntegerVariable("interestBlue");
 
-            if (cheddarClicked && interestCheddar >= buyableInterestLimit)
+            if (cheddarClicked)
             {
                 cheddarEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
             }
 
-            if (swissClicked && interestSwiss >= buyableInterestLimit)
+            if (swissClicked)
             {
                 swissEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
             }
 
-            if (blueClicked && interestBlue >= buyableInterestLimit)
+            if (blueClicked)
             {
                 blueEnd.gameObject.SetActive(true);
                 dialogBox.SetActive(false);
