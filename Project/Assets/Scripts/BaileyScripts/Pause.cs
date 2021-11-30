@@ -54,12 +54,8 @@ public class Pause : MonoBehaviour
             if (pauseHolder.transform.GetChild(i).gameObject.activeInHierarchy)
             {
                 ifPause = false;
-                Debug.Log("Can't Pause");
             }
         }
-
-        if (ifPause == true)
-            Debug.Log("Can Pause");
 
 
         if (Input.GetKeyDown(KeyCode.Escape) && ifPause == true)

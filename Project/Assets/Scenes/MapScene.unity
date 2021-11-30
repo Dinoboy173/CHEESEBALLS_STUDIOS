@@ -13402,6 +13402,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PR_Characters
       objectReference: {fileID: 0}
+    - target: {fileID: 2182928443369232501, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2834968903810187518, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3117943494772310907, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: settings
       value: 
@@ -13414,6 +13422,10 @@ PrefabInstance:
       propertyPath: settings
       value: 
       objectReference: {fileID: 592620380}
+    - target: {fileID: 3739080607605233527, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6053626346177431226, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -13462,6 +13474,14 @@ PrefabInstance:
       propertyPath: settings
       value: 
       objectReference: {fileID: 592620380}
+    - target: {fileID: 9108470261415062293, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108470262002470945, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb883743b2c512418c722908f72a119, type: 3}
 --- !u!114 &988123147 stripped
@@ -21287,7 +21307,7 @@ GameObject:
   - component: {fileID: 1113208317}
   - component: {fileID: 1113208316}
   m_Layer: 0
-  m_Name: SaveHandler
+  m_Name: PauseHandler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21305,10 +21325,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e39b0b4a2beb83a4fb71412ff665e8c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hut: {fileID: 183396075}
-  Mansion: {fileID: 1244548311}
-  Cave: {fileID: 449595114}
-  PauseHandler: {fileID: 0}
+  hut: {fileID: 183396075}
+  mansion: {fileID: 1244548311}
+  cave: {fileID: 449595114}
+  blue: {fileID: 0}
+  chedder: {fileID: 0}
+  swiss: {fileID: 0}
+  pauseHandler: {fileID: 2117979872}
 --- !u!4 &1113208317
 Transform:
   m_ObjectHideFlags: 0
