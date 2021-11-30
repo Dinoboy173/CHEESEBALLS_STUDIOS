@@ -8,7 +8,7 @@ public class SelectingCheese : MonoBehaviour
     public bool isEndGame = false;
     public GameObject dialogBox;
     public Flowchart flowchart;
-    public int buyableInterestLimit = 75;
+    public int buyableInterestLimit = 75; // variable is obsolete change
 
     [Space(10)]
 

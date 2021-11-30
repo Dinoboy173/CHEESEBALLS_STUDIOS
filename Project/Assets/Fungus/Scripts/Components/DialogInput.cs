@@ -125,7 +125,7 @@ namespace Fungus
                 }
             }
             //to display the time before continueing 
-            Debug.Log(timer);
+            // Debug.Log(timer);
             switch (clickMode)
             {
             case ClickMode.Disabled:
