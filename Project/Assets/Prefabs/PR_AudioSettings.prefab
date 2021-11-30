@@ -43,3 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fab8bbcd368147489073944f4a649d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  getSettings: 0
+  master: 1
+  volume: 0.2
+  pitch: 1
+  clip: 0
+  time: 0
+  manager: {fileID: 0}

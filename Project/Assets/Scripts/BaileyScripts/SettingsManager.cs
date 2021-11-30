@@ -122,6 +122,8 @@ public class SettingsManager : MonoBehaviour
     public void SetVolume(float volume)
     {
         setVolume = volume;
+
+
         audioMixer.SetFloat("Volume", setVolume);
     }
 

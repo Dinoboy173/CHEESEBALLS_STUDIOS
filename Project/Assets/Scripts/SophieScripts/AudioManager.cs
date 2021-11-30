@@ -22,7 +22,7 @@ public class AudioManager : MonoBehaviour
     public void StartUp()
     {
         UpdateLocalValues();
-
+        int i = 0;
         foreach (Sound sound in sounds) // sets source sounds variables
         {
             sound.source = gameObject.AddComponent<AudioSource>();
@@ -31,7 +31,11 @@ public class AudioManager : MonoBehaviour
             sound.source.volume = volume * master;
             sound.source.pitch = pitch;
             sound.source.outputAudioMixerGroup = audioMixer;
-            
+            if(i < 4)
+            {
+                sound.source.loop = true;
+            }
+            i++;
         }
     }
 

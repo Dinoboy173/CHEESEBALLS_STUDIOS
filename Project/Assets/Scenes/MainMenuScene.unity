@@ -17999,11 +17999,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6746314004063794254, guid: 2847c0f287dc2fa4eb44518eccd542f6, type: 3}
       propertyPath: master
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6746314004063794254, guid: 2847c0f287dc2fa4eb44518eccd542f6, type: 3}
       propertyPath: volume
-      value: 1
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 6746314004063794254, guid: 2847c0f287dc2fa4eb44518eccd542f6, type: 3}
       propertyPath: manager
