@@ -365,6 +365,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4036011000852206630, guid: d3b6b45c2b524ca47a9bd3d1f03c7f33, type: 3}
   m_PrefabInstance: {fileID: 4801750}
   m_PrefabAsset: {fileID: 0}
+--- !u!223 &54660715 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4036011000852206621, guid: d3b6b45c2b524ca47a9bd3d1f03c7f33, type: 3}
+  m_PrefabInstance: {fileID: 4801750}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &94306305 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2927075568757660244, guid: 833c2e4d43c868a40af44b72a64544c7, type: 3}
@@ -2875,7 +2880,6 @@ MonoBehaviour:
   isEndGame: 1
   dialogBox: {fileID: 54660705}
   flowchart: {fileID: 293247522}
-  buyableInterestLimit: 60
   cheddarClicked: 0
   swissClicked: 0
   blueClicked: 0
@@ -3947,6 +3951,10 @@ PrefabInstance:
       propertyPath: settings
       value: 
       objectReference: {fileID: 207561049}
+    - target: {fileID: 768137093, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: sayDialog
+      value: 
+      objectReference: {fileID: 54660715}
     - target: {fileID: 1664284234597394357, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: m_Name
       value: PR_Characters
@@ -3955,22 +3963,26 @@ PrefabInstance:
       propertyPath: settings
       value: 
       objectReference: {fileID: 207561049}
+    - target: {fileID: 3117943494772310907, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: sayDialog
+      value: 
+      objectReference: {fileID: 54660715}
     - target: {fileID: 3286609231297980643, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: settings
       value: 
       objectReference: {fileID: 207561049}
     - target: {fileID: 3286609231297980643, guid: deb883743b2c512418c722908f72a119, type: 3}
-      propertyPath: character
+      propertyPath: sayDialog
       value: 
-      objectReference: {fileID: 1794289475}
+      objectReference: {fileID: 54660715}
     - target: {fileID: 3384382774661947277, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: settings
       value: 
       objectReference: {fileID: 207561049}
     - target: {fileID: 3384382774661947277, guid: deb883743b2c512418c722908f72a119, type: 3}
-      propertyPath: character
+      propertyPath: sayDialog
       value: 
-      objectReference: {fileID: 1794289476}
+      objectReference: {fileID: 54660715}
     - target: {fileID: 6053626346177431226, guid: deb883743b2c512418c722908f72a119, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -4020,44 +4032,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 207561049}
     - target: {fileID: 6306014683601583923, guid: deb883743b2c512418c722908f72a119, type: 3}
-      propertyPath: character
+      propertyPath: sayDialog
       value: 
-      objectReference: {fileID: 1794289477}
+      objectReference: {fileID: 54660715}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb883743b2c512418c722908f72a119, type: 3}
---- !u!114 &1794289475 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 175550848452143954, guid: deb883743b2c512418c722908f72a119, type: 3}
-  m_PrefabInstance: {fileID: 1794289474}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1794289476 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6538423011153920772, guid: deb883743b2c512418c722908f72a119, type: 3}
-  m_PrefabInstance: {fileID: 1794289474}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1794289477 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6299933126091377017, guid: deb883743b2c512418c722908f72a119, type: 3}
-  m_PrefabInstance: {fileID: 1794289474}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1852612220 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8991290242713181801, guid: 32c6e1c280b0d964ba94e554013e6402, type: 3}
