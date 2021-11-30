@@ -914,6 +914,8 @@ namespace Fungus
                 var writerListener = writerListeners[i];
                 writerListener.OnAllWordsWritten();
             }
+            myPause = GameObject.Find("PauseMenu");
+            myPause.GetComponent<SettingsManager>().CanSkip = true;
 
         }
 

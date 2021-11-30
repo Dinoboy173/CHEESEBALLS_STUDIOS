@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.EventSystems;
 
+
 public class SettingsManager : MonoBehaviour
 {
     public AudioMixer audioMixer;
@@ -16,7 +17,7 @@ public class SettingsManager : MonoBehaviour
     public Toggle isFull;
     public Dropdown qualityDropdown;
 
-
+    public bool CanSkip = false;
     Resolution[] resolutions;
 
     int[] textSpeeds = new int[5] { 15, 30, 60, 90, 120 };
@@ -121,6 +122,8 @@ public class SettingsManager : MonoBehaviour
     public void SetVolume(float volume)
     {
         setVolume = volume;
+
+
         audioMixer.SetFloat("Volume", setVolume);
     }
 

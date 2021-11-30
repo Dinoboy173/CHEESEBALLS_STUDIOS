@@ -2,79 +2,84 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using Fungus;
+using UnityEngine.SceneManagement;
 
 public class FetchQuestPickUpItem : MonoBehaviour
 {
-    [Header("What Cheese Does This Belong To?")]
-    public bool cheddar = false;
-    public bool swiss = false;
-    public bool blue = false;
+    // variable to not appear
+    // change active to can be collected
+    // change complete to collected
+
+    public Scenes scene;
+
+    // Beach fungus variable names
+    string beachCollectable = "beachCollectable";
+    string beachCollected = "beachCollected";
+
+    // Cave fungus variable names
+    string caveCollectable = "caveCollectable";
+    string caveCollected = "caveCollected";
+
+    // Mansion fungus variable names
+    string mansionCollectable = "mansionCollectable";
+    string mansionCollected = "mansionCollected";
+
+    string sCollectable = "";
+    string sCollected = "";
 
     [Header("Conditions")]
-    public bool isFetchQuestActive = false;
-    public bool isFetchQuestComplete = false;
+    public bool isCollectable = false;
+    public bool isCollected = false;
 
-    [Space(10)] // is this needed?
-    public FetchQuests questManager;
-    public string questName = "";
+    [Space(10)]
+    public FetchQuests questManager; // is the needed
+    public Flowchart flowchart;
 
-    bool hasError = false;
-
-    private void Start()
+    private void Awake()
     {
-        if (cheddar && !swiss && !blue)
+        if (scene == Scenes.BeachScene)
         {
-            isFetchQuestActive = questManager.cheddarActiveFetchQuest;
-            isFetchQuestComplete = questManager.cheddarCompleteFetchQuest;
+            sCollectable = beachCollectable;
+            sCollected = beachCollected;
         }
-        else if (swiss && !cheddar && !blue)
+        else if (scene == Scenes.CaveScene)
         {
-            isFetchQuestActive = questManager.swissActiveFetchQuest;
-            isFetchQuestComplete = questManager.swissCompleteFetchQuest;
+            sCollectable = caveCollectable;
+            sCollected = caveCollected;
         }
-        else if (blue && !cheddar && !swiss)
+        else if (scene == Scenes.MansionScene)
         {
-            isFetchQuestActive = questManager.blueActiveFetchQuest;
-            isFetchQuestComplete = questManager.blueCompleteFetchQuest;
+            sCollectable = mansionCollectable;
+            sCollected = mansionCollected;
         }
-        else
-        {
-            if (!cheddar && !swiss && !blue)
-            {
-                Debug.LogError("No Cheese Selected For Quest");
-                hasError = !hasError;
-            }
-            else
-            {
-                Debug.LogError("Too Many Cheese Selected For Quest");
-                hasError = !hasError;
-            }
-        }
+
+        isCollectable = flowchart.GetBooleanVariable(sCollectable);
+        isCollected = flowchart.GetBooleanVariable(sCollected);
+
+        if (isCollected)
+            this.gameObject.SetActive(false);
     }
 
     void Update()
     {
-        
+        if (flowchart.GetBooleanVariable(sCollectable) && !isCollectable)
+            isCollectable = true;
+
+        if (Input.GetKeyDown(KeyCode.F5))
+            flowchart.ExecuteBlock("Fetch Quest Start");
     }
 
     public void Clicked()
     {
-        if (!hasError)
+        if (isCollectable)
         {
             this.gameObject.SetActive(false);
 
-            isFetchQuestComplete = !isFetchQuestComplete;
-
-            if (cheddar)
-                questManager.cheddarCompleteFetchQuest = true;
-            else if (swiss)
-                questManager.swissCompleteFetchQuest = true;
-            else if (blue)
-                questManager.blueCompleteFetchQuest = true;
-        }
-        else
-        {
-            Debug.LogError("Amount Of Cheese Assigned Not Equal To One");
+            isCollected = !isCollected;
+            isCollectable = !isCollectable;
+            flowchart.SetBooleanVariable(sCollectable, false);
+            flowchart.SetBooleanVariable(sCollected, true);
         }
     }
 }

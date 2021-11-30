@@ -19,6 +19,7 @@ public class Save : MonoBehaviour
     public Button setSave2;
     public Button setSave3;
 
+    public Button resumeLastGame;
     public Button setLoad1;
     public Button setLoad2;
     public Button setLoad3;
@@ -59,7 +60,7 @@ public class Save : MonoBehaviour
             isMenuOn = true;
             saveMenuButton.onClick.Invoke();
         }
-
+        resumeLastGame.onClick.AddListener(AutoChange);
 
 
         //if(isMenuOn == true)

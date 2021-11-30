@@ -114,18 +114,19 @@ namespace Fungus
                     }
                 }
 
-                else
+                else if(isSkip == true && myPause.GetComponent<SettingsManager>().CanSkip == true)
                 {
                     timer += Time.deltaTime;
                     if (timer > 3)
                     {
                         SetNextLineFlag();
                         timer = 0.0f;
+                        myPause.GetComponent<SettingsManager>().CanSkip = false;
                     }
                 }
             }
             //to display the time before continueing 
-            Debug.Log(timer);
+            // Debug.Log(timer);
             switch (clickMode)
             {
             case ClickMode.Disabled:
