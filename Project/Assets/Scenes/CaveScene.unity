@@ -10879,6 +10879,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+--- !u!224 &1454600267 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 812583031696719103, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+  m_PrefabInstance: {fileID: 1454600266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1454600268 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 812583031627787311, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+  m_PrefabInstance: {fileID: 1454600266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1462403850
 GameObject:
   m_ObjectHideFlags: 0
@@ -15802,16 +15812,6 @@ GameObject:
   - component: {fileID: 2107074574}
   - component: {fileID: 2107074573}
   - component: {fileID: 2107074572}
-  - component: {fileID: 2107074571}
-  - component: {fileID: 2107074570}
-  - component: {fileID: 2107074569}
-  - component: {fileID: 2107074568}
-  - component: {fileID: 2107074567}
-  - component: {fileID: 2107074566}
-  - component: {fileID: 2107074565}
-  - component: {fileID: 2107074564}
-  - component: {fileID: 2107074563}
-  - component: {fileID: 2107074562}
   - component: {fileID: 2107074561}
   - component: {fileID: 2107074560}
   - component: {fileID: 2107074559}
@@ -15836,9 +15836,6 @@ GameObject:
   - component: {fileID: 2107074540}
   - component: {fileID: 2107074539}
   - component: {fileID: 2107074538}
-  - component: {fileID: 2107074537}
-  - component: {fileID: 2107074536}
-  - component: {fileID: 2107074535}
   - component: {fileID: 2107074534}
   - component: {fileID: 2107074533}
   - component: {fileID: 2107074532}
@@ -15853,8 +15850,6 @@ GameObject:
   - component: {fileID: 2107074523}
   - component: {fileID: 2107074522}
   - component: {fileID: 2107074521}
-  - component: {fileID: 2107074520}
-  - component: {fileID: 2107074519}
   - component: {fileID: 2107074518}
   - component: {fileID: 2107074517}
   - component: {fileID: 2107074516}
@@ -16226,6 +16221,47 @@ GameObject:
   - component: {fileID: 2107075190}
   - component: {fileID: 2107075189}
   - component: {fileID: 2107075013}
+  - component: {fileID: 2107075242}
+  - component: {fileID: 2107075241}
+  - component: {fileID: 2107075240}
+  - component: {fileID: 2107075239}
+  - component: {fileID: 2107074520}
+  - component: {fileID: 2107074519}
+  - component: {fileID: 2107075264}
+  - component: {fileID: 2107075263}
+  - component: {fileID: 2107075262}
+  - component: {fileID: 2107075261}
+  - component: {fileID: 2107075260}
+  - component: {fileID: 2107075259}
+  - component: {fileID: 2107075258}
+  - component: {fileID: 2107075257}
+  - component: {fileID: 2107075256}
+  - component: {fileID: 2107075255}
+  - component: {fileID: 2107075254}
+  - component: {fileID: 2107075253}
+  - component: {fileID: 2107075252}
+  - component: {fileID: 2107075251}
+  - component: {fileID: 2107075250}
+  - component: {fileID: 2107075249}
+  - component: {fileID: 2107075248}
+  - component: {fileID: 2107075247}
+  - component: {fileID: 2107075246}
+  - component: {fileID: 2107075245}
+  - component: {fileID: 2107075244}
+  - component: {fileID: 2107075243}
+  - component: {fileID: 2107074571}
+  - component: {fileID: 2107074570}
+  - component: {fileID: 2107074569}
+  - component: {fileID: 2107074568}
+  - component: {fileID: 2107074563}
+  - component: {fileID: 2107074564}
+  - component: {fileID: 2107074566}
+  - component: {fileID: 2107074567}
+  - component: {fileID: 2107074565}
+  - component: {fileID: 2107074535}
+  - component: {fileID: 2107074536}
+  - component: {fileID: 2107074537}
+  - component: {fileID: 2107074562}
   m_Layer: 0
   m_Name: BlueDialogFlowChart
   m_TagString: Untagged
@@ -16268,9 +16304,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 540
   indentLevel: 0
-  storyText: 
+  storyText: "Oh, you\u2019re here. That\u2019s slightly better, you can tell Cheddar
+    to get out faster, because I haven\u2019t seen any dumbbells around here."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16295,9 +16332,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 539
   indentLevel: 0
-  storyText: 
+  storyText: "Cheddar, not interested right now. Whatever you want me to do this
+    time, I\u2019m going to say no."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16322,9 +16360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 538
   indentLevel: 0
-  storyText: 
+  storyText: "Hey Blue, it\u2019s me again."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16349,9 +16387,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3554.0464
-    y: 165.06116
-    width: 101.31577
+    x: 3281.9536
+    y: -133.62305
+    width: 99.45057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16360,8 +16398,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 2107075242}
   - {fileID: 2107074515}
+  - {fileID: 2107074520}
   - {fileID: 2107074514}
+  - {fileID: 2107075240}
+  - {fileID: 2107075241}
   - {fileID: 2107074513}
   - {fileID: 2107074512}
   suppressAllAutoSelections: 0
@@ -16379,7 +16421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 536
   indentLevel: 0
-  text: Option Text
+  text: Do you have something against Cheddar?
   description: 
   targetBlock: {fileID: 2107074531}
   hideIfVisited: 0
@@ -16404,7 +16446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 535
   indentLevel: 0
-  text: Option Text
+  text: "Let\u2019s leave"
   description: 
   targetBlock: {fileID: 2107074527}
   hideIfVisited: 0
@@ -16427,9 +16469,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 534
+  itemId: 1167
   indentLevel: 0
-  storyText: 
+  storyText: 'Do we seriously have to stay? Blue is not friendly at all right now. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16451,24 +16493,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 2107074511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 533
+  itemId: 1166
   indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1276434694}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 4f3cae71fda6ba44591b6e465ef5fc5f, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1454600267}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!114 &2107074521
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -16483,9 +16528,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 532
   indentLevel: 0
-  storyText: 
+  storyText: "Why do you have to be instantly rude? You didn\u2019t even know why
+    I was here."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16510,7 +16556,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 531
   indentLevel: 0
-  storyText: 
+  storyText: 'The atmosphere is already super tense. Does Cheddar not realise that
+    Blue enjoys being alone, or is he pushy on purpose? '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16537,9 +16584,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3397.0918
-    y: 165.07632
-    width: 101.31577
+    x: 3437.5925
+    y: -134.9237
+    width: 100.54947
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16549,9 +16596,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2107074522}
+  - {fileID: 2107075239}
   - {fileID: 2107074521}
-  - {fileID: 2107074520}
-  - {fileID: 2107074519}
   - {fileID: 2107074518}
   - {fileID: 2107074517}
   suppressAllAutoSelections: 0
@@ -16590,9 +16636,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 528
   indentLevel: 0
-  storyText: 
+  storyText: "No, Blue is always just a bit moody whenever I come around. Let\u2019s
+    stay."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16617,9 +16664,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 527
   indentLevel: 0
-  storyText: 
+  storyText: "Ok Cheddar, the dumbbell isn\u2019t here, let\u2019s leave now before
+    things escalate. "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16644,19 +16692,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3269.092
-    y: 123.0762
-    width: 107.894714
+    x: 3566.908
+    y: -176.92383
+    width: 112.63739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 280
-  blockName: FQOption1
+  blockName: Let's Leave
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2107074526}
   - {fileID: 2107074525}
+  - {fileID: 2107074519}
   - {fileID: 2107074524}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074528
@@ -16694,9 +16743,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 524
   indentLevel: 0
-  storyText: 
+  storyText: "They do not\u2026"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16721,9 +16770,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 523
   indentLevel: 0
-  storyText: 
+  storyText: Blue, do you have something against Cheddar?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16748,19 +16797,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3267.092
-    y: 209.07635
-    width: 107.894714
+    x: 3568.908
+    y: -90.923645
+    width: 148.90114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 281
-  blockName: FQOption2
+  blockName: something against
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2107074530}
   - {fileID: 2107074529}
+  - {fileID: 2107075264}
   - {fileID: 2107074528}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074532
@@ -16777,7 +16827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 521
   indentLevel: 0
-  text: Option Text
+  text: Do we need to talk with Blue?
   description: 
   targetBlock: {fileID: 2107074549}
   hideIfVisited: 0
@@ -16802,7 +16852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 520
   indentLevel: 0
-  text: Option Text
+  text: Let's leave Blue alone.
   description: 
   targetBlock: {fileID: 2107074545}
   hideIfVisited: 0
@@ -16827,7 +16877,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 519
   indentLevel: 0
-  storyText: 
+  storyText: "It\u2019s obvious that Blue wants to be alone, but Cheddar doesn\u2019t
+    want to budge. "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16842,7 +16893,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074535
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16852,9 +16903,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 518
+  itemId: 1203
   indentLevel: 0
-  storyText: 
+  storyText: 'Cheddar hands me the dumbbell before he starts walking out. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -16869,7 +16920,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074536
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16879,11 +16930,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 517
+  itemId: 1204
   indentLevel: 0
-  storyText: 
+  storyText: "Yes, I did. I guess I\u2019ll be going now."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16896,7 +16947,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074537
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -16906,11 +16957,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 516
+  itemId: 1205
   indentLevel: 0
-  storyText: 
+  storyText: Wait, you found it?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16935,9 +16986,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 515
   indentLevel: 0
-  storyText: 
+  storyText: "Well, as Cheddar said, we\u2019re all here now. You were willing to
+    talk to me earlier Blue, maybe we can try and talk again? "
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16962,9 +17014,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 514
   indentLevel: 0
-  storyText: 
+  storyText: "You\u2019re a genius, you know that?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -16989,9 +17041,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 513
   indentLevel: 0
-  storyText: 
+  storyText: '?'
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17016,24 +17068,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3109.092
-    y: 174.07639
-    width: 102.63156
+    x: 3726.908
+    y: -125.923584
+    width: 133.51651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 282
-  blockName: FQNode3
+  blockName: end of dialogue
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 2107074540}
-  - {fileID: 2107074539}
-  - {fileID: 2107074538}
-  - {fileID: 2107074537}
-  - {fileID: 2107074536}
-  - {fileID: 2107074535}
+  - {fileID: 2107075262}
+  - {fileID: 2107075263}
   - {fileID: 2107074534}
+  - {fileID: 2107074538}
+  - {fileID: 2107075261}
+  - {fileID: 2107075260}
+  - {fileID: 2107074539}
+  - {fileID: 2107074540}
+  - {fileID: 2107075259}
+  - {fileID: 2107075258}
+  - {fileID: 2107075255}
+  - {fileID: 2107075256}
+  - {fileID: 2107075257}
   - {fileID: 2107074533}
   - {fileID: 2107074532}
   suppressAllAutoSelections: 0
@@ -17072,9 +17130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 510
   indentLevel: 0
-  storyText: 
+  storyText: They clearly want to be left alone.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17099,9 +17157,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 509
   indentLevel: 0
-  storyText: 
+  storyText: Cheddar, I think we should leave Blue alone.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17126,19 +17184,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2991.0923
-    y: 128.89438
-    width: 109.21051
+    x: 3913.33
+    y: -172.42139
+    width: 139.01102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 298
-  blockName: FQOption3
+  blockName: leave blue alone
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2107074544}
+  - {fileID: 2107075252}
+  - {fileID: 2107075254}
   - {fileID: 2107074543}
+  - {fileID: 2107075251}
+  - {fileID: 2107075253}
   - {fileID: 2107074542}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074546
@@ -17176,9 +17238,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 506
   indentLevel: 0
-  storyText: 
+  storyText: "Talking with other people is a necessary part of life, you can\u2019t
+    just sit in a cave all day, every day. I\u2019m trying to help Blue here."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17203,9 +17266,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 505
   indentLevel: 0
-  storyText: 
+  storyText: Should we really be talking with Blue? Maybe you should come back another
+    time.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17230,14 +17294,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2990.0923
-    y: 221.0763
-    width: 109.21051
+    x: 3870.912
+    y: -71.02898
+    width: 210.43964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 299
-  blockName: FQOption4
+  blockName: do we need to talk with blue?
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -17259,7 +17323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 503
   indentLevel: 0
-  text: Option Text
+  text: I should say I found the dumbbell
   description: 
   targetBlock: {fileID: 2107074561}
   hideIfVisited: 0
@@ -17284,7 +17348,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 502
   indentLevel: 0
-  text: Option Text
+  text: I should look for the dumbbell.
   description: 
   targetBlock: {fileID: 2107074558}
   hideIfVisited: 0
@@ -17309,9 +17373,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 501
   indentLevel: 0
-  storyText: 
+  storyText: "I\u2019ll change how I act when I feel like changing, and right now,
+    I feel pretty good with how I act."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17336,9 +17401,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 500
   indentLevel: 0
-  storyText: 
+  storyText: "Again, I\u2019m just trying to help you, but you refuse my help, and
+    you don\u2019t ever change."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17363,9 +17429,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 499
   indentLevel: 0
-  storyText: 
+  storyText: "You just don\u2019t listen to me, ever. The person here who has only
+    known both of us over like, a single hour, understands better than you do Cheddar.
+    You treat me like a child, when I don\u2019t want your help at all!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17390,9 +17458,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2862.0925
-    y: 173.07639
-    width: 102.63156
+    x: 4133.1147
+    y: -132.18678
+    width: 101.64838
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17404,8 +17472,10 @@ MonoBehaviour:
   - {fileID: 2107074554}
   - {fileID: 2107074553}
   - {fileID: 2107074552}
+  - {fileID: 2107075250}
   - {fileID: 2107074551}
   - {fileID: 2107074550}
+  - {fileID: 2107075249}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074556
 MonoBehaviour:
@@ -17422,7 +17492,7 @@ MonoBehaviour:
   itemId: 497
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 2107074571}
+  targetBlock: {fileID: 2107074573}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -17442,7 +17512,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 496
   indentLevel: 0
-  storyText: 
+  storyText: "This is a dark cave, so there\u2019s a good chance that it\u2019s hidden
+    somewhere. If I can just get the dumbbell, I can convince Cheddar to leave."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17469,18 +17540,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2737.0896
-    y: 136.07626
-    width: 107.894714
+    x: 4283.118
+    y: -169.18686
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 311
-  blockName: FQOption5
+  blockName: Look for it
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 2107074557}
+  - {fileID: 2107075243}
+  - {fileID: 2107075244}
+  - {fileID: 2107075245}
+  - {fileID: 2107074571}
   - {fileID: 2107074556}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074559
@@ -17498,7 +17573,7 @@ MonoBehaviour:
   itemId: 494
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 2107074571}
+  targetBlock: {fileID: 2107074575}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -17518,7 +17593,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 493
   indentLevel: 0
-  storyText: 
+  storyText: 'Cheddar just wanted to get this dumbbell, so I should mention it so
+    that he can leave Blue alone. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -17545,14 +17621,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2734.089
-    y: 207.07635
-    width: 107.894714
+    x: 4283.4873
+    y: -98.186806
+    width: 98.35167
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 312
-  blockName: FQOption6
+  blockName: I found it
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -17561,57 +17637,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &2107074562
 MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107074511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 491
-  indentLevel: 0
-  text: Option Text
-  description: 
-  targetBlock: {fileID: 2107074575}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &2107074563
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107074511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 490
-  indentLevel: 0
-  text: Option Text
-  description: 
-  targetBlock: {fileID: 2107074573}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
---- !u!114 &2107074564
-MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17621,11 +17647,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 489
+  itemId: 1206
   indentLevel: 0
-  storyText: 
+  storyText: 'Looks like Cheddar found the dumbbell. '
   description: 
   character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107074563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1197
+  indentLevel: 0
+  storyText: Well, guess what I found.
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107074564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1198
+  indentLevel: 0
+  storyText: ...
+  description: 
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17638,7 +17718,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074565
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17648,11 +17728,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 488
+  itemId: 1201
   indentLevel: 0
-  storyText: 
+  storyText: Just let me have a look Blue, ok?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17665,7 +17745,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074566
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17675,11 +17755,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 487
+  itemId: 1199
   indentLevel: 0
-  storyText: 
+  storyText: "I already told you, I didn\u2019t see a dumbbell here, you\u2019ll
+    be wasting your time looking here."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17692,7 +17773,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074567
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17702,11 +17783,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 486
+  itemId: 1200
   indentLevel: 0
-  storyText: 
+  storyText: Oh, the dumbbell, right. I forgot that you were with us for a bit.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434696}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17719,7 +17800,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2107074568
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17729,11 +17810,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 485
+  itemId: 1196
   indentLevel: 0
-  storyText: 
+  storyText: "Cheddar, didn\u2019t you want to find the dumbbell you left here? Why
+    don\u2019t we just look for that?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17753,52 +17835,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 2107074511}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 484
+  itemId: 1195
   indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2107074586}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &2107074570
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2107074511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 483
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2107074571
 MonoBehaviour:
   m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17812,27 +17861,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2592.0935
-    y: 178.07639
-    width: 101.31577
+    x: 4535.4272
+    y: -21.360672
+    width: 148.90114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 317
-  blockName: FQNode5
+  itemId: 330
+  blockName: FQOption8 (Copy)
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 2107074570}
   - {fileID: 2107074569}
-  - {fileID: 2107074568}
-  - {fileID: 2107074567}
-  - {fileID: 2107074566}
-  - {fileID: 2107074565}
-  - {fileID: 2107074564}
-  - {fileID: 2107074563}
-  - {fileID: 2107074562}
   suppressAllAutoSelections: 0
+--- !u!114 &2107074571
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1192
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &2107074572
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -17868,9 +17936,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2471.094
-    y: 142.07626
-    width: 107.894714
+    x: 4546.4824
+    y: -163.18686
+    width: 108.24178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17879,6 +17947,16 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 2107074568}
+  - {fileID: 2107074567}
+  - {fileID: 2107074566}
+  - {fileID: 2107074565}
+  - {fileID: 2107074564}
+  - {fileID: 2107074563}
+  - {fileID: 2107074562}
+  - {fileID: 2107074537}
+  - {fileID: 2107074536}
+  - {fileID: 2107074535}
   - {fileID: 2107074572}
   suppressAllAutoSelections: 0
 --- !u!114 &2107074574
@@ -17916,9 +17994,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2468.094
-    y: 216.07632
-    width: 107.894714
+    x: 4549.4824
+    y: -89.18687
+    width: 108.24178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18207,9 +18285,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2334.095
-    y: 180.07639
-    width: 101.31577
+    x: 4683.4814
+    y: -125.186745
+    width: 100.54947
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18365,9 +18443,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -2192.0947
-    y: 181.07639
-    width: 101.31577
+    x: 4892.588
+    y: -122.87096
+    width: 100.54947
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19288,7 +19366,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -464.16867
     y: 949.0596
-    width: 114.47366
+    width: 112.63739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19315,7 +19393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -501.01068
     y: 767.48035
-    width: 113.157875
+    width: 110.43959
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19342,7 +19420,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -637.8528
     y: 1000.375
-    width: 119.736824
+    width: 119.2308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19369,7 +19447,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -636.5369
     y: 950.375
-    width: 121.05261
+    width: 120.329704
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19396,7 +19474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -640.48456
     y: 897.74316
-    width: 121.05261
+    width: 120.329704
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19423,7 +19501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -651.0111
     y: 821.4275
-    width: 119.736824
+    width: 119.2308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19450,7 +19528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -653.64246
     y: 770.1119
-    width: 119.736824
+    width: 118.1319
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19477,7 +19555,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -653.6427
     y: 720.1119
-    width: 119.736824
+    width: 119.2308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19554,7 +19632,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -811.5357
     y: 947.7435
-    width: 113.157875
+    width: 111.53848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19583,7 +19661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -818.1149
     y: 762.217
-    width: 113.157875
+    width: 111.53848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19821,7 +19899,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -660.25726
     y: 438.85425
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19848,7 +19926,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -533.4289
     y: 388.8539
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19875,7 +19953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -663.9163
     y: 330.31726
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20330,7 +20408,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -656.7438
     y: 654.37085
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20357,7 +20435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -660.54065
     y: 587.28253
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20384,7 +20462,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -509.909
     y: 580.9532
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20411,7 +20489,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -651.68005
     y: 523.9912
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20438,7 +20516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -830.1604
     y: 584.74994
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20467,7 +20545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1033.9247
     y: 107.83095
-    width: 101.31577
+    width: 101.64838
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20493,7 +20571,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -668.1406
     y: 262.8309
-    width: 114.47366
+    width: 114.83519
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20520,7 +20598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -816.24207
     y: 194.4769
-    width: 107.894714
+    width: 107.14288
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20548,7 +20626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -545.356
     y: 184.3504
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20575,7 +20653,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -684.597
     y: 129.92021
-    width: 114.47366
+    width: 114.83519
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20602,7 +20680,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -693.4577
     y: 57.768433
-    width: 113.157875
+    width: 113.73629
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20629,7 +20707,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -813.7107
     y: -1.7252731
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20657,7 +20735,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -577.0027
     y: -10.586113
-    width: 107.894714
+    width: 107.14288
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20684,7 +20762,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -695.99023
     y: -73.87719
-    width: 113.157875
+    width: 112.63739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20711,7 +20789,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -795.97815
     y: 384.05865
-    width: 106.57893
+    width: 106.043976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20739,7 +20817,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1027.6339
     y: 3.3387222
-    width: 99.999985
+    width: 99.45057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21765,7 +21843,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1503.4991
     y: -427.14478
-    width: 109.21051
+    width: 109.34068
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22193,7 +22271,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1063.1443
     y: -299.0194
-    width: 107.894714
+    width: 110.43959
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22341,7 +22419,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -951.397
     y: -367.0194
-    width: 98.6842
+    width: 99.45057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22449,7 +22527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -877.397
     y: -284.0194
-    width: 142.10522
+    width: 142.30774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22559,7 +22637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -873.397
     y: -232.01941
-    width: 130.26312
+    width: 128.022
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22670,7 +22748,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -796.397
     y: -397.0194
-    width: 114.47366
+    width: 117.033
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22780,7 +22858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -824.4608
     y: -337.40247
-    width: 161.84207
+    width: 163.18686
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22945,7 +23023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -612.4608
     y: -289.0194
-    width: 92.105255
+    width: 93.95606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23061,7 +23139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -498.6937
     y: -338.0194
-    width: 126.315765
+    width: 126.92311
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23172,7 +23250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -496.693
     y: -247.52475
-    width: 115.78945
+    width: 115.9341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23283,7 +23361,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -370.39697
     y: -292.0194
-    width: 110.5263
+    width: 110.43959
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23334,7 +23412,7 @@ MonoBehaviour:
   itemId: 1050
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 2107074930}
+  targetBlock: {fileID: 2107074516}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -23383,7 +23461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -242.26584
     y: -332.30835
-    width: 85.526306
+    width: 84.06595
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23526,7 +23604,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -253.55164
     y: -250.80289
-    width: 103.94736
+    width: 104.94508
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23666,7 +23744,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -125.16667
     y: -287.0996
-    width: 142.10522
+    width: 145.60443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23781,7 +23859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.105286
     y: -316.87247
-    width: 89.47367
+    width: 89.560455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23887,7 +23965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50.1053
     y: -251.8724
-    width: 127.63155
+    width: 128.022
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23966,7 +24044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 204.22284
     y: -286.16653
-    width: 127.63155
+    width: 129.12091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24078,7 +24156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 343.4423
     y: -318.46326
-    width: 106.57893
+    width: 108.24178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24186,7 +24264,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 355.4423
     y: -257.46326
-    width: 82.89473
+    width: 80.76924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24222,7 +24300,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2936.4827
-    y: -132.21048
+    y: -133.58034
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -24253,7 +24331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2941.1128
     y: -183.59413
-    width: 163.15787
+    width: 166.48357
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24692,7 +24770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2712.1968
     y: -134.56345
-    width: 97.36841
+    width: 99.45057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24811,7 +24889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2683.1707
     y: -232.46588
-    width: 156.57892
+    width: 156.59344
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24921,7 +24999,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2691.7593
     y: -291.4659
-    width: 124.99998
+    width: 122.527504
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25027,7 +25105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2682.3486
     y: -342.28943
-    width: 136.84207
+    width: 136.81323
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25777,7 +25855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2291.282
     y: -264.3473
-    width: 103.94736
+    width: 104.94508
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25891,7 +25969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1934.2673
     y: -183.50383
-    width: 114.47366
+    width: 119.2308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26008,7 +26086,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1943.2893
     y: -256.9428
-    width: 86.842094
+    width: 89.560455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26147,7 +26225,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1790.5145
     y: -236.95947
-    width: 105.26314
+    width: 109.34068
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26266,7 +26344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1948.0398
     y: -328.41492
-    width: 77.63157
+    width: 79.67034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26383,7 +26461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1513.9823
     y: -265.67117
-    width: 77.63157
+    width: 79.67034
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26489,7 +26567,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1340.4749
     y: -195.09836
-    width: 122.3684
+    width: 124.7253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26604,7 +26682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1328.8864
     y: -241.87918
-    width: 153.94733
+    width: 152.19785
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26745,7 +26823,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1337.475
     y: -290.39978
-    width: 118.421036
+    width: 120.329704
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26891,7 +26969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1338.1876
     y: -348.6837
-    width: 110.5263
+    width: 112.63739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27121,7 +27199,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1025.7523
     y: -285.6775
-    width: 105.26314
+    width: 107.14288
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27232,7 +27310,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 819.8772
     y: -189.18317
-    width: 167.10522
+    width: 166.48357
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27351,7 +27429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 819.77875
     y: -238.0629
-    width: 164.47365
+    width: 165.38467
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27465,7 +27543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 835.1648
     y: -291.8018
-    width: 136.84207
+    width: 139.01102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27574,7 +27652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 840.228
     y: -339.93298
-    width: 117.10524
+    width: 119.2308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28272,7 +28350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 473.1274
     y: -285.39526
-    width: 155.26312
+    width: 154.39566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28314,19 +28392,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1787.8365, y: 679.4435}
+  scrollPos: {x: -3798.926, y: 677.1596}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 617
-  zoom: 0.7600002
+  zoom: 0.9099996
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 2107074573}
+  selectedCommands:
+  - {fileID: 2107074572}
   variables:
   - {fileID: 2107074928}
   - {fileID: 2107074927}
@@ -28906,7 +28986,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1869.981
     y: -207.84668
-    width: 144.73682
+    width: 146.70334
     height: 40
   tint: {r: 1, g: 0.39607844, b: 0, a: 1}
   useCustomTint: 1
@@ -28964,7 +29044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1283.2311
     y: -132.36713
-    width: 171.0526
+    width: 175.27478
     height: 40
   tint: {r: 1, g: 0.39607844, b: 0, a: 1}
   useCustomTint: 1
@@ -29038,7 +29118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1291.1475
     y: -298.89203
-    width: 188.15785
+    width: 193.9561
     height: 40
   tint: {r: 1, g: 0.39462644, b: 0, a: 1}
   useCustomTint: 1
@@ -29387,7 +29467,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1535.6807
     y: -297.67676
-    width: 164.47365
+    width: 167.58246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33345,7 +33425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2436.6846
     y: -262.53064
-    width: 126.315765
+    width: 126.92311
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35084,7 +35164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2069.5977
     y: -290.49045
-    width: 159.2105
+    width: 158.79126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35299,7 +35379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1634.3413
     y: -264.73984
-    width: 115.78945
+    width: 115.9341
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36958,7 +37038,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1167.2051
     y: -284.57294
-    width: 89.47367
+    width: 91.758255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37795,7 +37875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 654.0647
     y: -287.67175
-    width: 127.63155
+    width: 125.82421
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42787,6 +42867,722 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &2107075239
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1165
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1276434696}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 505c5b3d723297a4e93686fbe525d737, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1454600267}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2107075240
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1164
+  indentLevel: 0
+  storyText: "Blue, we\u2019re only here to get Cheddar\u2019s dumbbell that he left
+    behind."
+  description: 
+  character: {fileID: 1276434695}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1163
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1276434694}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 7b3cb911894122046945e3d138121e8d, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1454600267}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2107075242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1162
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1276434696}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6a05206d927abcb4e88db8485be16ec8, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1454600268}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2107075243
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1191
+  indentLevel: 0
+  storyText: "\u2026 "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075244
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1190
+  indentLevel: 0
+  storyText: "\u2026 "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075245
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1189
+  indentLevel: 0
+  storyText: "I can\u2019t see it in this darkness, I\u2019ll just bring it up, and
+    maybe Cheddar can find it and go. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075246
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1188
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 2107074570}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &2107075247
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1187
+  indentLevel: 0
+  storyText: 'I should intervene here. This argument is not going to stop unless
+    I make it stop. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075248
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 4268.1323
+    y: -26.045166
+    width: 146.70334
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 1193
+  blockName: I should intervene
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 2107075247}
+  - {fileID: 2107075246}
+  suppressAllAutoSelections: 0
+--- !u!114 &2107075249
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1185
+  indentLevel: 0
+  text: I should intervene
+  description: 
+  targetBlock: {fileID: 2107075248}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &2107075250
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1184
+  indentLevel: 0
+  storyText: "This argument feels like it\u2019s not going to end. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075251
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1183
+  indentLevel: 0
+  storyText: "And you clearly don\u2019t know what Blue is like. They never go outside
+    or visit anybody."
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075252
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1182
+  indentLevel: 0
+  storyText: But if we leave Blue alone, they are going to get lonely.
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075253
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1181
+  indentLevel: 0
+  storyText: "Cheddar is certainly breaking Blue\u2019s boundaries. Maybe I should
+    strongly intervene later. "
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075254
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1180
+  indentLevel: 0
+  storyText: "Ahh, of course, I didn\u2019t know that. Did you also know that water
+    is wet? "
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075255
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1179
+  indentLevel: 0
+  storyText: Says who?
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075256
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1178
+  indentLevel: 0
+  storyText: Says me.
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075257
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1177
+  indentLevel: 0
+  storyText: You are not my dad, why do you care about me talking and doing things
+    like exercise so much?
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075258
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1176
+  indentLevel: 0
+  storyText: "Blue, that\u2019s unhealthy. You have to talk to people. "
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075259
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1175
+  indentLevel: 0
+  storyText: I prefer not having to talk to anyone.
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075260
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1174
+  indentLevel: 0
+  storyText: "I just don\u2019t get why you have to be so hidden, Blue. Why do you
+    have to live in a cave, of all places? Nobody wants to talk to someone in a cave."
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075261
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1173
+  indentLevel: 0
+  storyText: "\u2026"
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075262
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1172
+  indentLevel: 0
+  storyText: "Well, since we\u2019re all here now, I think we could do with a bit
+    of a chat. I know that you get very lonely inside of this cave."
+  description: 
+  character: {fileID: 1276434696}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075263
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1170
+  indentLevel: 0
+  storyText: "Of course, of course, it\u2019s not like I can walk outside of the
+    cave when I get lonely or anything."
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2107075264
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107074511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1169
+  indentLevel: 0
+  storyText: "I can speak for myself, thank you Cheddar. It\u2019s not that I have
+    something specifically against Cheddar, it\u2019s just that he\u2019s completely
+    oblivious to what I want."
+  description: 
+  character: {fileID: 1276434694}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2125034135
 GameObject:
   m_ObjectHideFlags: 0
