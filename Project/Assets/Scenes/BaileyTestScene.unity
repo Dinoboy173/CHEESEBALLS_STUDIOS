@@ -533,7 +533,6 @@ GameObject:
   - component: {fileID: 190520507}
   - component: {fileID: 190520506}
   - component: {fileID: 190520505}
-  - component: {fileID: 190520504}
   - component: {fileID: 190520503}
   - component: {fileID: 190520498}
   - component: {fileID: 190520497}
@@ -543,6 +542,7 @@ GameObject:
   - component: {fileID: 190520492}
   - component: {fileID: 190520491}
   - component: {fileID: 190520493}
+  - component: {fileID: 190520487}
   m_Layer: 0
   m_Name: LOOP
   m_TagString: Untagged
@@ -550,6 +550,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &190520487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190520486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 190520505}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!114 &190520488
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1088,21 +1103,6 @@ MonoBehaviour:
   - {fileID: 190520491}
   - {fileID: 190520490}
   suppressAllAutoSelections: 0
---- !u!114 &190520504
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 190520486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 190520505}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &190520505
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1117,8 +1117,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 128.17647
-    y: 26.470592
+    x: 135.49355
+    y: 31.34864
     width: 110.9756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   itemId: 0
   blockName: New Block
   description: 
-  eventHandler: {fileID: 190520504}
+  eventHandler: {fileID: 190520487}
   commandList:
   - {fileID: 190520496}
   - {fileID: 190520498}
@@ -1155,7 +1155,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 190520505}
   selectedCommands: []
   variables:
   - {fileID: 190520492}

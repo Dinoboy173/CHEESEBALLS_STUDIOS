@@ -12,7 +12,7 @@ public class Pause : MonoBehaviour
     public Button resumeButton;
     public List<Block> blocks;
     public List<Button> menuDialogButtons;
-    List<bool> Buttons = new List<bool>();
+   // List<bool> Buttons = new List<bool>();
 
     public List<Collider> clickableObjects;
 
@@ -22,16 +22,20 @@ public class Pause : MonoBehaviour
     int cmdIndex = 0;
     int cmdIndexCheck = 0;
 
-    bool isButtonOneOn = false;
-    bool isButtonTwoOn = false;
-    bool isButtonThreeOn = false;
-    bool isButtonFourOn = false;
-    bool isButtonFiveOn = false;
+   //bool isButtonOneOn = false;
+   //bool isButtonTwoOn = false;
+   //bool isButtonThreeOn = false;
+   //bool isButtonFourOn = false;
+   //bool isButtonFiveOn = false;
 
     bool allButtonsOff = false;
+    bool ifPause = true;
+    GameObject pauseHolder = null;
 
     void Awake()
     {
+        pauseHolder = pauseScreen.transform.parent.gameObject;
+        Debug.Log(pauseHolder.name);
         // flowchart = Flowchart.Find("Flowchart");
         // flowchart = FindObjectOfType(Flowchart);
 
@@ -44,25 +48,39 @@ public class Pause : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+
+        for (int i = 0; i < pauseHolder.transform.childCount; i++)
         {
-          //  for (int i = 0; i < menuDialogButtons.Count; i++)
-          //  {
-          //      if (menuDialogButtons[i].gameObject.active)
-          //          Buttons[i] = true;
-          //  }
-          //  
-          //  if (!isButtonOneOn &&
-          //      !isButtonTwoOn &&
-          //      !isButtonThreeOn &&
-          //      !isButtonFourOn &&
-          //      !isButtonFiveOn)
-          //  {
-          //      allButtonsOff = true;
-          //  }
-          //  else
-          //      allButtonsOff = false;
-            
+            if (pauseHolder.transform.GetChild(i).gameObject.activeInHierarchy)
+            {
+                ifPause = false;
+                Debug.Log("Can't Pause");
+            }
+        }
+
+        if (ifPause == true)
+            Debug.Log("Can Pause");
+
+
+        if (Input.GetKeyDown(KeyCode.Escape) && ifPause == true)
+        {
+            //  for (int i = 0; i < menuDialogButtons.Count; i++)
+            //  {
+            //      if (menuDialogButtons[i].gameObject.active)
+            //          Buttons[i] = true;
+            //  }
+            //  
+            //  if (!isButtonOneOn &&
+            //      !isButtonTwoOn &&
+            //      !isButtonThreeOn &&
+            //      !isButtonFourOn &&
+            //      !isButtonFiveOn)
+            //  {
+            //      allButtonsOff = true;
+            //  }
+            //  else
+            //      allButtonsOff = false;
+
             blocks = flowchart.GetExecutingBlocks(); 
             if(blocks.Count == 1)
             {
@@ -118,6 +136,7 @@ public class Pause : MonoBehaviour
 
         pauseScreen.SetActive(false);
         cmdIndex = 0;
+        ifPause = true;
 
     }
 }
