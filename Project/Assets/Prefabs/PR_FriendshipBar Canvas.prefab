@@ -288,6 +288,7 @@ GameObject:
   - component: {fileID: 3845193365674018493}
   - component: {fileID: 3845193365674018490}
   - component: {fileID: 3845193365674018491}
+  - component: {fileID: 990531647332293102}
   m_Layer: 5
   m_Name: PR_FriendshipBar Canvas
   m_TagString: Untagged
@@ -376,6 +377,21 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &990531647332293102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3845193365674018488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb567189caa9d764d81df34a831fe353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flowchart: {fileID: 0}
+  slider: {fileID: 6416112996248696551}
+  scene: 5
 --- !u!1 &7737424537737266281
 GameObject:
   m_ObjectHideFlags: 0
