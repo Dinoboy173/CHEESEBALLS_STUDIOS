@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.124048285, g: 0.12944089, b: 0.11455679, a: 1}
+  m_IndirectSpecularColor: {r: 0.12404824, g: 0.1294407, b: 0.11455631, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14489,6 +14489,10 @@ GameObject:
   - component: {fileID: 1988319564}
   - component: {fileID: 1988319563}
   - component: {fileID: 1988319562}
+  - component: {fileID: 1988319646}
+  - component: {fileID: 1988319645}
+  - component: {fileID: 1988319644}
+  - component: {fileID: 1988319643}
   m_Layer: 0
   m_Name: SwissDialogFlowChart
   m_TagString: Untagged
@@ -14531,6 +14535,10 @@ MonoBehaviour:
   - {fileID: 1988319131}
   - {fileID: 1988319130}
   - {fileID: 1988319129}
+  - {fileID: 1988319646}
+  - {fileID: 1988319645}
+  - {fileID: 1988319644}
+  - {fileID: 1988319643}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -35568,6 +35576,66 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1988319643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: fetchBlueStarted
+  value: 0
+--- !u!114 &1988319644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: fetchSwissStarted
+  value: 0
+--- !u!114 &1988319645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: mansionCollected
+  value: 0
+--- !u!114 &1988319646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: mansionCollectable
+  value: 0
 --- !u!1 &1992066034
 GameObject:
   m_ObjectHideFlags: 0
