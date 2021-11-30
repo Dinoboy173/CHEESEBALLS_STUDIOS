@@ -17,8 +17,10 @@ public class Pause : MonoBehaviour
     public List<Collider> clickableObjects;
 
     string currentBlock = "Filler";
+    string previousBlock = "fix";
     Block CommandHolder;
     int cmdIndex = 0;
+    int cmdIndexCheck = 0;
 
     bool isButtonOneOn = false;
     bool isButtonTwoOn = false;
@@ -33,34 +35,34 @@ public class Pause : MonoBehaviour
         // flowchart = Flowchart.Find("Flowchart");
         // flowchart = FindObjectOfType(Flowchart);
 
-        Buttons.Add(isButtonOneOn);
-        Buttons.Add(isButtonTwoOn);
-        Buttons.Add(isButtonThreeOn);
-        Buttons.Add(isButtonFourOn);
-        Buttons.Add(isButtonFiveOn);
+        //Buttons.Add(isButtonOneOn);
+        //Buttons.Add(isButtonTwoOn);
+        //Buttons.Add(isButtonThreeOn);
+        //Buttons.Add(isButtonFourOn);
+        //Buttons.Add(isButtonFiveOn);
     }
 
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            //for (int i = 0; i < menuDialogButtons.Count; i++)
-            //{
-            //    if (menuDialogButtons[i].gameObject.active)
-            //        Buttons[i] = true;
-            //}
-            //
-            //if (!isButtonOneOn &&
-            //    !isButtonTwoOn &&
-            //    !isButtonThreeOn &&
-            //    !isButtonFourOn &&
-            //    !isButtonFiveOn)
-            //{
-            //    allButtonsOff = true;
-            //}
-            //else
-            //    allButtonsOff = false;
-
+          //  for (int i = 0; i < menuDialogButtons.Count; i++)
+          //  {
+          //      if (menuDialogButtons[i].gameObject.active)
+          //          Buttons[i] = true;
+          //  }
+          //  
+          //  if (!isButtonOneOn &&
+          //      !isButtonTwoOn &&
+          //      !isButtonThreeOn &&
+          //      !isButtonFourOn &&
+          //      !isButtonFiveOn)
+          //  {
+          //      allButtonsOff = true;
+          //  }
+          //  else
+          //      allButtonsOff = false;
+            
             blocks = flowchart.GetExecutingBlocks(); 
             if(blocks.Count == 1)
             {
@@ -82,21 +84,40 @@ public class Pause : MonoBehaviour
             }
         }
 
-        if(Input.GetMouseButtonDown(0) && currentBlock != "Filler")
+        if(Input.GetMouseButtonDown(0))
             resumeButton.onClick.AddListener(CallBlock);
     }
 
     void CallBlock()
     {
+        
         Block currentBlockFungus = flowchart.FindBlock(currentBlock);
         cmdIndex = currentBlockFungus.PreviousActiveCommandIndex;
-        while(currentBlockFungus.CommandList.Count < cmdIndex)
+        if(cmdIndexCheck < cmdIndex)
+        cmdIndexCheck = cmdIndex;
+        while (currentBlockFungus.CommandList.Count < cmdIndex)
         {
             cmdIndex--;
         }
+
+        if(cmdIndex >= cmdIndexCheck)
         flowchart.ExecuteBlock(currentBlockFungus, cmdIndex + 1);
+
+        else if(currentBlockFungus.BlockName == currentBlock && cmdIndexCheck > cmdIndex)
+        {
+            flowchart.ExecuteBlock(currentBlockFungus, cmdIndexCheck + 1);
+        }
+
+        if (previousBlock != currentBlock)
+        {
+            previousBlock = currentBlock;
+            cmdIndexCheck = 0;
+            if (cmdIndexCheck < cmdIndex)
+                cmdIndexCheck = cmdIndex;
+        }
+
         pauseScreen.SetActive(false);
-        currentBlock = "Filler";
         cmdIndex = 0;
+
     }
 }
