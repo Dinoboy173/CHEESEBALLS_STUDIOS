@@ -6428,6 +6428,7 @@ MonoBehaviour:
   setSave1: {fileID: 267977353}
   setSave2: {fileID: 1858765915}
   setSave3: {fileID: 1919020861}
+  resumeLastGame: {fileID: 0}
   setLoad1: {fileID: 1961095980}
   setLoad2: {fileID: 1865542074}
   setLoad3: {fileID: 1037566548}
@@ -9885,8 +9886,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1074614834}
+  selectedCommands:
+  - {fileID: 1074614807}
   variables:
   - {fileID: 1074614707}
   - {fileID: 1074614752}
@@ -13937,7 +13940,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 479.68265
-    y: 227.9145
+    y: 226.64868
     width: 129.74683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -21983,6 +21986,7 @@ MonoBehaviour:
   textSpeedDropdown: {fileID: 966772526}
   isFull: {fileID: 1967123714}
   qualityDropdown: {fileID: 349798369}
+  CanSkip: 0
   speed: 60
   autoSkip: 0
   setVolume: 0
