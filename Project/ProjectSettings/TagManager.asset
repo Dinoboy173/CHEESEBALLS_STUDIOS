@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Clickable
   - SlideShow
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2122650545
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3109735879
     locked: 0
