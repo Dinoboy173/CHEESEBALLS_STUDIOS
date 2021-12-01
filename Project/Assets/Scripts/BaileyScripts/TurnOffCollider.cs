@@ -31,7 +31,7 @@ public class TurnOffCollider : MonoBehaviour
 
         if(isPauseOn == false)
         {
-            ColliderOn();
+            // ColliderOn();
         }
 
     }
