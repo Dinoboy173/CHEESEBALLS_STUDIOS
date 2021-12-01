@@ -47548,3 +47548,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2131521010419176808, guid: a72956273f1c2bb40a04dd35f1cd6bb3, type: 3}
   m_PrefabInstance: {fileID: 2136758106}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2136758108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5307432133845126981, guid: a72956273f1c2bb40a04dd35f1cd6bb3, type: 3}
+  m_PrefabInstance: {fileID: 2136758106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136758109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136758108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adf064a9598c2e4699699c8af81d729, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clicked: 0
+  hovered: 0
+  onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2136758110}
+        m_TargetAssemblyTypeName: FetchQuestPickUpItem, Assembly-CSharp
+        m_MethodName: Clicked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onHover:
+    m_PersistentCalls:
+      m_Calls: []
+  onStopHover:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2136758110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136758108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1998ce77ae2f8947928dd8c8ec159a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 6
+  isCollectable: 0
+  isCollected: 0
+  questManager: {fileID: 0}
+  flowchart: {fileID: 2107074912}
