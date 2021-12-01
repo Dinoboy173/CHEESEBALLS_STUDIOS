@@ -1869,6 +1869,8 @@ GameObject:
   - component: {fileID: 293247514}
   - component: {fileID: 293247517}
   - component: {fileID: 293247519}
+  - component: {fileID: 293247500}
+  - component: {fileID: 293247520}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1930,6 +1932,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 293247504}
   - {fileID: 293247508}
+  - {fileID: 293247520}
   - {fileID: 293247439}
   - {fileID: 293247503}
   - {fileID: 293247502}
@@ -4550,6 +4553,27 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &293247500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 783794045}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &293247501
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4810,6 +4834,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 293247510}
   commandList:
+  - {fileID: 293247500}
   - {fileID: 293247498}
   - {fileID: 293247497}
   - {fileID: 293247496}
@@ -5330,6 +5355,27 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 1
+--- !u!114 &293247520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293247438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 142
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 783794045}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &293247522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5343,7 +5389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -332.09735, y: 421.4807}
+  scrollPos: {x: -282.1486, y: 368.61188}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 302
@@ -5354,7 +5400,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 293247470}
   selectedCommands: []
   variables:
   - {fileID: 293247473}
@@ -5546,7 +5593,7 @@ RectTransform:
   m_Children:
   - {fileID: 281800878}
   m_Father: {fileID: 1236085499}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8730,7 +8777,7 @@ MonoBehaviour:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 1
+  m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -8754,7 +8801,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783794045}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!1 &796758907
 GameObject:
   m_ObjectHideFlags: 0
@@ -10441,7 +10488,7 @@ RectTransform:
   m_Children:
   - {fileID: 408766248}
   m_Father: {fileID: 1236085499}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10549,6 +10596,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1263120509}
+        m_TargetAssemblyTypeName: TurnOffCollider, Assembly-CSharp
+        m_MethodName: ColliderOn
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12322,9 +12381,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2059931370}
   - {fileID: 997118974}
   - {fileID: 350169391}
+  - {fileID: 2059931370}
   - {fileID: 1938221014}
   - {fileID: 683389463}
   - {fileID: 1850406116}
@@ -17172,7 +17231,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257907705}
   m_LocalRotation: {x: -0.9990366, y: -0, z: -0, w: -0.043883737}
-  m_LocalPosition: {x: 0.392, y: -17.461, z: 3.071}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 783794046}
@@ -22448,7 +22507,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1236085499}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
