@@ -14,7 +14,6 @@ public class TurnOffCollider : MonoBehaviour
     public GameObject swiss; // or right cheese
 
     public GameObject pauseHandler;
-    bool isPauseOn = false;
 
     void Update()
     {
@@ -23,15 +22,8 @@ public class TurnOffCollider : MonoBehaviour
             if (pauseHandler.transform.GetChild(i).gameObject.activeInHierarchy)
             {
                 ColliderOff();
-                isPauseOn = true;
                 break;
             }
-            isPauseOn = false;
-        }
-
-        if(isPauseOn == false)
-        {
-            // ColliderOn();
         }
 
     }
@@ -58,7 +50,7 @@ public class TurnOffCollider : MonoBehaviour
         }
     }
 
-    void ColliderOn()
+    public void ColliderOn()
     {
         if (hut)
         {

@@ -1574,7 +1574,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &188247461
 RectTransform:
@@ -17867,7 +17867,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 330
+  itemId: 1207
   blockName: FQOption8 (Copy)
   description: 
   eventHandler: {fileID: 0}
