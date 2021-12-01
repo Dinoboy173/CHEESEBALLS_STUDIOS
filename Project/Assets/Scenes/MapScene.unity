@@ -5759,7 +5759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 629306390}
   manualSetStartTime: 1
-  startTime: 3
+  startTime: 2.5
 --- !u!199 &629306389
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5835,7 +5835,7 @@ ParticleSystem:
   m_GameObject: {fileID: 629306387}
   serializedVersion: 7
   lengthInSec: 2
-  simulationSpeed: 0.7
+  simulationSpeed: 1.2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
@@ -14784,7 +14784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 468.0044, y: -37.715546}
+  scrollPos: {x: 168.00453, y: -92.14592}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -14798,7 +14798,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1074614705}
   selectedCommands:
-  - {fileID: 1074614853}
+  - {fileID: 1074614851}
   variables:
   - {fileID: 1074614707}
   - {fileID: 1074614752}
@@ -17454,7 +17454,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 0.5
   durationOLD: 0
 --- !u!114 &1074614768
 MonoBehaviour:
@@ -21452,7 +21452,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1074614851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21466,11 +21466,11 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2
+    floatVal: 0.5
   durationOLD: 0
 --- !u!114 &1074614852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -21526,7 +21526,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &1074614853
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

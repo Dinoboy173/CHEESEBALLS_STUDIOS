@@ -4166,7 +4166,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &293247493
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4180,7 +4180,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 2.5
+    floatVal: 0.5
   durationOLD: 0
 --- !u!114 &293247522
 MonoBehaviour:
@@ -4206,10 +4206,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 293247490}
-  selectedCommands:
-  - {fileID: 293247493}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 293247441}
   - {fileID: 293247440}
@@ -7866,7 +7864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   particle: {fileID: 737039722}
   manualSetStartTime: 1
-  startTime: 4
+  startTime: 2.5
 --- !u!199 &737039721
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -7942,7 +7940,7 @@ ParticleSystem:
   m_GameObject: {fileID: 737039719}
   serializedVersion: 7
   lengthInSec: 2
-  simulationSpeed: 0.7
+  simulationSpeed: 1.2
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
