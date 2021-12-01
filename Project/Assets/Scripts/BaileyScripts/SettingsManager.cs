@@ -19,6 +19,9 @@ public class SettingsManager : MonoBehaviour
 
     public bool CanSkip = false;
     Resolution[] resolutions;
+    Resolution[] myResolutions = new Resolution[5];
+    int[] widthRes = new int[5] { 800, 1024, 1280, 1440, 1680 };
+    int[] heightRes = new int[5] { 600, 768, 800, 900, 1050 };
 
     int[] textSpeeds = new int[5] { 15, 30, 60, 90, 120 };
     public int speed = 60;
@@ -58,9 +61,14 @@ public class SettingsManager : MonoBehaviour
         else if (fullScreen == "false")
             isFull.isOn = false;
 
+        for(int i = 0; i < 5; i++)
+        {
+            myResolutions[i].width = widthRes[i];
+            myResolutions[i].height = heightRes[i];
+            myResolutions[i].refreshRate = 60;
+        }
 
-
-        resolutions = Screen.resolutions;
+        resolutions = myResolutions;
 
         resolutionDropdown.ClearOptions();
 

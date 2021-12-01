@@ -60,6 +60,7 @@ public class Save : MonoBehaviour
             isMenuOn = true;
             saveMenuButton.onClick.Invoke();
         }
+        if(resumeLastGame)
         resumeLastGame.onClick.AddListener(AutoChange);
 
 

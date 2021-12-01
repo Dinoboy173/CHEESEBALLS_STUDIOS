@@ -1574,7 +1574,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!224 &188247461
 RectTransform:
@@ -18054,10 +18054,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   itemId: 1320
   indentLevel: 0
   storyText: "I bet it\u2019s an impossible box, where it\u2019s bigger from the
     inside."
+=======
+  nodeRect:
+    serializedVersion: 2
+    x: 4535.4272
+    y: -21.360672
+    width: 148.90114
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 1207
+  blockName: FQOption8 (Copy)
+>>>>>>> a5aa3719e9e5e6a830e60114e2e8dc81bd7ca826
   description: 
   character: {fileID: 1276434695}
   portrait: {fileID: 0}
