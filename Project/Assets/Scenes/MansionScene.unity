@@ -8194,6 +8194,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: PR_Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 812583030662490718, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+      propertyPath: dimColor.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 812583030662490718, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+      propertyPath: dimColor.b
+      value: 0.7686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 812583030662490718, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+      propertyPath: dimColor.g
+      value: 0.7686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 812583030662490718, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+      propertyPath: dimColor.r
+      value: 0.7686275
+      objectReference: {fileID: 0}
+    - target: {fileID: 812583030662490718, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+      propertyPath: dimPortraits
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 812583030662490719, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -14495,11 +14515,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 769.89056, y: 425.93494}
+  scrollPos: {x: -1790.6893, y: 624.07715}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 637
-  zoom: 0.64000034
+  zoom: 0.87999964
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -14692,9 +14712,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -208.38608
-    y: 309.40384
-    width: 146.87494
+    x: 3404.5579
+    y: 77.639175
+    width: 150.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14753,7 +14773,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -453.75577
     y: -255.04298
-    width: 131.24995
+    width: 135.22731
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16513,7 +16533,7 @@ MonoBehaviour:
     stick around and help me on an errand, it will also help you learn even more."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16591,7 +16611,7 @@ MonoBehaviour:
     Swiss at the least. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16799,7 +16819,7 @@ MonoBehaviour:
     beach.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -16853,7 +16873,7 @@ MonoBehaviour:
   storyText: "There isn\u2019t anything stopping you from revisiting Cheddar though."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17337,7 +17357,7 @@ MonoBehaviour:
     talk to them. They live deep in the cave."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18084,7 +18104,7 @@ MonoBehaviour:
   storyText: ...
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18450,7 +18470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2711.7097
     y: 84.45043
-    width: 203.12492
+    width: 212.50006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18481,7 +18501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2706.0261
     y: 17.40499
-    width: 168.74994
+    width: 175.00006
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19719,7 +19739,7 @@ MonoBehaviour:
     case you didn\u2019t know."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19747,7 +19767,7 @@ MonoBehaviour:
     or not is your choice now. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19773,7 +19793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2513.2603
     y: -117.16917
-    width: 93.74998
+    width: 94.3182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19819,7 +19839,7 @@ MonoBehaviour:
   storyText: "Yes, that\u2019s right."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19847,7 +19867,7 @@ MonoBehaviour:
     may have the same shock experience as you had talking to me."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20291,7 +20311,7 @@ MonoBehaviour:
     Everybody learns the basics, but only people like me take it to a higher level. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20319,7 +20339,7 @@ MonoBehaviour:
     my home."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20376,7 +20396,7 @@ MonoBehaviour:
     here."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20432,7 +20452,7 @@ MonoBehaviour:
     how you\u2019re getting back?"
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20971,7 +20991,7 @@ MonoBehaviour:
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &1988319267
@@ -21430,7 +21450,7 @@ MonoBehaviour:
     then. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21456,7 +21476,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2350.0137
     y: -117.104355
-    width: 90.62498
+    width: 92.04547
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21553,7 +21573,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2690.7703
     y: -117.097565
-    width: 135.93745
+    width: 142.0455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21609,7 +21629,7 @@ MonoBehaviour:
   storyText: ...
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21662,7 +21682,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2699.9001
     y: -186.35013
-    width: 112.49997
+    width: 115.90912
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21728,7 +21748,7 @@ MonoBehaviour:
   storyText: "Good to hear. He\u2019ll tell you a lot about Cheddar."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21781,7 +21801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2700.1304
     y: -248.60297
-    width: 120.31246
+    width: 125.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21836,7 +21856,7 @@ MonoBehaviour:
     When you eventually leave to continue your cheese learning journey, you can go
     talk to Cheddar then."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 180697604}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -21890,7 +21910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2706.8462
     y: -42.56513
-    width: 112.49997
+    width: 114.77275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21922,7 +21942,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2463.2175
     y: 43.040043
-    width: 189.06242
+    width: 197.72734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22003,7 +22023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3027.9568
     y: -116.37202
-    width: 159.37494
+    width: 165.90915
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22083,7 +22103,7 @@ MonoBehaviour:
     blue cheese.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22288,7 +22308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2126.6177
     y: -4.3182983
-    width: 79.687485
+    width: 80.68183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22427,7 +22447,7 @@ MonoBehaviour:
     I bet it\u2019s there."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22455,7 +22475,7 @@ MonoBehaviour:
     knowledge, he\u2019s certainly swayed me over more than I like to admit. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22508,7 +22528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2121.352
     y: -76.68652
-    width: 101.56247
+    width: 104.54548
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22577,7 +22597,7 @@ MonoBehaviour:
     you risk the chance of making a poor choice. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -22782,7 +22802,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2116.0906
     y: -159.5813
-    width: 99.99997
+    width: 101.13638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22837,7 +22857,7 @@ MonoBehaviour:
     can before having to make a decision. I am glad I have been able to teach you.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23042,7 +23062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2105.021
     y: -239.74823
-    width: 120.31246
+    width: 123.86367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23446,7 +23466,7 @@ MonoBehaviour:
   storyText: Would you be ready to make a choice back at the supermarket?
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23474,7 +23494,7 @@ MonoBehaviour:
     all I really need to tell you on Gruyere cheese for your predicament."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23500,7 +23520,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1939.5973
     y: -120.9722
-    width: 84.374985
+    width: 86.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23588,7 +23608,7 @@ MonoBehaviour:
     nobody visits them!"
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -23794,7 +23814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1748.4198
     y: -30.105377
-    width: 137.49995
+    width: 144.31822
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23879,7 +23899,7 @@ MonoBehaviour:
     show their true colours. Here\u2019s a tip, it\u2019s not blue. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24085,7 +24105,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1751.9489
     y: -76.451935
-    width: 115.62496
+    width: 120.454575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24223,7 +24243,7 @@ MonoBehaviour:
     and a great surfer! "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24428,7 +24448,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1734.1622
     y: -189.64084
-    width: 146.87494
+    width: 153.40913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24486,7 +24506,7 @@ MonoBehaviour:
   storyText: Yeah, he is very nice. Any friend of Cheddar is a friend to me.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -24691,7 +24711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1745.7883
     y: -239.45511
-    width: 120.31246
+    width: 125.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25300,7 +25320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1611.436
     y: -108.06787
-    width: 73.437485
+    width: 75.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25681,7 +25701,7 @@ MonoBehaviour:
     a lot about it."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25862,7 +25882,7 @@ MonoBehaviour:
     general, he\u2019s really handsome\u2026 "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25890,7 +25910,7 @@ MonoBehaviour:
     if you want to learn about cheddar. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -25943,7 +25963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1594.6616
     y: -155.9191
-    width: 101.56247
+    width: 103.40911
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26036,7 +26056,7 @@ MonoBehaviour:
     cheese. I\u2019m intrigued though, what other cheese were you considering buying?"
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26090,7 +26110,7 @@ MonoBehaviour:
   storyText: I see, this is not the first time this has happened.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26203,7 +26223,7 @@ MonoBehaviour:
     I want to know more about you. Enough mystery, tell me who you are.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26229,7 +26249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1497.2524
     y: -119.608055
-    width: 84.374985
+    width: 86.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26320,7 +26340,7 @@ MonoBehaviour:
     creating a grainy texture. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26525,7 +26545,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1334.3237
     y: -11.134656
-    width: 132.81245
+    width: 137.50003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26608,7 +26628,7 @@ MonoBehaviour:
     you, well done."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26813,7 +26833,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1336.5579
     y: -87.47163
-    width: 129.68745
+    width: 132.95459
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26897,7 +26917,7 @@ MonoBehaviour:
     you should have known the difference.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -26926,7 +26946,7 @@ MonoBehaviour:
     for cracks.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27131,7 +27151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1337.6351
     y: -171.4128
-    width: 121.87496
+    width: 125.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27241,7 +27261,7 @@ MonoBehaviour:
   storyText: What happens to fully aged Gruyere cheese?
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27296,7 +27316,7 @@ MonoBehaviour:
     in all the information that I gave you, I want to quiz you."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27322,7 +27342,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1211.2827
     y: -130.9422
-    width: 84.374985
+    width: 86.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27408,7 +27428,7 @@ MonoBehaviour:
     What you put value into will say a lot to other people.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27614,7 +27634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1031.5769
     y: -58.059967
-    width: 104.68747
+    width: 106.81821
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27698,7 +27718,7 @@ MonoBehaviour:
     say a lot to other people."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 802bc5c59b7437b4ba5f8efeb4f8fa21, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -27904,7 +27924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1019.34155
     y: -130.94223
-    width: 135.93745
+    width: 140.90912
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27938,7 +27958,7 @@ MonoBehaviour:
   storyText: Oh, your friends sent you to buy some cheese? I see.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28015,7 +28035,7 @@ MonoBehaviour:
     as myself to warrant the requirement of a statue as dedication. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28068,7 +28088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.284
     y: -207.90219
-    width: 190.62492
+    width: 197.72734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28180,7 +28200,7 @@ MonoBehaviour:
     of my commitment."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28264,7 +28284,7 @@ MonoBehaviour:
     Jarlsberg cheese.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28293,7 +28313,7 @@ MonoBehaviour:
     and used in a wide variety of dishes."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28348,7 +28368,7 @@ MonoBehaviour:
     are released from bacteria used in the cheese making process. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28377,7 +28397,7 @@ MonoBehaviour:
     popular Swiss cheese counterpart.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28403,7 +28423,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 901.2832
     y: -128.41281
-    width: 84.374985
+    width: 86.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28449,7 +28469,7 @@ MonoBehaviour:
     to what I tell you.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28654,7 +28674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 710.7971
     y: -23.09264
-    width: 154.68744
+    width: 160.22733
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28688,7 +28708,7 @@ MonoBehaviour:
     you will not learn well that way."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -28893,7 +28913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 706.4591
     y: -91.295105
-    width: 148.43744
+    width: 154.5455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28949,7 +28969,7 @@ MonoBehaviour:
     your abilities, or you will not learn well.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29154,7 +29174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 699.6357
     y: -172.53046
-    width: 149.99994
+    width: 155.68185
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29268,7 +29288,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -251.83813
     y: 173.2462
-    width: 206.24992
+    width: 214.7728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29380,7 +29400,7 @@ MonoBehaviour:
     long is Gruyere cheese aged for?
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29437,7 +29457,7 @@ MonoBehaviour:
     how else will you learn?"
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29495,7 +29515,7 @@ MonoBehaviour:
     texture.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29522,7 +29542,7 @@ MonoBehaviour:
   storyText: "I wouldn\u2019t call myself a cheese guru if I didn\u2019t. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29606,7 +29626,7 @@ MonoBehaviour:
     cheeses.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29634,7 +29654,7 @@ MonoBehaviour:
     while journeying to be more earthy at older ages.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29663,7 +29683,7 @@ MonoBehaviour:
     a natural rind, aging for typically 6 months or longer. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29689,7 +29709,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 565.92957
     y: -133.47159
-    width: 85.937485
+    width: 87.500015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29760,7 +29780,7 @@ MonoBehaviour:
     to make sure that you know everything by the end of this.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -29817,7 +29837,7 @@ MonoBehaviour:
     you a pass.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30022,7 +30042,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 412.10324
     y: 36.519882
-    width: 93.74998
+    width: 95.45456
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30080,7 +30100,7 @@ MonoBehaviour:
     I research and have my company produce.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30137,7 +30157,7 @@ MonoBehaviour:
     the answer to something, you shouldn\u2019t claim to know."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30342,7 +30362,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.41583
     y: -108.80875
-    width: 101.56247
+    width: 105.68184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30756,7 +30776,7 @@ MonoBehaviour:
     you shouldn\u2019t claim to know."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -30961,7 +30981,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.73315
     y: -31.83039
-    width: 95.31248
+    width: 97.727295
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31299,7 +31319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -485.6294
     y: -19.773102
-    width: 164.06244
+    width: 171.59096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31458,7 +31478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.81204
     y: -31.118752
-    width: 70.312485
+    width: 70.45455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31515,7 +31535,7 @@ MonoBehaviour:
     that I research and have my company produce."
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31720,7 +31740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.04764
     y: -177.17755
-    width: 65.62499
+    width: 65.909096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31775,7 +31795,7 @@ MonoBehaviour:
     about cheese, I shall provide under good will.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31804,7 +31824,7 @@ MonoBehaviour:
     to have you arrested. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 840bb572afe68ed45812d4d704c11a6e, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -31858,7 +31878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -44.81967
     y: -79.41278
-    width: 117.18746
+    width: 120.454575
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31996,7 +32016,7 @@ MonoBehaviour:
   storyText: "I\u2019ll allow it. Let\u2019s start with your first test of knowledge. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32095,7 +32115,7 @@ MonoBehaviour:
     a teacher.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32138,7 +32158,7 @@ MonoBehaviour:
     that one day, I may also become a teacher. '
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32408,7 +32428,7 @@ MonoBehaviour:
   storyText: "Well now, let\u2019s have some proper introductions. "
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32462,7 +32482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.6354
     y: -127.32242
-    width: 84.374985
+    width: 86.36365
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32595,11 +32615,11 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
+  useDefaultSettings: 0
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &1988319542
@@ -32737,11 +32757,11 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
+  useDefaultSettings: 0
+  fadeDuration: 0
+  moveDuration: 0
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &1988319547
@@ -32863,9 +32883,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -276.452
-    y: -125.85184
-    width: 178.12492
+    x: -278.57968
+    y: -124.78801
+    width: 182.9546
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32938,7 +32958,7 @@ MonoBehaviour:
     I will not turn down a potential student.
   description: 
   character: {fileID: 180697604}
-  portrait: {fileID: 21300000, guid: 68cab3e02ab47794386744fd0de39855, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -32992,7 +33012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28.40494
     y: -167.05988
-    width: 79.687485
+    width: 80.68183
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33101,7 +33121,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -446.14258
     y: -152.3396
-    width: 78.124985
+    width: 78.4091
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -35521,7 +35541,7 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
+  useDefaultSettings: 0
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
@@ -35560,7 +35580,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1988319643
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -35575,7 +35595,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1988319644
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -35590,7 +35610,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1988319645
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -35605,7 +35625,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1988319646
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -36671,6 +36691,18 @@ PrefabInstance:
       propertyPath: character
       value: 
       objectReference: {fileID: 9108470261235028249}
+    - target: {fileID: 9108470262002470958, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: portraitsFace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108470262002470958, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: portraits.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108470262002470958, guid: deb883743b2c512418c722908f72a119, type: 3}
+      propertyPath: portraits.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb883743b2c512418c722908f72a119, type: 3}
 --- !u!114 &9108470261235028247 stripped

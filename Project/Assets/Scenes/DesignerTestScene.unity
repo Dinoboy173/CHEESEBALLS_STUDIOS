@@ -346,8 +346,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 193847211}
   - {fileID: 193847250}
-  - {fileID: 193847249}
   - {fileID: 193847251}
+  - {fileID: 193847249}
   - {fileID: 193847248}
   - {fileID: 193847222}
   - {fileID: 193847221}
@@ -380,7 +380,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 193847213}
   selectedCommands:
-  - {fileID: 193847251}
+  - {fileID: 193847248}
   variables:
   - {fileID: 193847246}
   - {fileID: 193847245}
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Yes maam.
   description: 
-  character: {fileID: 342045951}
+  character: {fileID: 1072320360}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 580484cb727a2994aa7f67564c630b45, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 723024141}
+  toPosition: {fileID: 1799262163}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 1823458914}
+  character: {fileID: 1072320360}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: af81992d370a91d4285cf7af46c3c847, type: 3}
   offset: 0
@@ -2023,22 +2023,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &342045951 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9108470262002470958, guid: deb883743b2c512418c722908f72a119, type: 3}
-  m_PrefabInstance: {fileID: 1434139074}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!224 &723024141 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 812583032338973125, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
-  m_PrefabInstance: {fileID: 812583031952603336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &849555945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2103,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1072320360 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6538423011153920772, guid: deb883743b2c512418c722908f72a119, type: 3}
+  m_PrefabInstance: {fileID: 1434139074}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1075860593
 GameObject:
   m_ObjectHideFlags: 0
@@ -2580,6 +2575,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b6b45c2b524ca47a9bd3d1f03c7f33, type: 3}
+--- !u!224 &1799262163 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 812583031696719103, guid: e05178e838a3c8a4991809e92593c5fc, type: 3}
+  m_PrefabInstance: {fileID: 812583031952603336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1823458914 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9108470261415062290, guid: deb883743b2c512418c722908f72a119, type: 3}
