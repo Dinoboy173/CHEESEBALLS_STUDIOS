@@ -18,7 +18,6 @@ public class TurnOffCollider : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
         for(int i = 0; i < pauseHandler.transform.childCount; i++)
         {
             if (pauseHandler.transform.GetChild(i).gameObject.activeInHierarchy)
@@ -29,6 +28,12 @@ public class TurnOffCollider : MonoBehaviour
             }
             isPauseOn = false;
         }
+
+        if(isPauseOn == false)
+        {
+            ColliderOn();
+        }
+
     }
 
     void ColliderOff()
@@ -53,7 +58,7 @@ public class TurnOffCollider : MonoBehaviour
         }
     }
 
-    public void ColliderOn()
+    void ColliderOn()
     {
         if (hut)
         {
