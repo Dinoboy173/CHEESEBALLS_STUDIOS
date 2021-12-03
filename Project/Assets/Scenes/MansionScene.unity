@@ -14493,6 +14493,9 @@ GameObject:
   - component: {fileID: 1988319912}
   - component: {fileID: 1988319911}
   - component: {fileID: 1988319910}
+  - component: {fileID: 1988319963}
+  - component: {fileID: 1988319962}
+  - component: {fileID: 1988319961}
   m_Layer: 0
   m_Name: SwissDialogFlowChart
   m_TagString: Untagged
@@ -14513,11 +14516,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 605.98474, y: 346.04312}
+  scrollPos: {x: 789.5927, y: 455.56772}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 290
-  zoom: 0.73000026
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -14716,7 +14719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 732.4336
     y: 123.68809
-    width: 147.26024
+    width: 146.87494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14774,7 +14777,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -445.52045
     y: -253.86652
-    width: 92.465744
+    width: 90.62498
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16812,7 +16815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 710
   indentLevel: 0
-  storyText: "Well, that might mean you don\u2019t have long until you leave. When
+  storyText: "Well, that might mean you don\u2019t have long until you leave. {wc}When
     you leave here, you should try to talk with Cheddar again, just to say hi from
     Swiss at the least. "
   description: 
@@ -18676,7 +18679,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2710.2173
     y: 81.465355
-    width: 204.79446
+    width: 203.12492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18707,7 +18710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2706.0261
     y: 17.40499
-    width: 167.80817
+    width: 168.74994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19999,7 +20002,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2513.2603
     y: -117.16917
-    width: 93.8356
+    width: 93.74998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20569,8 +20572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 646
   indentLevel: 0
-  storyText: As much education? May I ask exactly what this world is? I had the feeling
-    that this was just a magic world.
+  storyText: As much education? May I ask exactly what this world is? {wc}I had the
+    feeling that this was just a magic world.
   description: 
   character: {fileID: 1841447224}
   portrait: {fileID: 0}
@@ -21667,7 +21670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2350.0137
     y: -117.104355
-    width: 92.465744
+    width: 90.62498
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21764,7 +21767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2690.7703
     y: -117.097565
-    width: 137.6712
+    width: 135.93745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21873,7 +21876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2699.9001
     y: -186.35013
-    width: 114.38354
+    width: 112.49997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21992,7 +21995,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2700.1304
     y: -248.60297
-    width: 122.602715
+    width: 120.31246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22044,8 +22047,8 @@ MonoBehaviour:
   itemId: 585
   indentLevel: 0
   storyText: "Well of course you would, but you can\u2019t stay with me forever sadly.
-    When you eventually leave to continue your cheese learning journey, you can go
-    talk to Cheddar then."
+    {wc}When you eventually leave to continue your cheese learning journey, you can
+    go talk to Cheddar then."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -22101,7 +22104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2706.8462
     y: -42.56513
-    width: 113.01367
+    width: 112.49997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22133,7 +22136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2461.725
     y: 13.189301
-    width: 192.4657
+    width: 189.06242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22214,7 +22217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3027.9568
     y: -116.37203
-    width: 160.95886
+    width: 159.37494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22261,7 +22264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 562
-  indentLevel: 0
+  indentLevel: 1
   storyText: "I think it\u2019s safe to say that Swiss doesn\u2019t like Blue. "
   description: 
   character: {fileID: 0}
@@ -22290,8 +22293,7 @@ MonoBehaviour:
   itemId: 561
   indentLevel: 0
   storyText: Well, I myself am not a fan of blue cheese, I personally think Gruyere
-    is a better fit for most people. I bet Blue lied to you about some things about
-    blue cheese.
+    is a better fit for most people.
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -22499,7 +22501,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2126.6177
     y: -4.3182983
-    width: 80.13698
+    width: 79.687485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22513,7 +22515,10 @@ MonoBehaviour:
   - {fileID: 1988319300}
   - {fileID: 1988319583}
   - {fileID: 1988319299}
+  - {fileID: 1988319963}
+  - {fileID: 1988319961}
   - {fileID: 1988319298}
+  - {fileID: 1988319962}
   - {fileID: 1988319297}
   suppressAllAutoSelections: 0
 --- !u!114 &1988319303
@@ -22633,9 +22638,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 553
   indentLevel: 0
-  storyText: "You know, I bet he has abs, like a six pack. I\u2019ve never seen his
-    stomach, because I\u2019m pretty sure he\u2019s self-conscious about it, but
-    I bet it\u2019s there."
+  storyText: "You know, I bet he has abs, like a six pack. {wc}I\u2019ve never seen
+    his stomach, because I\u2019m pretty sure he\u2019s self-conscious about it,
+    but I bet it\u2019s there."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -22662,8 +22667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 552
   indentLevel: 0
-  storyText: "Ahh, cheddar cheese. Cheddar must have swayed you over with his own
-    knowledge, he\u2019s certainly swayed me over more than I like to admit. "
+  storyText: "Ahh, cheddar cheese. {wc}Cheddar must have swayed you over with his
+    own knowledge, he\u2019s certainly swayed me over more than I like to admit. "
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -22719,7 +22724,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2121.352
     y: -76.68652
-    width: 104.7945
+    width: 101.56247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22784,7 +22789,7 @@ MonoBehaviour:
   itemId: 548
   indentLevel: 0
   storyText: 'I see. I am honoured that you would choose the cheese I have studied
-    and taught you, but you should be learning about every type of option, otherwise,
+    and taught you, but you should be learning about every type of option, {wc}otherwise,
     you risk the chance of making a poor choice. '
   description: 
   character: {fileID: 180697604}
@@ -22993,7 +22998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2116.0906
     y: -159.5813
-    width: 100.68491
+    width: 99.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23045,7 +23050,8 @@ MonoBehaviour:
   itemId: 543
   indentLevel: 0
   storyText: Ahh, you are the ideal student! Always wanting to learn as much as you
-    can before having to make a decision. I am glad I have been able to teach you.
+    can before having to make a decision. {wc}I am glad I have been able to teach
+    you.
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -23253,7 +23259,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2105.021
     y: -239.74823
-    width: 122.602715
+    width: 120.31246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23711,7 +23717,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1939.5973
     y: -120.9722
-    width: 86.98629
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24005,7 +24011,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1748.4198
     y: -30.105377
-    width: 141.78079
+    width: 137.49995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24085,9 +24091,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 521
   indentLevel: 0
-  storyText: "Well, that\u2019s what you think, you\u2019ve just met them. You wait,
-    I bet they\u2019ll ask you to annoy me next time you visit, then they\u2019ll
-    show their true colours. Here\u2019s a tip, it\u2019s not blue. "
+  storyText: "Well, that\u2019s what you think, you\u2019ve just met them. {wc}You
+    wait, I bet they\u2019ll ask you to annoy me next time you visit, then they\u2019ll
+    show their true colours."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -24296,7 +24302,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1751.9489
     y: -76.451935
-    width: 118.493126
+    width: 115.62496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24639,7 +24645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1734.1622
     y: -189.64084
-    width: 149.99997
+    width: 146.87494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24902,7 +24908,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1745.7883
     y: -239.45511
-    width: 123.97258
+    width: 120.31246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25511,7 +25517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1611.436
     y: -108.06787
-    width: 74.657524
+    width: 73.437485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26154,7 +26160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1594.6616
     y: -155.9191
-    width: 103.42464
+    width: 101.56247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26244,7 +26250,8 @@ MonoBehaviour:
   itemId: 478
   indentLevel: 0
   storyText: "Crazy or not, it is my duty to teach everyone willing to learn about
-    cheese. I\u2019m intrigued though, what other cheese were you considering buying?"
+    cheese. {wc}I\u2019m intrigued though, what other cheese were you considering
+    buying?"
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -26381,7 +26388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 473
   indentLevel: 0
-  storyText: "Well, I have been awfully quiet about it, so I\u2019ll explain. I\u2019m
+  storyText: "Well, I have been awfully quiet about it, so I\u2019ll explain. {wc}I\u2019m
     not a part of this world, I was warped into this world by a cheese goddess, as
     silly as it sounds."
   description: 
@@ -26410,7 +26417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 472
   indentLevel: 0
-  storyText: I believe that enough has been said about Gruyere cheese for now. Now,
+  storyText: I believe that enough has been said about Gruyere cheese for now. {wc}Now,
     I want to know more about you. Enough mystery, tell me who you are.
   description: 
   character: {fileID: 180697604}
@@ -26440,7 +26447,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1497.2524
     y: -119.608055
-    width: 86.98629
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -26527,8 +26534,8 @@ MonoBehaviour:
   itemId: 468
   indentLevel: 0
   storyText: 'Incorrect. The cheese will still melt, the aging simply makes cheese
-    melt less creamy. What I was looking for was that cracks will form in the cheese,
-    creating a grainy texture. '
+    melt less creamy. {wc}What I was looking for was that cracks will form in the
+    cheese, creating a grainy texture. '
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -26734,9 +26741,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1332.5055
+    x: 1333.5693
     y: -9.316474
-    width: 134.93149
+    width: 132.81245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27024,7 +27031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1336.5579
     y: -87.47163
-    width: 130.8219
+    width: 129.68745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27133,7 +27140,7 @@ MonoBehaviour:
   itemId: 455
   indentLevel: 0
   storyText: Wrong answer! I even told you that holes in the cheese are formed during
-    the cheese making process, not the aging process. You may have confused holes
+    the cheese making process, not the aging process. {wc}You may have confused holes
     for cracks.
   description: 
   character: {fileID: 180697604}
@@ -27342,7 +27349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1337.6351
     y: -171.4128
-    width: 122.602715
+    width: 121.87496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27533,7 +27540,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1211.2827
     y: -130.9422
-    width: 86.98629
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27825,7 +27832,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1031.5769
     y: -58.059967
-    width: 104.7945
+    width: 104.68747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -27904,9 +27911,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 436
   indentLevel: 0
-  storyText: "A waste of money? Are you not impressed? You clearly don\u2019t understand
-    how much cheese means to a cheese guru like myself. What you put value into will
-    say a lot to other people."
+  storyText: "A waste of money? Are you not impressed? {wc}You clearly don\u2019t
+    understand how much cheese means to a cheese guru like myself. What you put value
+    into will say a lot to other people."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -28115,7 +28122,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1019.34155
     y: -130.94223
-    width: 137.6712
+    width: 135.93745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28279,7 +28286,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 992.284
     y: -207.90219
-    width: 195.20543
+    width: 190.62492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28387,8 +28394,8 @@ MonoBehaviour:
   itemId: 1204
   indentLevel: 0
   storyText: "Oh, I see that my mansion\u2019s aesthetics has caught your eye now.
-    Yes, that is a statue of myself holding Gruyere cheese. It is an important demonstration
-    of my commitment."
+    {wc}Yes, that is a statue of myself holding Gruyere cheese. It is an important
+    demonstration of my commitment."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -28470,7 +28477,7 @@ MonoBehaviour:
   itemId: 1203
   indentLevel: 0
   storyText: The price of Gruyere cheese is often higher than your usual cheeses,
-    so it is important to note substitutes. Comte cheese is a very similar cheese
+    so it is important to note substitutes. {wc}Comte cheese is a very similar cheese
     to Gruyere, however, an appropriate substitute can also be Emmental cheese or
     Jarlsberg cheese.
   description: 
@@ -28499,7 +28506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1202
   indentLevel: 0
-  storyText: "And that\u2019s why you\u2019re here with me. More onto the meals,
+  storyText: "And that\u2019s why you\u2019re here with me. {wc}More onto the meals,
     as already mentioned, Gruyere cheese can be eaten as slices, or can be melted
     and used in a wide variety of dishes."
   description: 
@@ -28584,8 +28591,8 @@ MonoBehaviour:
   itemId: 416
   indentLevel: 0
   storyText: To cover more on the basics of Gruyere cheese, the appearance is typically
-    pale yellow, and has little or no cheese holes, unlike Emmental cheese, the other
-    popular Swiss cheese counterpart.
+    pale yellow, and has little or no cheese holes, {wc}unlike Emmental cheese, the
+    other popular Swiss cheese counterpart.
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -28614,7 +28621,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 901.2832
     y: -128.41281
-    width: 86.98629
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -28655,7 +28662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 413
   indentLevel: 0
-  storyText: Wrong answer. Allow me to remind you. It is 6 months or longer. You
+  storyText: Wrong answer. Allow me to remind you. It is 6 months or longer. {wc}You
     remembered that the process can be longer, so you need to pay more attention
     to what I tell you.
   description: 
@@ -28865,7 +28872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 710.7971
     y: -23.09264
-    width: 155.47942
+    width: 154.68744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29104,7 +29111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 706.4591
     y: -91.295105
-    width: 149.99997
+    width: 148.43744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29156,8 +29163,8 @@ MonoBehaviour:
   itemId: 403
   indentLevel: 0
   storyText: Wrong answer. You are correct in being longer than 3 months, but 3 months
-    is not long enough. It is 6 months or longer. You need to have confidence in
-    your abilities, or you will not learn well.
+    is not long enough. {wc}It is 6 months or longer. You need to have confidence
+    in your abilities, or you will not learn well.
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -29365,7 +29372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 699.6357
     y: -172.53046
-    width: 151.36983
+    width: 149.99994
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -29668,7 +29675,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -297.25204
     y: 103.78453
-    width: 210.27391
+    width: 206.24992
     height: 40
   tint: {r: 1, g: 0.48117012, b: 0, a: 1}
   useCustomTint: 1
@@ -29798,7 +29805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 392
   indentLevel: 0
-  storyText: Well, before moving forward then, I shall force you to remember. How
+  storyText: Well, before moving forward then, I shall force you to remember. {wc}How
     long is Gruyere cheese aged for?
   description: 
   character: {fileID: 180697604}
@@ -29855,8 +29862,8 @@ MonoBehaviour:
   itemId: 390
   indentLevel: 0
   storyText: "Huh, you\u2019ve come to learn about cheese, but won\u2019t remember?
-    That\u2019s counter-intuitive! Don\u2019t be ridiculous, you\u2019ve got to remember,
-    how else will you learn?"
+    {wc}That\u2019s counter-intuitive! Don\u2019t be ridiculous, you\u2019ve got
+    to remember, how else will you learn?"
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -29912,7 +29919,7 @@ MonoBehaviour:
   itemId: 388
   indentLevel: 0
   storyText: Back to melting, Younger Gruyere cheese typically melts better than
-    older Gruyere cheese, as the aging process reduces water content. When fully
+    older Gruyere cheese, as the aging process reduces water content. {wc}When fully
     aged, Gruyere cheese will typically have small cracks that create a slight grainy
     texture.
   description: 
@@ -30023,9 +30030,9 @@ MonoBehaviour:
   itemId: 1199
   indentLevel: 0
   storyText: The cheese can be eaten as a table cheese, being eaten on your typical
-    sandwich or on a cheese platter but is also a great cheese to be melted and served,
-    being a nice creamy melt thanks to a good high-water content in most Gruyere
-    cheeses.
+    sandwich or on a cheese platter {wc}but is also a great cheese to be melted and
+    served, being a nice creamy melt thanks to a good high-water content in most
+    Gruyere cheeses.
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -30081,8 +30088,8 @@ MonoBehaviour:
   itemId: 1198
   indentLevel: 0
   storyText: "Gruyere cheese originated in Switzerland, named after the town of Gruyeres.
-    The cheese itself is made with whole cow\u2019s milk, and is a firm cheese with
-    a natural rind, aging for typically 6 months or longer. "
+    {wc}The cheese itself is made with whole cow\u2019s milk, and is a firm cheese
+    with a natural rind, aging for typically 6 months or longer. "
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -30111,7 +30118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 565.92957
     y: -133.47159
-    width: 88.356155
+    width: 85.937485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30235,7 +30242,7 @@ MonoBehaviour:
   itemId: 1194
   indentLevel: 0
   storyText: Correct. I am impressed that you know, you must already have some introductory
-    knowledge, which is good. You did, however, mispronounce it, but I will give
+    knowledge, which is good. {wc}You did, however, mispronounce it, but I will give
     you a pass.
   description: 
   character: {fileID: 180697604}
@@ -30444,7 +30451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 412.10324
     y: 36.519882
-    width: 95.20546
+    width: 93.74998
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -30555,8 +30562,8 @@ MonoBehaviour:
   itemId: 1188
   indentLevel: 0
   storyText: "Wrong answer. Out of all the differences between Emmental cheese and
-    this cheese, Emmental cheese typically has holes in it. If you don\u2019t know
-    the answer to something, you shouldn\u2019t claim to know."
+    this cheese, Emmental cheese typically has holes in it. {wc}If you don\u2019t
+    know the answer to something, you shouldn\u2019t claim to know."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -30764,7 +30771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.41583
     y: -108.80875
-    width: 103.42464
+    width: 101.56247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31174,7 +31181,7 @@ MonoBehaviour:
   itemId: 359
   indentLevel: 0
   storyText: "Wrong answer. This is not your typical run of the mill cheddar cheese
-    that is easy to break apart. If you don\u2019t know the answer to something,
+    that is easy to break apart. {wc}If you don\u2019t know the answer to something,
     you shouldn\u2019t claim to know."
   description: 
   character: {fileID: 180697604}
@@ -31383,7 +31390,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 411.73315
     y: -31.83039
-    width: 97.94519
+    width: 95.31248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31721,7 +31728,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -513.4638
     y: -20.80403
-    width: 169.17804
+    width: 164.06244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31883,7 +31890,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.81204
     y: -31.118752
-    width: 70.547935
+    width: 70.312485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -31936,8 +31943,8 @@ MonoBehaviour:
   itemId: 343
   indentLevel: 0
   storyText: "I\u2019m glad you are honest, that is an admirable trait that is often
-    lacking nowadays. This type of cheese is Gruyere cheese. It is the primary cheese
-    that I research and have my company produce."
+    lacking nowadays. {wc}This type of cheese is Gruyere cheese. {wc}It is the primary
+    cheese that I research and have my company produce."
   description: 
   character: {fileID: 180697604}
   portrait: {fileID: 0}
@@ -32145,7 +32152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.04764
     y: -177.17755
-    width: 66.438354
+    width: 65.62499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32224,7 +32231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 337
   indentLevel: 0
-  storyText: 'That does not give you the right to just walk into my mansion. Under
+  storyText: 'That does not give you the right to just walk into my mansion. {wc}Under
     the law, you are still considered breaking and entering, and it is in my right
     to have you arrested. '
   description: 
@@ -32283,7 +32290,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -44.81967
     y: -79.41278
-    width: 118.493126
+    width: 117.18746
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32516,7 +32523,7 @@ MonoBehaviour:
   itemId: 326
   indentLevel: 1
   storyText: My name is Swiss. I am the lead researcher behind my company that produces
-    cheese. I take honour in my role, and I wish that one day, I may also become
+    cheese. {wc}I take honour in my role, and I wish that one day, I may also become
     a teacher.
   description: 
   character: {fileID: 180697604}
@@ -32559,7 +32566,7 @@ MonoBehaviour:
   itemId: 324
   indentLevel: 1
   storyText: 'My name is Swiss, but you already know that. I am the lead researcher
-    behind my company that produces cheese. I take honour in my role, and I wish
+    behind my company that produces cheese. {wc}I take honour in my role, and I wish
     that one day, I may also become a teacher. '
   description: 
   character: {fileID: 180697604}
@@ -32887,7 +32894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 117.6354
     y: -127.32242
-    width: 86.98629
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33068,9 +33075,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 314
   indentLevel: 1
-  storyText: "Woah, what a mansion. This must be Swiss' mansion. Someone extremely
-    rich must live here. I\u2019m impressed that a place this big can look so organised
-    and clean.  "
+  storyText: "Woah, what a mansion. This must be Swiss' mansion. {wc}I\u2019m impressed
+    that a place this big can look so organised and clean.  "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -33238,7 +33244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 305
   indentLevel: 1
-  storyText: "Woah, what a mansion. Someone extremely rich must live here. I\u2019m
+  storyText: "Woah, what a mansion. Someone extremely rich must live here. {wc}I\u2019m
     impressed that a place this big can look so organised and clean.  "
   description: 
   character: {fileID: 0}
@@ -33290,7 +33296,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -276.452
     y: -125.85184
-    width: 177.39722
+    width: 178.12492
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33387,8 +33393,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 953
   indentLevel: 0
-  storyText: "I\u2019m sorry, it was awfully rude of me. It\u2019s just that I\u2019m
-    in a rough predicament and I need to learn about cheese as quickly as possible. "
+  storyText: "I\u2019m sorry, it was awfully rude of me. {wc}It\u2019s just that
+    I\u2019m in a rough predicament and I need to learn about cheese as quickly as
+    possible. "
   description: 
   character: {fileID: 1841447224}
   portrait: {fileID: 0}
@@ -33417,7 +33424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -28.40494
     y: -167.05988
-    width: 80.13698
+    width: 79.687485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33533,7 +33540,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -461.34286
     y: -144.02637
-    width: 77.39725
+    width: 78.124985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36273,7 +36280,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -260.67627
     y: -21.99128
-    width: 132.19174
+    width: 128.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36332,7 +36339,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -695.48865
     y: 105.05411
-    width: 156.84927
+    width: 154.68744
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36442,7 +36449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.85492
     y: 1117.3501
-    width: 155.47942
+    width: 151.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36770,7 +36777,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 497.66907
     y: 966.5182
-    width: 155.47942
+    width: 151.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36850,7 +36857,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 348.31503
     y: 1078.2395
-    width: 85.616425
+    width: 84.374985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36903,7 +36910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 351.70157
     y: 1143.1903
-    width: 73.28766
+    width: 73.437485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -36956,7 +36963,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 324.66718
     y: 1018.01843
-    width: 144.52051
+    width: 140.62495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37009,7 +37016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 345.03583
     y: 964.7029
-    width: 88.356155
+    width: 85.937485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37061,7 +37068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.03558
     y: 914.7029
-    width: 76.02739
+    width: 74.999985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37160,7 +37167,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.13124
     y: 1106.8517
-    width: 70.547935
+    width: 70.312485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37267,7 +37274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.56342
     y: 965.808
-    width: 70.547935
+    width: 68.74999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37320,7 +37327,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 339.89835
     y: 585.9668
-    width: 71.9178
+    width: 71.874985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37376,7 +37383,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 493.30856
     y: 582.8014
-    width: 156.84927
+    width: 153.12494
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37426,7 +37433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.77094
     y: 522.9989
-    width: 76.02739
+    width: 76.562485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37481,7 +37488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 328.6881
     y: 843.6024
-    width: 117.12326
+    width: 115.62496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37536,7 +37543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336.23132
     y: 778.57605
-    width: 96.575325
+    width: 95.31248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37589,7 +37596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 496.14087
     y: 781.952
-    width: 155.47942
+    width: 151.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37639,7 +37646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 335.52878
     y: 719.40814
-    width: 100.68491
+    width: 99.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37746,7 +37753,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.23093
     y: 778.1733
-    width: 96.575325
+    width: 95.31248
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37816,7 +37823,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 477.05447
     y: 393.82108
-    width: 155.47942
+    width: 151.56244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37875,7 +37882,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 182.17882
     y: 394.22946
-    width: 81.506836
+    width: 79.687485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38266,7 +38273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.37988
     y: 265.91293
-    width: 141.78079
+    width: 140.62495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38347,7 +38354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.89923
     y: 266.7163
-    width: 106.16437
+    width: 103.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38408,7 +38415,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 484.81412
     y: 267.6609
-    width: 145.89038
+    width: 142.18745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38458,7 +38465,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 321.4969
     y: 194.06114
-    width: 99.31505
+    width: 98.43747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38550,7 +38557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.72186
     y: 584.33514
-    width: 102.05478
+    width: 99.99997
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42011,7 +42018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -238.80598
     y: 195.74367
-    width: 93.8356
+    width: 90.62498
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42170,7 +42177,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 307.1951
     y: 125.864746
-    width: 141.78079
+    width: 139.06245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44537,7 +44544,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -470.43774
     y: 106.08978
-    width: 114.38354
+    width: 110.93747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44566,7 +44573,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -903.209
     y: 104.83317
-    width: 147.26024
+    width: 145.31244
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46290,7 +46297,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 319.5816
     y: 641.25616
-    width: 115.7534
+    width: 114.06246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -47544,7 +47551,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.08875
     y: 333.5835
-    width: 103.42464
+    width: 103.12497
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -51829,6 +51836,290 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1988319961
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1421
+  indentLevel: 1
+  storyText: I bet Blue lied to you about some things about blue cheese.
+  description: 
+  character: {fileID: 180697604}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1988319962
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cb9773f2ca04e2bbf7a68ccfc23267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1420
+  indentLevel: 0
+--- !u!114 &1988319963
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988319127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c5622b8a80845c980954170295f292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1419
+  indentLevel: 0
+  anyOrAllConditions: 0
+  conditions:
+  - compareOperator: 0
+    anyVar:
+      variable: {fileID: 1988319133}
+      data:
+        animatorData:
+          animatorRef: {fileID: 0}
+          animatorVal: {fileID: 0}
+        audioSourceData:
+          audioSourceRef: {fileID: 0}
+          audioSourceVal: {fileID: 0}
+        booleanData:
+          booleanRef: {fileID: 0}
+          booleanVal: 1
+        collectionData:
+          collectionRef: {fileID: 0}
+          collectionVal: {fileID: 0}
+        collider2DData:
+          collider2DRef: {fileID: 0}
+          collider2DVal: {fileID: 0}
+        colliderData:
+          colliderRef: {fileID: 0}
+          colliderVal: {fileID: 0}
+        colorData:
+          colorRef: {fileID: 0}
+          colorVal: {r: 0, g: 0, b: 0, a: 0}
+        floatData:
+          floatRef: {fileID: 0}
+          floatVal: 0
+        gameObjectData:
+          gameObjectRef: {fileID: 0}
+          gameObjectVal: {fileID: 0}
+        integerData:
+          integerRef: {fileID: 0}
+          integerVal: 0
+        materialData:
+          materialRef: {fileID: 0}
+          materialVal: {fileID: 0}
+        matrix4x4Data:
+          matrix4x4Ref: {fileID: 0}
+          matrix4x4Val:
+            e00: 0
+            e01: 0
+            e02: 0
+            e03: 0
+            e10: 0
+            e11: 0
+            e12: 0
+            e13: 0
+            e20: 0
+            e21: 0
+            e22: 0
+            e23: 0
+            e30: 0
+            e31: 0
+            e32: 0
+            e33: 0
+        objectData:
+          objectRef: {fileID: 0}
+          objectVal: {fileID: 0}
+        quaternionData:
+          quaternionRef: {fileID: 0}
+          quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+        rigidbody2DData:
+          rigidbody2DRef: {fileID: 0}
+          rigidbody2DVal: {fileID: 0}
+        rigidbodyData:
+          rigidbodyRef: {fileID: 0}
+          rigidbodyVal: {fileID: 0}
+        spriteData:
+          spriteRef: {fileID: 0}
+          spriteVal: {fileID: 0}
+        stringData:
+          stringRef: {fileID: 0}
+          stringVal: 
+        textureData:
+          textureRef: {fileID: 0}
+          textureVal: {fileID: 0}
+        transformData:
+          transformRef: {fileID: 0}
+          transformVal: {fileID: 0}
+        vector2Data:
+          vector2Ref: {fileID: 0}
+          vector2Val: {x: 0, y: 0}
+        vector3Data:
+          vector3Ref: {fileID: 0}
+          vector3Val: {x: 0, y: 0, z: 0}
+        vector4Data:
+          vector4Ref: {fileID: 0}
+          vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  compareOperator: 0
+  anyVar:
+    variable: {fileID: 0}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
 --- !u!1 &1992066034
 GameObject:
   m_ObjectHideFlags: 0
