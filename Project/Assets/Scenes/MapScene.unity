@@ -14735,7 +14735,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.33212
     y: 401.07388
-    width: 157.69221
+    width: 153.19147
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14799,18 +14799,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -0.060988426, y: -168.72221}
+  scrollPos: {x: 260.23462, y: 231.8004}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.52000046
+  zoom: 0.9400001
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1074614716}
   selectedCommands: []
   variables:
   - {fileID: 1074614707}
@@ -15212,7 +15213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 333.1544
     y: 502.6332
-    width: 101.923035
+    width: 99.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15341,7 +15342,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 311.85098
     y: 139.03651
-    width: 107.69226
+    width: 108.510635
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15591,7 +15592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 342.63083
     y: 631.22626
-    width: 82.692276
+    width: 80.85106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15719,7 +15720,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 341.9131
     y: 561.58246
-    width: 88.4615
+    width: 88.29787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17703,7 +17704,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Maybe. Would you be surprised, little curd nerd?
   description: 
-  character: {fileID: 0}
+  character: {fileID: 988123147}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -17867,7 +17868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 470.01474
     y: 313.9216
-    width: 178.84604
+    width: 172.34041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17905,7 +17906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102.56409
     y: 310.00766
-    width: 188.46141
+    width: 179.78722
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19456,7 +19457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.0152
     y: 226.53325
-    width: 128.84608
+    width: 125.531906
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19859,7 +19860,7 @@ MonoBehaviour:
     and learned all you need to know about cheese, I\u2019ll take you out of this
     world and back into yours."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 988123147}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -19913,7 +19914,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'A journey? I just want to go home!  '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 988123148}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -20241,7 +20242,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 479.68265
     y: 226.64868
-    width: 136.53839
+    width: 131.91489
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20456,7 +20457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 504.6937
     y: 632.8944
-    width: 117.30763
+    width: 113.82978
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20484,7 +20485,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 499.71973
     y: 562.45496
-    width: 123.07686
+    width: 121.27659
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20588,7 +20589,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 490.859
     y: 502.9611
-    width: 136.53839
+    width: 132.97871
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20616,7 +20617,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163.54755
     y: 560.9095
-    width: 117.30763
+    width: 113.82978
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

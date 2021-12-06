@@ -16353,7 +16353,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Do we seriously have to stay? Blue is not friendly at all right now. '
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -18145,7 +18145,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "I kinda\u2026 {wc}want to keep that dumbbell."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -23542,7 +23542,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "It\u2019s just a normal old house."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434695}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -28412,7 +28412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1687.4073, y: 478.8221}
+  scrollPos: {x: 879.5142, y: 1239.3506}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 427
@@ -28423,7 +28423,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2107075268}
   selectedCommands: []
   variables:
   - {fileID: 2107074928}
@@ -32232,7 +32233,7 @@ MonoBehaviour:
   storyText: "Indeed. I love being able to live somewhere where nobody will find
     me.\_"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1276434694}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
