@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14827,7 +14827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 544.66223, y: 149.07054}
+  scrollPos: {x: -138.89934, y: 870.9883}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 390
@@ -14838,8 +14838,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1988319476}
+  selectedCommands:
+  - {fileID: 1988319473}
   variables:
   - {fileID: 1988319136}
   - {fileID: 1988319135}
@@ -30347,8 +30349,8 @@ MonoBehaviour:
   itemId: 1199
   indentLevel: 0
   storyText: The cheese can be eaten as a table cheese, being eaten on your typical
-    sandwich or on a cheese platter {wc}but is also a great cheese to be melted and
-    served, being a nice creamy melt thanks to a good high-water content in most
+    sandwich or on a cheese platter {wc} but is also a great cheese to be melted
+    and served, being a nice creamy melt thanks to a good high-water content in most
     Gruyere cheeses.
   description: 
   character: {fileID: 180697604}
