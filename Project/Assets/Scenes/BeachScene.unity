@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7900,11 +7900,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1104.508, y: 528.0346}
+  scrollPos: {x: -208.5297, y: 372.5228}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.7900002
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -7912,8 +7912,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1071105674}
-  selectedCommands: []
+  - {fileID: 1071105517}
+  selectedCommands:
+  - {fileID: 1071105765}
   variables:
   - {fileID: 1071105558}
   - {fileID: 1071105557}
@@ -8067,7 +8068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -51.843475
     y: 266.45956
-    width: 98.10126
+    width: 97.76117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8482,7 +8483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 902.0788
     y: 370.403
-    width: 146.20251
+    width: 148.50742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8642,7 +8643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 912.1155
     y: 823.39386
-    width: 127.21517
+    width: 127.6119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8806,7 +8807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 946.76495
     y: 562.8296
-    width: 86.70885
+    width: 85.82088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8862,7 +8863,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1172.8848
     y: 1507.7434
-    width: 141.13922
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8912,7 +8913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1140.566
     y: 1332.3977
-    width: 141.13922
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9046,7 +9047,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 974.36884
     y: 1572.7576
-    width: 110.759476
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9210,7 +9211,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 965.3753
     y: 1522.7576
-    width: 120.886055
+    width: 123.13429
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9321,7 +9322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 978.8482
     y: 1470.1257
-    width: 89.24049
+    width: 90.29849
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9456,7 +9457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 959.0558
     y: 1386.81
-    width: 95.56961
+    width: 96.26863
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9595,7 +9596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 954.7003
     y: 1334.4636
-    width: 100.632904
+    width: 100.74625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9705,7 +9706,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 957.4551
     y: 1285.4946
-    width: 101.89872
+    width: 103.73132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9924,7 +9925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 803.4783
     y: 1517.4131
-    width: 119.62024
+    width: 120.14922
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10147,7 +10148,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 787.2278
     y: 1333.5686
-    width: 105.69619
+    width: 106.71639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10203,7 +10204,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 198.3941
     y: 271.08157
-    width: 179.11389
+    width: 182.83575
     height: 40
   tint: {r: 1, g: 0.39607844, b: 0, a: 1}
   useCustomTint: 1
@@ -10504,7 +10505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3101.5078
     y: 104.084435
-    width: 132.27846
+    width: 132.08951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10561,7 +10562,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3413.907
     y: 118.85443
-    width: 167.7215
+    width: 169.40292
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10746,7 +10747,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3453.003
     y: 345.5452
-    width: 144.93668
+    width: 147.01488
     height: 40
   tint: {r: 0.8962264, g: 0.39586776, b: 0.097232126, a: 1}
   useCustomTint: 1
@@ -10858,8 +10859,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -10888,8 +10889,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -10918,8 +10919,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -10948,8 +10949,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -10978,8 +10979,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -11993,7 +11994,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 961.6331
     y: 991.3633
-    width: 100.632904
+    width: 100.74625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12047,8 +12048,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 1148.9176
-    y: 949.92694
-    width: 141.13922
+    y: 948.61115
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12234,7 +12235,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 960.9742
     y: 932.427
-    width: 86.70885
+    width: 87.313416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12402,7 +12403,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 946.52625
     y: 1159.6653
-    width: 106.962006
+    width: 109.70146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12457,7 +12458,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1162.1221
     y: 1132.175
-    width: 141.13922
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12618,7 +12619,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 955.38684
     y: 1098.0979
-    width: 96.835434
+    width: 96.26863
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12812,7 +12813,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 779.2594
     y: 1133.6024
-    width: 113.29112
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12922,7 +12923,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 908.16766
     y: 768.5838
-    width: 139.8734
+    width: 139.5522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13087,7 +13088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 776.9237
     y: 767.8595
-    width: 82.911385
+    width: 82.8358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13142,7 +13143,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1108.3297
     y: 769.262
-    width: 141.13922
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13248,7 +13249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 924.8229
     y: 705.00854
-    width: 86.70885
+    width: 87.313416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13337,8 +13338,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -13744,7 +13745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3113.4087
     y: 276.3138
-    width: 105.69619
+    width: 106.71639
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13873,7 +13874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3103.9941
     y: 233.44975
-    width: 118.354416
+    width: 120.14922
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14004,7 +14005,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3100.9375
     y: 192.64142
-    width: 123.4177
+    width: 124.62683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14135,7 +14136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3103.1963
     y: 147.68677
-    width: 136.07593
+    width: 136.56712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14338,7 +14339,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3105.8723
     y: -32.264034
-    width: 115.82277
+    width: 117.16415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14471,7 +14472,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3105.9998
     y: 12.127666
-    width: 125.94935
+    width: 126.11937
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14597,7 +14598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3108.1274
     y: 60.510666
-    width: 112.0253
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15745,7 +15746,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2922.1306
     y: 186.8009
-    width: 118.354416
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15968,7 +15969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2910.9998
     y: 37.085125
-    width: 125.94935
+    width: 126.11937
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16186,7 +16187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2768.9998
     y: 101.86364
-    width: 139.8734
+    width: 142.53726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16759,7 +16760,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2648.619
     y: 146.90721
-    width: 123.4177
+    width: 124.62683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16890,7 +16891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2658.99
     y: 66.96907
-    width: 87.97467
+    width: 87.313416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17027,7 +17028,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2497.5686
     y: 107
-    width: 147.46832
+    width: 148.50742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17194,7 +17195,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2342.6914
     y: 162.93814
-    width: 115.82277
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17324,7 +17325,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2336.6282
     y: 109.09279
-    width: 127.21517
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17456,7 +17457,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2350
     y: 48
-    width: 79.113914
+    width: 78.3582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17586,7 +17587,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1973
     y: 240
-    width: 124.683525
+    width: 127.6119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17715,7 +17716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1977.7241
     y: 184.44827
-    width: 91.77214
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17845,7 +17846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1967
     y: 107
-    width: 136.07593
+    width: 139.5522
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17976,7 +17977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1966
     y: 9
-    width: 91.77214
+    width: 91.79102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18107,7 +18108,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1966
     y: 58
-    width: 118.354416
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18237,7 +18238,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2170.3306
     y: 111.15465
-    width: 129.74683
+    width: 130.59698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18549,7 +18550,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1839
     y: 213.13791
-    width: 118.354416
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18707,7 +18708,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1845.7241
     y: 146.72414
-    width: 114.556946
+    width: 117.16415
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18841,7 +18842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1836
     y: 67
-    width: 72.784805
+    width: 72.38805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19026,7 +19027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1838.225
     y: -29.607948
-    width: 77.8481
+    width: 76.86566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19159,7 +19160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1695.691
     y: 93.87628
-    width: 113.29112
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19344,7 +19345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1543.6603
     y: 156.75256
-    width: 127.21517
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19478,7 +19479,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1537.6292
     y: 93.93814
-    width: 129.74683
+    width: 130.59698
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19610,7 +19611,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1549.9998
     y: 34.93814
-    width: 84.17721
+    width: 84.32834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19744,7 +19745,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1219.4261
     y: 148.82509
-    width: 122.15188
+    width: 121.641754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20190,7 +20191,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1209.2996
     y: 96.559265
-    width: 143.67087
+    width: 144.02982
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20349,7 +20350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1214.3628
     y: 48.09092
-    width: 129.74683
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20482,7 +20483,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1404.1708
     y: 92.46835
-    width: 108.22783
+    width: 109.70146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20698,7 +20699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1120.5525
     y: 94.52366
-    width: 71.51898
+    width: 70.89551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20889,7 +20890,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1230.413
     y: -30.69389
-    width: 66.45569
+    width: 66.4179
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21312,7 +21313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 930.7065
     y: 53.586884
-    width: 147.46832
+    width: 147.01488
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21515,7 +21516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 784.1459
     y: 113.38435
-    width: 120.886055
+    width: 120.14922
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21645,7 +21646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 794.4591
     y: 51.36737
-    width: 91.77214
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21774,7 +21775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 23.495407
     y: -276.91013
-    width: 86.70885
+    width: 85.82088
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22127,8 +22128,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -22150,7 +22151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 758.5637
     y: -22.273872
-    width: 176.58224
+    width: 179.8507
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22306,9 +22307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 206.30688
-    y: 50.73619
-    width: 196.8354
+    x: 203.56717
+    y: 52.106052
+    width: 200.7462
     height: 40
   tint: {r: 1, g: 0.39462644, b: 0, a: 1}
   useCustomTint: 1
@@ -23358,7 +23359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3103.328
     y: -74.75628
-    width: 125.94935
+    width: 126.11937
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24886,7 +24887,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.45802
     y: -278.04443
-    width: 94.30379
+    width: 93.28356
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25028,7 +25029,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -55.726715
     y: -39.82216
-    width: 110.759476
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -25272,7 +25273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.93991
     y: 155.83118
-    width: 161.39238
+    width: 163.43279
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -32059,7 +32060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1221.613
     y: 207.28954
-    width: 118.354416
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -33815,7 +33816,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 617.9313
     y: 51.540703
-    width: 129.74683
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34427,7 +34428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 453.39865
     y: 52.7941
-    width: 151.26581
+    width: 151.4925
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34769,7 +34770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -85.503845
     y: 47.70193
-    width: 174.0506
+    width: 175.37308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -34810,8 +34811,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -34840,8 +34841,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35734,8 +35735,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35764,8 +35765,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35794,8 +35795,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35824,8 +35825,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35854,8 +35855,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35884,8 +35885,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35914,8 +35915,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35944,8 +35945,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -35974,8 +35975,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36004,8 +36005,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36034,8 +36035,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36064,8 +36065,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36094,8 +36095,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36124,8 +36125,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36154,8 +36155,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36184,8 +36185,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36214,8 +36215,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36244,8 +36245,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36274,8 +36275,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36304,8 +36305,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36334,8 +36335,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36364,8 +36365,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36394,8 +36395,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36424,8 +36425,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36454,8 +36455,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36484,8 +36485,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36514,8 +36515,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36544,8 +36545,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36574,8 +36575,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36604,8 +36605,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36634,8 +36635,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36664,8 +36665,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36694,8 +36695,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36724,8 +36725,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36754,8 +36755,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36784,8 +36785,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36814,8 +36815,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36844,8 +36845,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36874,8 +36875,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36904,8 +36905,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36934,8 +36935,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36964,8 +36965,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -36994,8 +36995,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37024,8 +37025,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37054,8 +37055,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37084,8 +37085,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37114,8 +37115,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37144,8 +37145,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37174,8 +37175,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37204,8 +37205,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37234,8 +37235,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37264,8 +37265,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37294,8 +37295,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37324,8 +37325,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37354,8 +37355,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37384,8 +37385,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37414,8 +37415,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37444,8 +37445,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37474,8 +37475,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37504,8 +37505,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37534,8 +37535,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37564,8 +37565,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37594,8 +37595,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37624,8 +37625,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37654,8 +37655,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37684,8 +37685,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37714,8 +37715,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37744,8 +37745,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37774,8 +37775,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37804,8 +37805,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37834,8 +37835,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37864,8 +37865,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37894,8 +37895,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -37924,8 +37925,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -38073,8 +38074,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -38297,7 +38298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 916.78345
     y: 509.10284
-    width: 155.06326
+    width: 155.9701
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38571,7 +38572,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 776.1082
     y: 514.4311
-    width: 75.31645
+    width: 75.37312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38637,7 +38638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1128.6965
     y: 506.7223
-    width: 139.8734
+    width: 141.04474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38758,7 +38759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 948.1612
     y: 444.4068
-    width: 82.911385
+    width: 82.8358
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38955,7 +38956,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 756.2938
     y: 961.72815
-    width: 153.79744
+    width: 152.98502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40131,8 +40132,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -40272,8 +40273,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926834}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -40302,8 +40303,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926833}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -40325,7 +40326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.30289
     y: -236.41476
-    width: 225.94933
+    width: 229.1044
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40413,7 +40414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 496.64413
     y: -188.03766
-    width: 147.46832
+    width: 149.99995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40655,7 +40656,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 484.24118
     y: -289.7715
-    width: 174.0506
+    width: 173.88054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41077,7 +41078,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 695.31055
     y: -230.00294
-    width: 177.84807
+    width: 178.35815
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41230,7 +41231,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 894.64746
     y: -180.55847
-    width: 128.48099
+    width: 127.6119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41419,7 +41420,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 864.76904
     y: -301.75888
-    width: 172.78479
+    width: 172.388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41588,7 +41589,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1056.3744
     y: -246.23013
-    width: 99.36708
+    width: 99.25371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41755,7 +41756,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1165.5387
     y: -178.01517
-    width: 124.683525
+    width: 127.6119
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41910,7 +41911,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1167.3035
     y: -305.3125
-    width: 128.48099
+    width: 129.10443
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42161,7 +42162,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1304.9486
     y: -239.11084
-    width: 149.99997
+    width: 152.98502
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42496,7 +42497,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1490.8751
     y: -177.09335
-    width: 90.50632
+    width: 91.79102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42944,7 +42945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1468.1417
     y: -324.723
-    width: 134.8101
+    width: 138.05966
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44090,7 +44091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1687.401
     y: -254.31479
-    width: 157.59491
+    width: 158.95517
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -45160,8 +45161,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45362,8 +45363,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45392,8 +45393,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45422,8 +45423,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45452,8 +45453,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45482,8 +45483,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45512,8 +45513,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45542,8 +45543,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45572,8 +45573,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45602,8 +45603,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45632,8 +45633,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45662,8 +45663,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45692,8 +45693,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45722,8 +45723,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45752,8 +45753,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45782,8 +45783,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45812,8 +45813,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45842,8 +45843,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45872,8 +45873,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45902,8 +45903,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45932,8 +45933,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45962,8 +45963,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -45992,8 +45993,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46022,8 +46023,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46052,8 +46053,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46082,8 +46083,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46112,8 +46113,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46142,8 +46143,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46172,8 +46173,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46202,8 +46203,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46232,8 +46233,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46262,8 +46263,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46292,8 +46293,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46322,8 +46323,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46352,8 +46353,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46382,8 +46383,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46412,8 +46413,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46442,8 +46443,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46472,8 +46473,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46502,8 +46503,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46532,8 +46533,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46562,8 +46563,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46592,8 +46593,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46622,8 +46623,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46652,8 +46653,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46682,8 +46683,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46712,8 +46713,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46742,8 +46743,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46772,8 +46773,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46802,8 +46803,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46832,8 +46833,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46862,8 +46863,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46892,8 +46893,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46922,8 +46923,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46952,8 +46953,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -46982,8 +46983,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47012,8 +47013,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47042,8 +47043,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47072,8 +47073,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47102,8 +47103,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47132,8 +47133,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -47162,8 +47163,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -49354,7 +49355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 229.3295
     y: 152.88107
-    width: 119.62024
+    width: 120.14922
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -52936,8 +52937,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -52966,8 +52967,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -52996,8 +52997,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53026,8 +53027,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53056,8 +53057,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53086,8 +53087,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53116,8 +53117,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53146,8 +53147,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53176,8 +53177,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53206,8 +53207,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53236,8 +53237,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53266,8 +53267,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53324,8 +53325,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53354,8 +53355,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53384,8 +53385,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53442,8 +53443,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53472,8 +53473,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53502,8 +53503,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53532,8 +53533,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53562,8 +53563,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53592,8 +53593,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53649,8 +53650,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53679,8 +53680,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53709,8 +53710,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53739,8 +53740,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53769,8 +53770,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
@@ -53799,8 +53800,8 @@ MonoBehaviour:
   fromPosition: {fileID: 0}
   toPosition: {fileID: 738926832}
   facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
+  useDefaultSettings: 0
+  fadeDuration: 0.25
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
   move: 0
